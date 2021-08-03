@@ -9,23 +9,25 @@
             body {
                 background-color: #EDF2F8;
                 font-family: "Manrope", sans-serif;
-                display: flex;
+                display: grid;
                 font-size: 13px;
                 justify-content: center;
                 align-items: center;
                 margin: 100px 100px 100px 100px ;
             }
 
-           main {
+           main{
+               position:absolute;
+               width: auto;
+               margin-bottom: 50px;
+               display: grid;
 
-            display: flex ;
-            
-            }
+           }
 
            .icon{
                
                margin-top: 30px;
-               margin-left: 250px;
+               margin-left: 150px;
                              
             }
 
@@ -33,6 +35,7 @@
                width: 286px;
                height: 280px;
                border-radius: 10px 0px 0px 10px;
+               position: absolute;
                
             }
 
@@ -48,28 +51,26 @@
                 border-radius: 0px 10px 10px 0px ;
                 padding-right: 45px;
                 color: #4B4E57;
+                position:relative;
             }
 
            .info{
-                display: flex;
                 
-               
+                font-size: 9px;
+                position: absolute;
+                column-count: 3;
+                color: #4B4E57;
             }
 
-           .date{
-               margin-left: 20px;
-               color: #4B4E57;
-               font-size: 9px;
-               padding-top: 10px;
-               
-
-            }
 
            .photo{
-               padding-top: 20px;
+               
+              
+
+
             }
 
-           @media screen and (max-width: 750px){
+           @media only screen and (min-width: 768px){
                 body {
                     background-color: #EDF2F8;
                     font-family: "Manrope", sans-serif;
@@ -78,6 +79,7 @@
                     justify-content: center;
                     align-items: center;
                     margin: 100px 100px 100px 100px ;
+                    position: absolute;
                     
                 }
                 
@@ -86,14 +88,7 @@
                     height: 199px;
                     
                 }
-
-               main {
-                   
-                   
-                   flex-direction: column-reverse;
-                
-                }
-
+    
                 .texto{
                     
                     background-color: #ffffff;
@@ -122,18 +117,21 @@
             <div class="info">    
             
                 <div class="photo">
-                    <img class="img2" src="images/avatar-michelle.jpg">
-                </div>
-                    <div class="date">
-                        <h2>Michelle Appleton</h2>
-                        <h3>28 jun 2020</h3>
+                     <div>
+                        <img class="img2" src="images/avatar-michelle.jpg">
+                        <div class="datos">
+                            <h2>Michelle Appleton</h2>
+                            <p>28 jun 2020</p>
+                        </div>
                     </div>
 
+                </div>
                 <div class="icon">
+                <p>
                     <img src="images/favicon-32x32.png" >
+                </p>
                 </div>
-                        
-                </div>
+
             </div>
 
         </div>
