@@ -9,33 +9,34 @@
             body {
                 background-color: #EDF2F8;
                 font-family: "Manrope", sans-serif;
-                display: grid;
-                font-size: 13px;
                 justify-content: center;
                 align-items: center;
-                margin: 100px 100px 100px 100px ;
+                margin: 100px 100px 100px 100px;
+                padding-left: 20%;
+                
             }
 
-           main{
-               position:absolute;
-               width: auto;
-               margin-bottom: 50px;
-               display: grid;
-
-           }
-
-           .icon{
-               
-               margin-top: 30px;
-               margin-left: 150px;
-                             
+            main{
+                width: 731px;
+                height: 281px;
+                display: flex;
+                background-color: #ffffff;
+                padding-right: 50px;
+                border-radius: 10px 10px 10px 10px ;
             }
+             h1{
+                 font-size: 25px;
+             }
+             p{
+                 font-size: 13px;
+                 line-height: 20px;
+             }
+          
 
            .img1{
                width: 286px;
                height: 280px;
                border-radius: 10px 0px 0px 10px;
-               position: absolute;
                
             }
 
@@ -46,62 +47,77 @@
             }
 
            .text{
-                padding-left: 50px;
-                background-color: #ffffff;
-                border-radius: 0px 10px 10px 0px ;
-                padding-right: 45px;
+                padding-left: 40px;
                 color: #4B4E57;
-                position:relative;
             }
 
            .info{
-                
-                font-size: 9px;
-                position: absolute;
-                column-count: 3;
-                color: #4B4E57;
+                display: flex;
             }
 
+           .date{
+               margin-left: 20px;
+               color: #4B4E57;
+               font-size: 9px;
+               padding-top: 10px;
+                       
+
+            }
 
            .photo{
+               padding-top: 20px;
+            }
+            
+            .icon{
                
-              
-
-
+               margin-top: 20px;
+               margin-left: 100px;
+                             
             }
 
-           @media only screen and (min-width: 768px){
-                body {
-                    background-color: #EDF2F8;
-                    font-family: "Manrope", sans-serif;
-                    display: flex;
-                    font-size: 13px;
-                    justify-content: center;
-                    align-items: center;
-                    margin: 100px 100px 100px 100px ;
-                    position: absolute;
-                    
-                }
+           @media screen and (max-width: 700px) {
                 
-               .img1{
-                    width: 326px;
-                    height: 199px;
-                    
+                body{
+                    border-radius: 10px 0px 0px 10px;
+                    margin: 10px 10px 10px 10px;
+           
                 }
-    
-                .texto{
-                    
+            
+                main{
+                    flex-direction:column;
+                    width: 275px;
+                    height: 580px;
                     background-color: #ffffff;
-                    border-radius: 0px 10px 10px 0px ;
+                    
                 }
-            }
 
-         
+                .text{
+                    width: 263px;
+                    height: 76px;
+                }
+            
+                     
+            
+                .img1{
+                    width: 326px;
+                    height: 200px;
+                    border-radius: 10px 10px 0px 0px;
+                    
+                }
+                .icon{
+               
+                margin-top: 20px;
+                margin-left: 50px;
+                             
+               }
+
+               }
+           
         </style>
     </head>
 
     <body>  
-        <main class="container">
+        <main>
             <div>
                 <img class="img1"src="images/drawers.jpg">
             </div>
@@ -117,21 +133,18 @@
             <div class="info">    
             
                 <div class="photo">
-                     <div>
-                        <img class="img2" src="images/avatar-michelle.jpg">
-                        <div class="datos">
-                            <h2>Michelle Appleton</h2>
-                            <p>28 jun 2020</p>
-                        </div>
+                    <img class="img2" src="images/avatar-michelle.jpg">
+                </div>
+                    <div class="date">
+                        <h2>Michelle Appleton</h2>
+                        <h3>28 jun 2020</h3>
                     </div>
 
-                </div>
                 <div class="icon">
-                <p>
                     <img src="images/favicon-32x32.png" >
-                </p>
                 </div>
-
+                        
+                </div>
             </div>
 
         </div>
