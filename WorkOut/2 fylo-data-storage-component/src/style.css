@@ -1,0 +1,93 @@
+/*Style CSS*/
+
+body{
+    background-color: #0C122C;
+    background-image: url(../images/bg-desktop.png);
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1520px 400px;
+    font-family: "Raleway", sans-serif;
+   
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 14px;
+    
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    margin-left: -40px;
+    margin-right: 160px;
+
+}
+.share{
+    background-color: #0C122C;
+    border-radius: 10px;
+    padding: 14px 14px 14px 14px;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.logo{
+    background-color: #1D2B68;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    height: 201px;
+    border-radius: 10px 100px 10px 10px;
+    padding-left: 38px;
+ 
+}
+
+.storage{
+    background-color: #1D2B68;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 154px;
+    margin: 31px;
+    margin-top: 47px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: lighter;
+
+   
+}
+
+.imglogo{
+    margin-top: 40px;
+}
+
+.slide{
+    width: 535px;
+    height: 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1B214E;
+    
+}
+
+.circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    border:solid;
+    background-color: #ffffff;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
