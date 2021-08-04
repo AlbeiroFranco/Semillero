@@ -30,18 +30,26 @@ Realizamos para el dia viernes un mapa mental y adicinalmente hice una Infografi
 ![Infografia](https://user-images.githubusercontent.com/87336609/126843901-3594d171-d51b-4269-ad3f-3eac3f60cf8b.png)
 ![MapaMental](https://user-images.githubusercontent.com/87336609/126843903-9e0a7ca5-4da7-4450-b56e-8a82c42fe80a.png)
 
-Tercera Semana
+Tercera Semana 
 
-Esta semana fue muy buena aparte de los conocimientos adquiridos pudimos desarrollar a base de nuestras destresas e interpretaciones diseños que fueran creacion nuestra en base a un tema dado y referencias en la WEB, fue un gran reto, en el primer diseño fue algo complejo ya que me asignaron un reproductor de musica y al ver diseños todos se parecian y todos llegaban a lo mismo hice uno casi a mi estilo pero al final se parecio a los demas reproductores, tuve varios detalles dentro del diseño como elementos que no quedaban bien vistos en la pantalla colores que no sobresalian entre otros, en definitiva diseñar algo desde 0 lleva a volar la imaginacion y avecs que uno cree que esta bien el diseño, no lo es, falta como pensar mas hacia el usuario para tener una interfaz mas definida.
+Esta semana fue muy buena aparte de los conocimientos adquiridos pudimos desarrollar a base de nuestras destrezas e interpretaciones diseños que fueran creación nuestra en base a un tema dado y referencias en la WEB, fue un gran reto, en el primer diseño fue algo complejo ya que me asignaron un reproductor de música y al ver diseños todos se parecían y todos llegaban a lo mismo, hice uno casi a mi estilo pero al final se pareció a los demás reproductores, tuve varios detalles dentro del diseño como elementos que no quedaban bien vistos en la pantalla colores que no sobresalían entre otros, en definitiva diseñar algo desde 0 lleva a volar la imaginación y a veces que uno cree que está bien el diseño, no lo es, falta como pensar más hacia el usuario para tener una interfaz más definida. 
 
-Despues del diseño del reproductor nos asignaron realizar un "TO-DO" una lista de que haceres, en este diseño tambien busque referencias en la web habian demasiadas referencias, al final decidi hacer algo mas como a mi gusto pero manteniendo la visual hacia el usuario, en el diseño tuve varios errores como los colores en las letras tambien el menu desplegable que no se veia bien al final de la presentacion tuve ayuda de Didier explicandome como podia mejorar mi diseño y con bases a lo que tenia hicimos un diseño mejor y mas amigable.
+ 
+ 
 
+Después del diseño del reproductor nos asignaron realizar un "TO-DO" una lista de que haceres, en este diseño también busque referencias en la web habían demasiadas referencias, al final decidí hacer algo más como a mi gusto pero manteniendo la visual hacia el usuario, en el diseño tuve varios errores como los colores en las letras también el menú desplegable que no se veía bien al final de la presentación tuve ayuda de Didier explicándome como podía mejorar mi diseño y con base a lo que tenía hicimos un diseño mejor y más amigable. 
 
+ 
+ 
+ 
+ 
 
+El gran reto fue cuando asignamos grupos para realizar una actividad de mejora de unas páginas de SINCOSOFT realizar diseños para tener mejor aspecto y más modernas el resultado no fue tan bueno, ya que la interfaz se ve bien, pero tuvimos errores a la hora de que se va a imprimir como serían las opciones, en teoría el diseño pudo ser mejor si hubiéramos aplicado otro método. 
 
-EL gran reto fue cuando asignamos grupos para realziar una actividad de mejora de unas paginas de SINCOSOFT realizar diseños para tener mejor aspecto y mas modernas el resultado no fue tan bueno ya que la interfaz se ve bien pero tuvimos errores a la hora de que se va a imprimir como serian las opciones, en teoria el diseño pudo ser mejor si hubieramos aplicado otro metodo.
+ 
+ 
+ 
+ 
+ 
 
-
-
-
-
+La semana fue muy productiva y el conocimiento adquirido fue demasiado. 
