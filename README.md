@@ -34,22 +34,26 @@ Tercera Semana
 
 Esta semana fue muy buena aparte de los conocimientos adquiridos pudimos desarrollar a base de nuestras destrezas e interpretaciones diseños que fueran creación nuestra en base a un tema dado y referencias en la WEB, fue un gran reto, en el primer diseño fue algo complejo ya que me asignaron un reproductor de música y al ver diseños todos se parecían y todos llegaban a lo mismo, hice uno casi a mi estilo pero al final se pareció a los demás reproductores, tuve varios detalles dentro del diseño como elementos que no quedaban bien vistos en la pantalla colores que no sobresalían entre otros, en definitiva diseñar algo desde 0 lleva a volar la imaginación y a veces que uno cree que está bien el diseño, no lo es, falta como pensar más hacia el usuario para tener una interfaz más definida. 
 
- 
- 
+
+![musicreproductor](https://user-images.githubusercontent.com/87336609/128223122-58fd97bf-0183-4772-82c9-d2f220b676d6.jpg)
+![Desktop - 2](https://user-images.githubusercontent.com/87336609/128223143-6279a476-4417-4df9-8f71-7ce9316b9815.png)
+
+https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=298%3A53
 
 Después del diseño del reproductor nos asignaron realizar un "TO-DO" una lista de que haceres, en este diseño también busque referencias en la web habían demasiadas referencias, al final decidí hacer algo más como a mi gusto pero manteniendo la visual hacia el usuario, en el diseño tuve varios errores como los colores en las letras también el menú desplegable que no se veía bien al final de la presentación tuve ayuda de Didier explicándome como podía mejorar mi diseño y con base a lo que tenía hicimos un diseño mejor y más amigable. 
 
- 
- 
- 
- 
+![All TODO](https://user-images.githubusercontent.com/87336609/128223377-eff93d6c-2073-4eb9-8562-2b6fccbf817e.png)
+![All TODO1](https://user-images.githubusercontent.com/87336609/128223506-24587e4b-4d0c-4d31-ac41-8be2beb6ff79.png)
+
+https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=331%3A48
 
 El gran reto fue cuando asignamos grupos para realizar una actividad de mejora de unas páginas de SINCOSOFT realizar diseños para tener mejor aspecto y más modernas el resultado no fue tan bueno, ya que la interfaz se ve bien, pero tuvimos errores a la hora de que se va a imprimir como serían las opciones, en teoría el diseño pudo ser mejor si hubiéramos aplicado otro método. 
 
- 
- 
- 
- 
- 
+![sinco1](https://user-images.githubusercontent.com/87336609/128223701-cb41a949-4c62-4231-a7d7-da1ea4a72a13.png)
+![sinco2](https://user-images.githubusercontent.com/87336609/128223714-b8e12851-3614-4d4c-b1b3-17ce7b71632d.png)
+
+https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=370%3A1689
+
+![Principal](https://user-images.githubusercontent.com/87336609/128224103-dfcdff9a-8b1c-4d04-b1cb-16eb83d1e0a9.png)
 
 La semana fue muy productiva y el conocimiento adquirido fue demasiado. 
