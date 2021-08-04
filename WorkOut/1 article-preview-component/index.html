@@ -11,8 +11,9 @@
                 font-family: "Manrope", sans-serif;
                 justify-content: center;
                 align-items: center;
-                margin: 100px 100px 100px 100px;
+                margin: 0 auto;
                 padding-left: 20%;
+                padding-top: 10%;
                 
             }
 
@@ -24,13 +25,15 @@
                 padding-right: 50px;
                 border-radius: 10px 10px 10px 10px ;
             }
-             h1{
+
+            h1{
                  font-size: 25px;
-             }
-             p{
+            }
+            
+            p{
                  font-size: 13px;
                  line-height: 20px;
-             }
+            }
           
 
            .img1{
@@ -68,50 +71,84 @@
                padding-top: 20px;
             }
             
-            .icon{
+            .button{
                
                margin-top: 20px;
-               margin-left: 100px;
+               margin-left: 120px;
                              
             }
 
-           @media screen and (max-width: 700px) {
-                
-                body{
-                    border-radius: 10px 0px 0px 10px;
-                    margin: 10px 10px 10px 10px;
-           
-                }
+            .share{
+                width: 100px;
+                height: 10px;
+                position: relative;
+                top: -130px;
+                right: 107px;
+            }
             
-                main{
-                    flex-direction:column;
-                    width: 275px;
-                    height: 580px;
-                    background-color: #ffffff;
-                    
-                }
+            .button:hover .desktop {
+            position: relative;
+            display: flex;
+            }
+            
+            .desktop{
+                display: none;
+            
+            }
+            
+            .movil{
+                display: none;
+            }
+            
 
-                .text{
-                    width: 263px;
-                    height: 76px;
-                }
+            
+                    
+
+           @media screen and (max-width: 881px) {
+                
+            body{
+                border-radius: 10px 0px 0px 10px;
+                margin: 10px 10px 10px 10px;
+           
+            }
+            
+            main{
+                flex-direction:column;
+                width: 277px;
+                height: 580px;
+                background-color: #ffffff;
+                    
+            }
+
             
                      
             
-                .img1{
-                    width: 326px;
-                    height: 200px;
-                    border-radius: 10px 10px 0px 0px;
+            .img1{
+                width: 326px;
+                height: 200px;
+                border-radius: 10px 10px 0px 0px;
                     
-                }
-                .icon{
-               
+            }
+            .button{
                 margin-top: 20px;
-                margin-left: 50px;
-                             
-               }
+                margin-left: 90px;
+                   
+            
+            }
+            .date{
+                padding-left: 0px;
+                border: solid;
+                margin-left: 10px;
+                width: 400px
+                ;
+                
+                
+            }
 
-               }
+            
+            
+
+            }
            
         </style>
     </head>
@@ -140,15 +177,23 @@
                         <h3>28 jun 2020</h3>
                     </div>
 
-                <div class="icon">
+                <div class="button">
                     <img src="images/favicon-32x32.png" >
+                    <div class="share">
+                        <img src="images/Share1.svg" class="desktop">
+                        <img src="images/Share2.svg" class="movil">
+                    </div>
                 </div>
                         
                 </div>
             </div>
 
+            
+
         </div>
+        
+        </main> 
+        
+    </body>
 
-
-    </main>
 </html>
