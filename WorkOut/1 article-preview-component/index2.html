@@ -78,15 +78,32 @@
                              
             }
 
-            .button:hover .share {
-            position: absolute;
+            .share1{
+                width: 100px;
+                height: 10px;
+                position: relative;
+                top: -130px;
+                right: 107px;
+            }
+            
+            .button:hover .desktop {
+            position: relative;
             display: flex;
+            }
+            
+            .desktop{
+                display: none;
+            
+            }
+            
+            .movil{
+                display: none;
             }
             
             .share {
             position: relative;
-            top: 250px;
-            right: 235px;
+            top: 280px;
+            right: 450px;
             width: 230px;
             height: 50px;
             display: flex;
@@ -95,8 +112,6 @@
             background-color: #49556A;
             padding: 2px 12px 2px 12px;
             border-radius: 8px;
-            display: none;
-            
             }
             .nameshare {
                 font-weight: 700;
@@ -139,36 +154,40 @@
             .button{
                 margin-top: 20px;
                 margin-left: 50px;
+                   
+            
             }
             .date{
                 padding-right: 0px;
+                
+                
                 margin-left: 10px;
-
+                
+                
+                
             }
             .info{
                 width: 377px;
                 height: 63px;
-            }
-           
-            .button:hover .share {
-            position: absolute;
+                
+               
+             }
             
+            .button:hover .desktop {
+              display: none;
+            }
+            
+            .button:hover .movil {
+            position: relative;
+            display: flex;
             }
 
-            .share {
-            position: absolute;
-            top: 610px;
-            right: 210px;
-            width: 302px;
-            height: 70px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #49556A;
-            padding: 2px 12px 2px 12px;
-            border-radius: 0px 0px 8px 8px;
-            display: none;
-            
+            .share2{
+                width: 100px;
+                height: 10px;
+                position: relative;
+                top: -49px;
+                right: 255px;
             }
            
 
@@ -203,24 +222,14 @@
                     </div>
 
                     <div class="button">
-                        <img src="images/favicon-32x32.png" >
-                        <div class="share">
-                            <h2 class="nameshare">SHARE</h2>
-                            <ul class="logo">
-                            <li>
-                                <a href="#"><img src="./images/icon-facebook.svg" ></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="./images/icon-twitter.svg" ></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="./images/icon-pinterest.svg" ></a>
-                            </li>
-                            </ul>
-                        </div>
-
-                     </div>                     
-               
+                    <img src="images/favicon-32x32.png" >
+                    <div class="share1">
+                        <img src="images/Share1.svg" class="desktop">
+                    </div>
+                    <div class="share2">
+                        <img src="images/Share2.svg" class="movil">
+                    </div>
+                </div>
                         
                 </div>
             </div>
@@ -230,7 +239,20 @@
         </div>
         
         </main> 
-        
+        <div class="share">
+            <h2 class="nameshare">SHARE</h2>
+            <ul class="logo">
+              <li>
+                <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook Logo"></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter Logo"></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest Logo"></a>
+              </li>
+            </ul>
+          </div>
 
     </body>
 
