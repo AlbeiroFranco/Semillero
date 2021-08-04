@@ -4,3 +4,6 @@ Realice mediante Figma el diseño de dos diseños de cards que inicialmente pens
 
 https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=156%3A43
 
+Actividad HTML
+
+Este diseño en HTML fue un más complejo de lo que pensaba se miraba fácil pero a la hora de aplicar el código no resultaba ser tan fácil, me toco repasar sobre HTML, ver conceptos nuevos y aprender más sobre css en realidad fue el más complejo ya que tiene demasiados estilos al final realiza dos diseños uno con la imagen ya terminada en el compartir y la otra diseñe la opción de compartir completa. 
