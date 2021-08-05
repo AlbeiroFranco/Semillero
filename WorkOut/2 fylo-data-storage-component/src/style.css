@@ -1,5 +1,6 @@
 /*Style CSS*/
 
+
 body{
     background-color: #0C122C;
     background-image: url(../images/bg-desktop.png);
@@ -8,7 +9,6 @@ body{
     background-attachment: fixed;
     background-size: 1520px 400px;
     font-family: "Raleway", sans-serif;
-   
 }
 
 aside{
@@ -18,35 +18,47 @@ aside{
     color: #ffffff;
     font-size: 14px;
     
-
 }
 ul{
     display: flex;
     list-style: none;
-    justify-content:space-between;
-    margin-left: -40px;
-    margin-right: 160px;
+    justify-content:space-around;
+    margin-left: -12%;
+    margin-right: 50%;
+    align-items: center;
+    padding-top: 18px;
 
 }
 .share{
     background-color: #0C122C;
     border-radius: 10px;
     padding: 14px 14px 14px 14px;
-    width: 25px;
-    height: 25px;
+    justify-content: center;
     
+}
+ .fol{
+    padding: 16px 14px 16px 14px;
+ }
+
+.up{
+    padding: 18px 14px 18px 14px;
+}
+
+
+.share:hover{
+    background-color:rgba(194, 193, 193, 0.178);
 }
 
 .logo{
     background-color: #1D2B68;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 348px;
     height: 201px;
     border-radius: 10px 100px 10px 10px;
-    padding-left: 38px;
- 
-}
+    padding-left: 4%;
+   
+ }
 
 .storage{
     background-color: #1D2B68;
@@ -59,9 +71,7 @@ ul{
     margin-top: 47px;
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: lighter;
 
-   
 }
 
 .imglogo{
@@ -69,19 +79,36 @@ ul{
 }
 
 .slide{
-    width: 535px;
-    height: 10px;
-    border-radius: 10px 10px 10px 10px;
+    width: 80%px;
+    height: 20px;
+    border-radius: 10px;
     background-color: #1B214E;
     
 }
+.bar{
+    position: relative;
+    width: 80%;
+    height: 19px;
+    background-image:linear-gradient( 45deg, #f2a49e , #fb4d92);
+    border-radius: 50px;
+    animation: mover 30s;
+}   
 
 .circle{
-    width: 7px;
-    height: 7px;
-    border-radius: 100%;
+    position: absolute;
+    right: 3px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
     border:solid;
+    top: 2px;
     background-color: #ffffff;
+}
+
+@keyframes mover{
+    from{width: 5%;}
+    to{width: 80%;}
+
 }
 
 .text{
@@ -89,5 +116,39 @@ ul{
     justify-content: space-between;
 
 }
+ h1{
+     font-family: unset;
+ }
+
+ @media screen and (max-width: 881px) {
+
+    aside{
+        width: 375px;
+        height: 667px;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .logo{
+        width: 326px;
+        height: 201;
+    }
+    .storage{
+        width: 326px;
+        height: 160px;
+        margin-left: 0px;
+
+    }
+
+    .ul{
+        margin-right: 50%; 
 
 
+    }
+
+
+ }
+
+
+/*transition: 1s*/
