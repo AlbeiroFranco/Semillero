@@ -135,8 +135,13 @@ span{
 p{
     margin-top: 30px;
 }
+
 .text{
     margin-top: -20px;
+}
+
+.gbmovil{
+    display: none;
 }
  
  @media screen and (max-width: 881px) {
@@ -179,22 +184,16 @@ p{
     }
 
     .gbmovil{
-        margin-left: 70px;
+        display: inline-block;
+        position: relative;
         
     }
 
-    .rectangle{
-        background-color: #ffffff;
-        width: 181px;
-        height: 74px;
-        border-radius: 9px;
-    }
-    
+       
     span{
         position: absolute;
         color: #000000;
-        top: 450px;
-        left: 180px;
+        left: 30px;
     }
  
 }
