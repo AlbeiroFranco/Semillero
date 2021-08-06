@@ -1,18 +1,76 @@
 /*Estilos Css*/
 
 body{
-    
+    font-family: "Raleway", sans-serif;
+    margin-left: 10%;
+    background-image: url(../images/pattern-curve.svg);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position:left bottom;
+    
+    
+    
+}
+aside{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
 
 }
 
+.img-person{
+    position: relative;
+    right: 150px;
+    width: 697px;
+    height: 657px;
+      
+}
 
-.imgperson{
+.card2{
+    position: absolute;
+    padding: 60px
     
 }
 
-img{
+
+.quotes{    
     position: absolute;
+    margin-top: -70px;
+    left: 105px;
 }
-.texto{}
+
+.texto{
+    z-index: 1;
+    width: 650px;
+    height: 305px;
+    font-size: 32px;
+    padding-top: 130px;
+    letter-spacing: 1px;
+    color: #1a1a1f;
+}
+
+p{
+    font-size: 21px;
+}
+
+.icon{
+    position: absolute;
+    top: 570px;
+    left: 120px;
+    margin-top: 10px;
+    
+}
+@media screen and (max-width: 881px) {
+    aside{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+    }
+
+    .img-person{
+        width: 318px;
+        height: 219px;
+        top: 100px;
+    }
+}
