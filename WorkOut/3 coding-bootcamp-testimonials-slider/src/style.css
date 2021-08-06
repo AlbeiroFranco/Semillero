@@ -1,76 +1,124 @@
 /*Estilos Css*/
 
-body{
-    font-family: "Raleway", sans-serif;
-    margin-left: 10%;
-    background-image: url(../images/pattern-curve.svg);
-    background-repeat: no-repeat;
-    background-position:left bottom;
-    
-    
-    
-}
-aside{
-    position: relative;
+body {
+    height: 100vh;
     display: flex;
     align-items: center;
-    margin-left: 10%;
-    margin-top: 5%;
+    justify-content: center;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 32px;
+}
 
+.fondo{
+    position: absolute;
+    width: 40%;
+    bottom: 0px;
+    left: 0px;
+}
+
+.atras{
+    height: 80%;
+    position: absolute;
+    display: flex;
+    right: 12%;
+}
+
+.card{
+    position: absolute;
+    display: flex;
+    width: 1107px;
+    height: 540px;
+}
+
+.quotes{
+    top: 100px;
+    left: 95px;
+    position: absolute;
+}
+
+.text{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 140px;
+    width: 639px;
+}
+
+.p1{
+    color: #B8B6C4;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 .img-person{
-    position: relative;
-    right: 150px;
-    width: 697px;
-    height: 657px;
-      
+    position: absolute;
+    right: 0px;    
 }
 
-.card2{
+
+.button{
     position: absolute;
-    padding: 60px
+    width: 112px;
+    top: 520px;
+    left: 633px;
+}
+
+
+
+@media screen and (max-width:1109px) {
     
-}
+    .fondo{width: 100%;}
 
-
-.quotes{    
-    position: absolute;
-    margin-top: -70px;
-    left: 105px;
-}
-
-.texto{
-    z-index: 1;
-    width: 650px;
-    height: 305px;
-    font-size: 32px;
-    padding-top: 130px;
-    letter-spacing: 1px;
-    color: #1a1a1f;
-}
-
-p{
-    font-size: 21px;
-}
-
-.icon{
-    position: absolute;
-    top: 570px;
-    left: 120px;
-    margin-top: 10px;
-    
-}
-@media screen and (max-width: 881px) {
-    aside{
+    .card{
         flex-direction: column;
-        position: absolute;
-        align-items: center;
+        width: 320px;
     }
 
-    .img-person{
-        width: 318px;
-        height: 219px;
-        top: 100px;
+    .img1{
+        width: 252px;
+        height: 253px;
+        margin-right: 40px;
     }
+
+    .movil{
+        display: block;
+        align-self: center;
+    }
+
+    .text{
+        left: 5px;
+        top: 311px;
+        font-size: 18px;
+        text-align: center;
+        width: 307px;
+    }
+
+    .p1{
+        margin-top: 5px;
+        align-self: center;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .atras{
+        top: -150px;
+        left: 0px;
+        position: relative;
+        height: 307px;
+        width: 326px;  
+    }
+
+    .quotes{
+        width: 60px;
+        left: 125px;
+        top: 300px;
+    }
+
+    .button{
+        width: 80px;
+        top: 235px;
+        left: 117px;
+    }
+
 }
