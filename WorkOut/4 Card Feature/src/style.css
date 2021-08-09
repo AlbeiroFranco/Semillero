@@ -1,41 +1,157 @@
 /* Styles of CSS*/
 
 body{
-    background-color: #DADAE5;
+    background-color: #FAFAFA;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #58575C;
+    font-weight: lighter;
+
+}
+
+.text1{
+    text-align: center;
+    font-size: 35px;
+    color: #58575C;
+   
+}
+
+.text2{
+    text-align: center;
+    color: #A7A7A7;
+    width: 501px;
+    height: 57px;
+    margin-left: 28%;
+    
+    
+    
+}
+
+h2{
+    margin-left: 20px;
+    color: #4E505D;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 32px;
+    color: #B2B1B6;
+}
+
+.card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+
+}
+.column{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    
 }
 
 .card1{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
-    box-shadow: 0px 8px #F39192 inset;
+    box-shadow: 3px 8px 10px #8888883a;
     border-radius: 7px;
     width: 350px;
     height: 250px;
+    color: #4E505D;
+    border-top: 10px #F39192 solid ;
+    
     
 }
 
 .card2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
-    box-shadow: 0px 8px #F39192 inset;
+    box-shadow: 3px 8px 10px #8888883a;
     border-radius: 7px;
     width: 350px;
     height: 250px;
-    
+    border-top: 10px #90C1F6  solid ;
+
 }
 
 .card3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
-    box-shadow: 0px 8px #F39192 inset;
+    box-shadow: 3px 8px 10px #8888883a;
     border-radius: 7px;
     width: 350px;
     height: 250px;
+    margin-top: 30px;
+    border-top: 10px #FCCA8C solid ;
+
     
 }
 
 .card4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
-    box-shadow: 0px 8px #F39192 inset;
+    box-shadow: 3px 8px 10px #8888883a;
     border-radius: 7px;
     width: 350px;
     height: 250px;
+    border-top: 10px #42D3D0 solid ;
+
     
+}
+
+img{
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 881px) {
+
+    body{
+        padding-left: 20%;
+    }
+
+    .card{
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .column{
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .text2{
+        margin-left: 18%;
+        width: 315px;
+        height: 71px;
+    }
+
+    h2{
+        margin-left: 20%;
+    }
 }
