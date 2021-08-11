@@ -1,1 +1,109 @@
-Team Builder
+/*Stilos CSS*/
+
+body{
+    background-color: #FFFFFF;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+aside{
+    margin-left: 10%;
+    width:375px;
+    height: 800px;
+}
+
+.logo{
+    margin-top: 31px;
+    margin-left: 31px;
+}
+
+.photom{
+    margin-top: 32px;
+}
+
+.photod{
+    display: none;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+span{
+    color:#C6989A;
+    font-weight:300;
+}
+
+p{
+    color: #C6989A;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.6;
+    margin-top: -30px;
+}
+
+#email{
+    margin-left: 20px;
+    border-radius: 40px;
+    width: 322px;
+    height: 39px;
+    margin-top: 20px;
+    border-color:#DBCBCC;
+}
+
+.button{
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    body{ 
+        background-image: url(../images/bg-pattern-desktop.svg) ;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        transition: 2s;
+    }   
+    
+    aside{
+         position: absolute;
+         width: 1440px;
+         height: 800px;
+     }
+   
+    .photom{
+        display: none;
+    }
+    .photod{
+        position: absolute;
+        display: block;
+        margin-left: 750px;
+        margin-top: -10px;
+    }
+
+     h1{
+        
+         margin-top: 10%;
+         font-size: 69px;
+         text-align: left;
+         margin-left: 20px;
+         width: 525px;
+      }
+
+     p{
+         font-size: 16px;
+         text-align: left;
+         padding-left: 0px;
+         padding-right: 0px;
+         margin-left: 20px;
+         width: 525px;
+     }
+     #email{
+         width: 445px;
+     }
+}
+    
