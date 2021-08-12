@@ -63,4 +63,13 @@ Cuarta semana.
 En esta semana nos dedicamos a hacer el maqueteado de las actividades ya realizadas en FIGMA fue un completo reto ya que había visto algo de HTML pero al entrar en este mundo a maquetear fue algo completamente distinto pensé que eran sencillos los diseño pero cada uno tiene su nivel de complejidad cada uno tiene más que el anterior en el primer diseño fue algo realmente difícil ya que si no se tiene  un orden en el figma el diseño a maquetear va a ser difícil, aprendí que hay que tener un orden específico para cada sección de la página para así mismo desarrollar los diseños, a medida que iba conociendo más HTML había cosas que completamente no conocía y no sabía la forma de hacerlas, como en el caso de la @mediaquery para hacer responsive una página, al comienzo es muy duro, pero con el paso de las actividades entramos más en confianza aún falta muchísimo que mejorar pero estoy dispuesto a aprender y poder aplicar mis conocimientos, hay que tener en cuenta que para aprender se necesita mucha disciplina y esto es lo que estoy aprendiendo y es muy bueno porque con la practica podemos hacer mejor nuestro trabajo. 
 
 Algunos HTML realizados esta semana. 
+![image](https://user-images.githubusercontent.com/87336609/129268976-38c48dce-8589-44b2-8036-55a48f887d76.png)
+![image](https://user-images.githubusercontent.com/87336609/129269086-88509975-5ca7-4859-bde1-a95e9936c02f.png)
+![image](https://user-images.githubusercontent.com/87336609/129269157-1a143900-3139-49c2-aa82-0ebe9003bb41.png)
+![image](https://user-images.githubusercontent.com/87336609/129269203-519fa5c5-c24d-47e4-9529-2dff51488163.png)
+![image](https://user-images.githubusercontent.com/87336609/129269271-23cfacad-b41f-4b58-a3f1-5706c1019424.png)
+![image](https://user-images.githubusercontent.com/87336609/129269305-2c8aafa1-73e9-41bd-a17c-1978fe720257.png)
+![image](https://user-images.githubusercontent.com/87336609/129269394-6c676fb3-fde0-4090-9252-a0a1ea5f8259.png)
+![image](https://user-images.githubusercontent.com/87336609/129269446-0778dc85-46ce-439c-8e95-72da5ce25371.png)
+
 
