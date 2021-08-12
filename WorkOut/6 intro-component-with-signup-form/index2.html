@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <style>
+
+        :root{
+            --repe: 3;
+            --tam: 50px;
+        }
+        div{
+            border: solid;
+            width: var(--tam);
+            height: var(--tam);
+            background-color: black;
+            animation-name: mover ;
+            animation-duration: 5s;
+            position: relative;
+            animation-iteration-count: var(--repe);
+        }
+
+        @keyframes mover {
+
+           /* from{   
+                left:0;
+
+            }
+
+            to{
+                left: 80%;
+            }*/
+
+            0%{   
+                left:0;
+                top:0;
+                background-color: pink;
+
+            }
+
+            25%{
+                left: calc(100% - var(--tam));
+                top: 0;
+            }
+
+            50%{
+                top: calc(100% - var(--tam));
+                left: calc(100% - var(--tam));
+            }
+
+            75%{
+                top: 0;
+                left: calc(100% - var(--tam));
+
+            }
+
+            100%{
+                top: 0;
+                left: 0;
+            }
+
+                        
+        }
+    </style>
+</head>
+<body>
+
+    <div></div>
+    <div class="segundo"></div>
+    <div></div>
+
+    
+</body>
+</html>
