@@ -1,5 +1,8 @@
 /*Stilos CSS*/
 
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(../images/bg-intro-desktop.png);
     background-color: #FF7978;
@@ -8,56 +11,61 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    animation: rebote 10s infinite;
+}
+
+@keyframes rebote {
+    0%{
+        background-position: top;
+    }
+    50%{
+        background-position: bottom;
+    }
+    100%{
+        background-position: top;
+    }
 }
 
 .container{
     box-sizing: border-box;
-    display: flex;
     width: 375px;
-    height: 100%;
-    flex-direction: column;
     padding: 10px;
 }
 
 h1{
-    color: #ffffff;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
     margin-top: 90px;
 }
 
 p{
-    color: #ffffff;
     font-weight: 400;
-    line-height: 2;
     font-size: 16px;
 }
 
-.button{
-    box-sizing: border-box;
+h1, p, .button, .valide {
     color: #ffffff;
+    line-height: 1.5;
+}
+
+.button{
     background-color: #5D54A3;
-    width: 95%;
     height: 89px;
     border-radius: 8px;
     margin-top: 37px;
     font-size: 16px;
-    text-align: center;
     padding-left: 60px;
     padding-right: 60px;
-    line-height: 2;
     box-shadow: 0px 5px #0000005d;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #ffffff;
+.button, form, .valide{
     width: 95%;
-    height: 440px;
+}
+
+form{
+    align-items: center;
+    background-color: #ffffff;
     border-radius: 8px;
     margin-top: 24px;
     margin-left: 9px;
@@ -71,32 +79,30 @@ input{
     height: 58px;
     border: 2px solid #DEDEDE;
     border-radius: 8px;
+    padding-left: 20px;
 }
 
 .valide{
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
     background-color: #37CC8A;
     border: none;
-    box-sizing: border-box;
-    width: 87%;
+    width: 86%;
     box-shadow: 0px 5px #37cc893d;
 }
 
 .text-form{
     color: #C2C0CE;
     font-size: 11px;
-    text-align: center;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
 
     .container{
-        flex-direction:row;
         width: 1117px;
         height: 667px;
         display: flex;
@@ -113,12 +119,10 @@ input{
     }
 
     h1{
-        padding-right: 100px;
         font-size: 49px;
     }
 
     p{
-        padding-right: 100px;
         font-size: 16px;
     }
 
