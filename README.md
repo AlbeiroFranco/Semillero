@@ -57,3 +57,10 @@ https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=370%3A1689
 ![Principal](https://user-images.githubusercontent.com/87336609/128224103-dfcdff9a-8b1c-4d04-b1cb-16eb83d1e0a9.png)
 
 La semana fue muy productiva y el conocimiento adquirido fue demasiado. 
+
+Cuarta semana. 
+
+En esta semana nos dedicamos a hacer el maqueteado de las actividades ya realizadas en FIGMA fue un completo reto ya que había visto algo de HTML pero al entrar en este mundo a maquetear fue algo completamente distinto pensé que eran sencillos los diseño pero cada uno tiene su nivel de complejidad cada uno tiene más que el anterior en el primer diseño fue algo realmente difícil ya que si no se tiene  un orden en el figma el diseño a maquetear va a ser difícil, aprendí que hay que tener un orden específico para cada sección de la página para así mismo desarrollar los diseños, a medida que iba conociendo más HTML había cosas que completamente no conocía y no sabía la forma de hacerlas, como en el caso de la @mediaquery para hacer responsive una página, al comienzo es muy duro, pero con el paso de las actividades entramos más en confianza aún falta muchísimo que mejorar pero estoy dispuesto a aprender y poder aplicar mis conocimientos, hay que tener en cuenta que para aprender se necesita mucha disciplina y esto es lo que estoy aprendiendo y es muy bueno porque con la practica podemos hacer mejor nuestro trabajo. 
+
+Algunos HTML realizados esta semana. 
+
