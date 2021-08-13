@@ -13,22 +13,22 @@ body{
 main{
     width: 70%;
 }
+.clase1, .info1, .info2{
+    padding: 20px;
+}
 
 .clase1{
     background-color: #ffffff;
     border-radius: 8px 8px 0 0;
-    padding: 20px;
 }
 
 .info1{
     background-color:#2BB3B1;
-    padding: 20px;
 }
 
 .info2{
     background-color:#4ABEBD ;
     border-radius: 0 0 8px 8px;
-    padding: 20px;
 }
 
 h1{
@@ -36,9 +36,8 @@ h1{
     font-size: 21px;
 }
 
-h2, p{
+h2, p , input{
     color: #ffffff;
-    font-weight: 500;
 }
 
 input{
@@ -46,9 +45,7 @@ input{
     height: 39px;
     background-color: #BFDF32;
     border:none;
-    color: #ffffff;
     font-size: 16px;
-    font-weight: 600;
     border-radius: 8px;
 }
 
@@ -65,16 +62,16 @@ input:hover{
         flex-direction: row;
         display: flex;
     }
-    .info1{
+    .info1, .info2{
         width: 50%;
+    }
+    .info1{
         border-radius: 0 0 0 8px;
     } 
     
     .info2{
-        width: 50%;
         border-radius: 0 0 8px 0;
     }
-          
     input{
         margin-top: 40px;
     }
