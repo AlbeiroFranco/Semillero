@@ -1,0 +1,82 @@
+/*Style CSS*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E6EFF6;
+    font-family: "Karla", sans-serif ;
+    display: flex;
+    justify-content: center;
+}   
+
+main{
+    width: 70%;
+}
+
+.clase1{
+    background-color: #ffffff;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+}
+
+.info1{
+    background-color:#2BB3B1;
+    padding: 20px;
+}
+
+.info2{
+    background-color:#4ABEBD ;
+    border-radius: 0 0 8px 8px;
+    padding: 20px;
+}
+
+h1{
+    color: #2BB3B1;
+    font-size: 21px;
+}
+
+h2, p{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+input{
+    width: 100%;
+    height: 39px;
+    background-color: #BFDF32;
+    border:none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+input:hover{
+    background-color: #88a002 ;
+}
+
+@media only screen and (min-width: 768px) {
+    main{
+        margin-top: 20px;
+    }
+    
+    .clase2{
+        flex-direction: row;
+        display: flex;
+    }
+    .info1{
+        width: 50%;
+        border-radius: 0 0 0 8px;
+    } 
+    
+    .info2{
+        width: 50%;
+        border-radius: 0 0 8px 0;
+    }
+          
+    input{
+        margin-top: 40px;
+    }
+}
+
