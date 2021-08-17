@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Franklin", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    margin-top: 10%;
+    font-size: 34px;
+}
+
+.dash{
+    width: 90%;
+    margin-top: 20%;
+    margin-bottom: 40%;
+}
+
+#email, .submit{
+    width: 80%;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+    outline: none;
+}
+#email{
+    padding-left: 20px;
+    color: #CFD5E5;
+    border: solid;
+    margin-top: 10%;
+}
+
+.submit{
+    border: none;
+    background-color: #4D7BF3;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+footer{
+    color: #A1A1A1;
+    font-size: 13px;
+}
+
+.submit:hover{
+    background-color: #7195F5;
+    cursor: grabbing;
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        margin-top: 3%;
+    }
+    #email{
+        margin-top: 2%;
+        width: 40%;
+    }
+
+    .submit{
+        width: 20%;
+    }
+    .dash{
+        width: 60%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
+
+
+    
