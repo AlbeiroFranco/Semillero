@@ -21,6 +21,11 @@ header{
     text-align: center;
 }
 
+.mockup{
+    margin-top: 60px;
+    width: 90%;
+}
+
 .hbutton{
     border-radius: 40px;
     width: 118px;
@@ -56,13 +61,9 @@ p{
     box-shadow:  0px 2px 8px 0px #fe52bf7a;
 }
 
-.mockup{
-    margin-top: 60px;
-    width: 90%;
-}
-
 article{
     padding-bottom: 50%;
+    text-align: center;
 }
 
 section{
@@ -117,6 +118,68 @@ footer{
 
 @media only screen and (min-width: 768px) {
     header{
-        width: 60%;
+        background-image: url(../images/bg-hero-desktop.svg);
     }
+
+    .infoheader{
+        display: flex;
+        align-items: center;
+    }
+
+    .mockup{
+        width: 56%;
+    }
+    
+    .left{
+        text-align: left;
+    }   
+    section{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+    .imgsection{
+        width: 40%;
+    }
+
+    .textsection{
+        padding: 50px;
+    }
+    article{
+        padding-bottom: 10%;
+    }
+
+    aside{
+        width: 40%;
+        margin: -120px auto 30px;
+    }
+    .contact{
+        display: flex;
+    }
+    .logo2{
+        margin-left: 15px;
+    }
+
+    .column{
+        width: 30%;
+        margin: 15px; 
+    }
+
+    .copyright{
+        margin-top: 150px;
+    }
+
+
+   
+    
+   
+    
+
+    
+    
+
+    
 }
