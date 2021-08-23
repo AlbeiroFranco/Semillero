@@ -1,52 +1,40 @@
-const body= document.body;
+const body=document.body;
 let container = document.createElement('main'),
-bgImg = document.createElement('img'),
-textSection= document.createElement('section'),
-title= document.createElement('h1'),
-para= document.createElement('p'),
-infoSide= document.createElement('aside'),
-perImg= document.createElement('img'),
-perDetails= document.createElement('span'),
-perName= document.createElement('h2'),
-date= document.createElement('h4'),
-popUp= document.createElement('span'),
-arrowImg = document.createElement('img'),
-smIcons = document.createElement('div'),
-smTitle = document.createElement('h3'),
-logoList = document.createElement('ul'),
-fb = document.createElement('li'),
-tw = document.createElement('li'),
-pn = document.createElement('li');
+imgPrin = document.createElement('img'),
+article= document.createElement('article'),
+section = document.createElement('section'),
+title = document.createElement('h1'),
+textTittle = document.createElement('p'),
+footer = document.createElement('footer'),
+asideFooter = document.createElement('aside'),
+imgPerson = document.createElement('img'),
+divPerson = document.createElement('div'),
+namePerson = document.createElement('h2'),
+date = document.createElement('p'),
+iconShare = document.createElement('img');
 
-
-bgImg.setAttribute("class", "img1");
-bgImg.src="images/drawers.jpg";
-textSection.setAttribute("class", "text");
-title.innerText=  "Shift the overall look and feel by adding these wonderful touches to furniture  in your home";
-para= innerText= "Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.";
-infoSide.setAttribute("class", "info");
-perImg.setAttribute("class", "photo");
-perImg.src="images/avatar-michelle.jpg";
-perDetails.setAttribute("class", "date");
-perName.innerText="Michelle Appleton";
-date.innerText="28 jun 2020";
-smIcons.setAttribute("class", "button");
-smTitle.innerText="Share";
-logoList.setAttribute("class", "logo");
-popUp.setAttribute("class", "share");
-smTitle.setAttribute("class", "nameshare");
-fb.src="./images/icon-facebook.svg";
-tw.src="./images/icon-twitter.svg";
-pn.src="./images/icon-pinterest.svg";
+imgPrin.setAttribute("class", "img1");
+imgPrin.src="images/drawers.jpg";
+title.innerText= "Shift the overall look and feel by adding these wonderful touches to furniture  in your home"
+textTittle.innerText= "Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete."
+imgPerson.setAttribute("class", "img2");
+imgPerson.src="images/avatar-michelle.jpg"
+namePerson.innerText= "Michelle Appleton";
+date.setAttribute("class", "date");
+date.innerText= "28 jun 2020";
+iconShare.setAttribute("class", "icon");
+iconShare.src="images/favicon-32x32.png";
 
 
 body.append(container);
-container.append(textSection, infoSide);
-textSection.append(bgImg, title, para);
-infoSide.append(perImg, perDetails, smIcons);
-perDetails.append(perName, date);
-smIcons.append(arrowImg, popUp, );
-popUp.append(logoList);
-logoList.append(fb, tw, pn);
+container.append(imgPrin, article);
+article.append(section, footer);
+section.append(title,textTittle);
+footer.append(asideFooter, iconShare);
+asideFooter.append(imgPerson, divPerson);
+divPerson.append(namePerson, date);
+
+
+
 
 
