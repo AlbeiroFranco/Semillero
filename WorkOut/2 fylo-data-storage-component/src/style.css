@@ -67,8 +67,6 @@ ul{
     margin-top: 47px;
     padding-left: 20px;
     padding-right: 20px;
-    
-        
 }
 
 .imglogo{
@@ -80,8 +78,6 @@ ul{
     height: 20px;
     border-radius: 10px;
     background-color: #1B214E;
-    
-    
 }
 .bar{
     position: relative;
@@ -129,7 +125,7 @@ span{
 }
 
 .big{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 p{
