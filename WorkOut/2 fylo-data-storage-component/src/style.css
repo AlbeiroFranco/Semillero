@@ -114,17 +114,19 @@ ul{
     position: relative;
     float: right;
     top: -110%;
+    
 
 }
 
 span{
     position: absolute;
     color: #000000;
-    top: 10px;
+    top:25px;
     left: 30px;
 }
 
 .big{
+   
     font-size: 20px;
 }
 

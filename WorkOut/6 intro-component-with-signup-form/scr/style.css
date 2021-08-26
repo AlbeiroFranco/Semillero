@@ -55,8 +55,11 @@ h1, p, .button, .valide {
     margin-top: 37px;
     font-size: 16px;
     padding: 0 60px 0 60px;
-    
     box-shadow: 0px 3px #00000034;
+}
+
+.button:hover{
+    background-color: #5d54a3b9;
 }
 
 .button, form, .valide{
@@ -73,6 +76,7 @@ form{
 }
 
 input{
+    
     margin-top: 14px;
     font-weight: 700;
     width: 85%;
@@ -99,6 +103,28 @@ input{
     color: #C2C0CE;
     font-size: 11px;
     padding: 0 60px 40px 60px;
+}
+
+.valide:hover{
+    background-color: #37cc89d7 ;
+}
+
+.error{
+    border: 2px solid red;
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+.error-text{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 35%;
+    color: red;
+}
+
+.success{
+    border: 2px solid green;
 }
 
 @media only screen and (min-width: 768px) {

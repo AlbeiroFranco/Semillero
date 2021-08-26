@@ -15,18 +15,32 @@
 
         <div class="section">
 
-            <button class="button"><span><b style="font-weight: 700;">Try it free 7 days</b> then $20/mo. thereafter</span>
+            <button class="button"><b style="font-weight: 700;">Try it free 7 days</b> then $20/mo. thereafter
             </button>
 
-            <form>
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="text" name="lastname" placeholder="Last Name" required>
-                <input type="text" name="email" placeholder="Email Address" required>
-                <input type="password" name="password" placeholder="Password" required>
+            <form id="formulario">
+                <div >
+                <input type="text" id="firstname" name="firstname" placeholder="First Name"><br>
+                <span></span>
+                </div>
+                
+                <div>
+                <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                <span></span>
+                </div>
+                
+                <div>
+                <input type="text" id="email" name="email" placeholder="Email Address" >
+                <span></span>
+                </div>
+                <div>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <span></span>
+                </div>
                 <input class="valide" type="submit" name="valide" value="CLAIM YOUR FREE TRIAL">
                 
                 <p class="text-form">
-                 By clicking the button, you are agreeing to our <span style="color:#EB7E84"><b>Terms and Services</b></span>
+                 By clicking the button, you are agreeing to our <b style="color:#EB7E84">Terms and Services</b>
                 </p>
 
             </form>
@@ -35,7 +49,9 @@
         </div>
 
 
-
+        
+        <script src="./script.js"></script>
+        
 
 
     </aside>

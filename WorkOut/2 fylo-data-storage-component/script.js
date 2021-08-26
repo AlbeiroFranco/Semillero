@@ -36,7 +36,7 @@ let li2 = crearContenido ("li", "class", "share up");
 ul.append(li2);
 
 let imgLi2 = document.createElement("img");
-imgLi2.src = "images/icon-folder.svg";
+imgLi2.src = "images/icon-upload.svg";
 li2.append(imgLi2);
 
 let storage = crearContenido ("div", "class", "storage");
