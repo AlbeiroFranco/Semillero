@@ -72,4 +72,20 @@ Algunos HTML realizados esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/129269394-6c676fb3-fde0-4090-9252-a0a1ea5f8259.png)
 ![image](https://user-images.githubusercontent.com/87336609/129269446-0778dc85-46ce-439c-8e95-72da5ce25371.png)
 
+Quinta semana: 
+
+En esta semana aplicamos todo lo que habíamos visto la anterior semana sobre HTML y CSS, se vieron nuevos conceptos para mejorar nuestro desempeño en esta semana aplicamos la técnica de no usar las posiciones se mejora el código y se hace más responsivo, cada trabajo que iba realizando era un nuevo reto y cada vez me demoraba menos y la lógica que usaba era cada vez más entendible. En esta semana realizamos otra serie de ejercicios que nos ayudaron a fortalecer más nuestros conocimientos, tambien aprendi a aplicar una tecnicas mas simple a la hora de realizar estos ejercicios y fue que empezaba a maquetear desde la version movil y luego paso a la version desktop, me parcecio mas facil y mas ordenada esta tecnica. 
+
+Ejercicios realizado en esta semana.
+
+![image](https://user-images.githubusercontent.com/87336609/131364559-669105e6-f515-453f-9d92-b3d13fc90012.png)
+![image](https://user-images.githubusercontent.com/87336609/131364444-e7028f53-6e83-4332-bc5a-1c6a4bc5c9cb.png)
+![image](https://user-images.githubusercontent.com/87336609/131364906-921bad16-ef01-4aa2-a63f-9398d48646e5.png)
+![image](https://user-images.githubusercontent.com/87336609/131364752-833e1016-3a4f-4fd2-ae24-363210a34bf4.png)
+![image](https://user-images.githubusercontent.com/87336609/131365064-0df66236-2d61-4f0c-b378-40792e1a66ca.png)
+![image](https://user-images.githubusercontent.com/87336609/131364986-fa3bb501-8ed8-49bd-afb3-4445ea9f2ef1.png)
+
+
+
+
 
