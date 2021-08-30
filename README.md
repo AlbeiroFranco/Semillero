@@ -82,9 +82,35 @@ Ejercicios realizado en esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/131364444-e7028f53-6e83-4332-bc5a-1c6a4bc5c9cb.png)
 ![image](https://user-images.githubusercontent.com/87336609/131364906-921bad16-ef01-4aa2-a63f-9398d48646e5.png)
 ![image](https://user-images.githubusercontent.com/87336609/131364752-833e1016-3a4f-4fd2-ae24-363210a34bf4.png)
+
+
+Sexta semana. 
+
+En esta semana aprendí a realizar el maqueteado desde Flex-Box para aplicarlo en toda en la página con CSS fue al principio un poco difícil para acomodar todos los elementos pero a la, medida que iba entendiendo que no se necesitaba utilizar nada más si no Flex box el diseño en la página se iba viendo más organizado y más dinámico, aprendí a tener un poco más de semántica a la hora de realizar el maqueteado en HTML, y en base a unos ejercicios que practicamos esta semana aplicamos ya todos los conceptos que tenia de base y mi trabajo en código iba siendo más ordenado y limpio. 
+
+Algunos ejercicios de esta semana. 
+
 ![image](https://user-images.githubusercontent.com/87336609/131365064-0df66236-2d61-4f0c-b378-40792e1a66ca.png)
 ![image](https://user-images.githubusercontent.com/87336609/131364986-fa3bb501-8ed8-49bd-afb3-4445ea9f2ef1.png)
+![image](https://user-images.githubusercontent.com/87336609/131366330-d9823ac2-f25f-4189-ad5c-6095674d16c1.png)
+![image](https://user-images.githubusercontent.com/87336609/131366172-b401b1a8-2a2a-44ca-be84-36d5f2093d2b.png)
 
+Se realizo una actividad con nuestros compañeros que se trataba de todos realizar una parte del ejercicio 9 y pues no avanzamos mucho ya que la lógica que tenemos cada uno es diferente y pues no falto más orden a la hora de realizar el ejercicio. 
+![image](https://user-images.githubusercontent.com/87336609/131366707-5b92a82e-ef2f-4f6e-ad48-f2f01c2dcd26.png)
+
+
+Séptima semana 
+
+En esta semana realice el ejercicio que no terminamos de hacer en la semana pasada con nuestros compañeros y fue un reto ya que esta vez era más grande la página tenía más elementos y tenía que ser más ordenado a la hora de realizar el ejercicio a final lo logre termina y tuve un gran avance en cuestión de semántica en código y en css fue aún más ordenado y limpio mi código. 
+
+![image](https://user-images.githubusercontent.com/87336609/131369654-1059b943-8f12-4898-b68d-7e97bb8ad3e6.png)
+![image](https://user-images.githubusercontent.com/87336609/131369680-f95b9a4f-7dc1-4e9b-a81d-db893c7b027a.png)
+![image](https://user-images.githubusercontent.com/87336609/131369699-cf6979fb-87f2-42b4-b392-d7978c800034.png)
+![image](https://user-images.githubusercontent.com/87336609/131369727-f8f82395-d0c1-45a8-bd37-cc491cb4e212.png)
+![image](https://user-images.githubusercontent.com/87336609/131369755-7b61260c-62db-4ced-ac26-dd3cb8d1428a.png)
+
+
+También aprendimos conceptos básicos en JavaScript y al ser un lenguaje que apenas empiezo a ver me ha dado un poco duro ya que aprender algo nuevo implica conocer más a fondo sobre él, e indagar y practicar, necesito practicar y estudiar más sobre este nuevo lenguaje y así poder entender mejor sobre él, y esta semana realizamos el maqueteado desde JavaScript y a medida que iba usando este lenguaje iba entiendo mejor cómo funciona y me ha parecido interesante y con ganas de aprender más sobre el  
 
 
 
