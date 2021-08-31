@@ -4,7 +4,6 @@ let crearContenido = function(dato,tipo,nombre){
     return contenido;
 }
 
-
 let aside = document.createElement('aside');
 document.body.append(aside);
 
