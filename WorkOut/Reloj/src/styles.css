@@ -1,0 +1,75 @@
+body{
+    color: whitesmoke;
+}
+
+.clock{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: 10px solid whitesmoke;
+    display: flex;
+    padding: 40px;
+    margin-top: 2%;
+}
+
+img{
+    position: relative;
+    height: 400px;
+}
+
+#minutes, #second{
+    position: absolute;
+}
+
+#seconds{
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: monospace;
+    text-align: center;
+    border: solid;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    background-color: rgb(12, 12, 46);
+}
+
+.number12, .number3, .number6, .number9{
+    position: absolute;
+}
+
+.number12{
+    left: 65%;
+    color: red;
+    font-size: 25px;
+}
+
+.number3{
+    top: 45%;
+    right: 20%;
+    font-size: 25px;
+}   
+
+.number9{
+    top: 45%;
+    font-size: 25px;    
+}
+
+.number6{
+    bottom: 20%;
+    right: 33%;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#hourdigital{
+    font-size: 30px;
+}
+
