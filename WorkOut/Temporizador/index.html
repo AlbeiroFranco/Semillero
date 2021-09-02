@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/style1.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -13,17 +13,20 @@
         <h1>COUNTDOWN TIMER</h1>
     </head>
 
-    <main>
+    <main class = "timer" >
         <section id="section1">
-        <button type="button">00:30</button>
-        <button type="button">01:00</button>
-        <button type="button">05:00</button>
-        <button type="button">10:00</button>
-        <input type="text" id=add placeholder="Agregar tiempo personalizado">
+        <button data-time="30" >00:30</button>
+        <button data-time="60" >01:00</button>
+        <button data-time="300" >05:00</button>
+        <button data-time="600" > 10:00</button>
+        <form name="addtime">
+            <input type="text" name="minutes" placeholder="Agregar tiempo personalizado">
+        </form>
+        
         </section>
 
-        <section id="section2">
-            <span>00:00</span>
+        <section id="display">
+            <span class="displaystart"></span>
         </section>
     </main>
 

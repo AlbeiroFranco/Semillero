@@ -30,10 +30,11 @@ main{
     justify-content:space-evenly;
 }
 
-#section2{
-    color: white;
+#display{
+    color: whitesmoke;
     font-size: 150px;
     font-weight: 700;
+    align-items: center;
 }
 
 button{
@@ -54,6 +55,8 @@ input{
     margin-top: 20px;
     text-align: center;
     font-size: 14px;
+    width: 100%;
+    border: none;
 }
 
 button:hover{
