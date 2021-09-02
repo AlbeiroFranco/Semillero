@@ -1,5 +1,5 @@
 let countdown;
-const timerDisplay = document.querySelector('.displaystart');
+const timeOn = document.querySelector('.displaystart');
 const endTime = document.querySelector('.end-time');
 const buttons = document.querySelectorAll('[data-time]');
 
@@ -28,16 +28,14 @@ function displayTimeLeft(seconds){
     const minutes = Math.floor(seconds / 60);
     const remainderSeconds = seconds % 60;
     const display = `${minutes}:${remainderSeconds < 10 ? '0' : '' }${remainderSeconds}`;
-    document.title = display;
-    timerDisplay.textContent = display;
+    timeOn.textContent = display;
 }
 
-function startTimer(){
-    const seconds = parseInt(this.dataset.time);
-    timer(seconds);
+for(let i = 0; i < buttons.length; i++){
+    console.log(buttons[i].dataset.time);
+    buttons[i].addEventListener('click',()=>{timer(buttons[i].dataset.time)})
 }
 
-buttons.forEach(button => button.addEventListener('click', startTimer));
 
 document.addtime.addEventListener('submit', function(e) {
     e.preventDefault();

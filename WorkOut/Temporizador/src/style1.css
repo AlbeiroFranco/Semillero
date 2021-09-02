@@ -13,12 +13,16 @@ h1{
     color: whitesmoke;
     text-align: center;
     margin: auto;
-    font-size: 100px;
+    font-size: 80px;
+}
+
+h2{
+    color: white;
 }
 
 main{
     display: flex;
-    margin: 5% auto;
+    margin: 2% auto;
     width: 50%;
     justify-content: space-around;
     align-items: center;
