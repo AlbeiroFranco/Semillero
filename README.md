@@ -112,6 +112,14 @@ En esta semana realice el ejercicio que no terminamos de hacer en la semana pasa
 
 También aprendimos conceptos básicos en JavaScript y al ser un lenguaje que apenas empiezo a ver me ha dado un poco duro ya que aprender algo nuevo implica conocer más a fondo sobre él, e indagar y practicar, necesito practicar y estudiar más sobre este nuevo lenguaje y así poder entender mejor sobre él, y esta semana realizamos el maqueteado desde JavaScript y a medida que iba usando este lenguaje iba entiendo mejor cómo funciona y me ha parecido interesante y con ganas de aprender más sobre el  
 
+Octava Semana. 
+
+En esta semana recibimos capacitación de para  realizar actividades en JavaScript hicimos varias actividades cada una con un grado de dificultad más que la otra es bueno recibir información, ver y poder hacer los ejercicios son complejos al comienzo pero a medida que voy entiendo la lógica, es más practico hacer os ejercicios, el ejercicio que más duro me ha parecido fue el del Temporizador tenía un nivel de dificultad alto y pues entenderlo a la primera vez es complejo pero al final se obtuvo un buen resultado. 
+
+![image](https://user-images.githubusercontent.com/87336609/132230224-baeceeee-b823-4be7-aad1-203afbff0ece.png)
+![image](https://user-images.githubusercontent.com/87336609/132230626-2a4ded96-e766-44c7-8985-e9f45069a249.png)
+![image](https://user-images.githubusercontent.com/87336609/132230836-4af034b4-e513-49bc-87db-45cbad2b378c.png)
+![image](https://user-images.githubusercontent.com/87336609/132230974-0b837005-07f7-41fa-b1cc-fb0f65aaf852.png)
 
 
 
