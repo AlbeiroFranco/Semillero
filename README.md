@@ -1,5 +1,5 @@
 # Semillero
-https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=0%3A1
+https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=0%3A
 
 Primera Semana.
 
@@ -120,6 +120,8 @@ En esta semana recibimos capacitación de para  realizar actividades en JavaScri
 ![image](https://user-images.githubusercontent.com/87336609/132230626-2a4ded96-e766-44c7-8985-e9f45069a249.png)
 ![image](https://user-images.githubusercontent.com/87336609/132230836-4af034b4-e513-49bc-87db-45cbad2b378c.png)
 ![image](https://user-images.githubusercontent.com/87336609/132230974-0b837005-07f7-41fa-b1cc-fb0f65aaf852.png)
+![image](https://user-images.githubusercontent.com/87336609/132235962-7f18bdfc-94c6-4d8c-b6a6-6a20347e98cb.png)
+
 
 
 
