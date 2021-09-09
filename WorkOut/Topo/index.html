@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Whack-A-Mole </title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <h1> Whack-A-Mole! <span id="tableroPuntos"> 0 </span></h1>
+        <section id="wrapper">
+            <button id="botonJuego" onclick="IniciarJuego()"> Iniciar juego </button>
+
+            <select id="desplegableDificultad"> 
+                <option value="-1" selected disabled> Seleccione la dificultad... </option>
+                <option value="1"> Fácil </option>
+                <option value="2"> Normal </option>
+                <option value="3"> Díficil </option>
+                <option value="4"> Asesino serial de topos </option>
+            </select>
+        </section>
+
+        <main id="juego">
+            <div class="agujero agujero1">
+                <div class="topo"> </div>
+            </div>
+
+            <div class="agujero agujero2">
+                <div class="topo"> </div>
+            </div>
+
+            <div class="agujero agujero3">
+                <div class="topo"> </div>
+            </div>
+
+            <div class="agujero agujero4">
+                <div class="topo"> </div>
+            </div>
+
+            <div class="agujero agujero5">
+                <div class="topo"> </div>
+            </div>
+
+            <div class="agujero agujero6">
+                <div class="topo"> </div>
+            </div>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #F0FAFB;
+}
+
+.logoI{
+    width: 100%;
+}
+
+.logoImg{
+    width: 30%;
+}
+
+.jobCard{
+    width: 90%;
+    margin: 5% auto;
+    border-left: #5AA6A2 solid 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.leftContainer{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+h2:hover{
+    color: #5AA7A9;
+}
+
+h3{
+    color:  #5AA7A9;
+}
+
+.new{
+    background-color: #65A29B;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.featured{
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+button{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    background-color: #F0FBF7;
+    color: #65A29B;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover{
+    background-color: #5AA7A9;
+    color: White;
+    z-index: 2;
+}
+
+#cardinput{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background-color: white;
+    height:72px ;
+    width: 90%;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.filtered{
+    margin-left: 20px;
+    background-color: #F0FBF7;
+    color: #65A29B;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#keyWordContainer{
+    display: none;
+}
+
+#keyWordContainer.active{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    box-shadow: 0px 3px 9px 0px #41796F;
+    border-radius: 10px;
+}
+ 
+
+@media screen and (max-width: 881px) {
+
+    article{
+        border: solid red;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+ 
+
+    nav{
+        margin-top: 5%;
+    }
+    
+
+
+    
+
+}

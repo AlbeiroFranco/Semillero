@@ -51,14 +51,13 @@
       
       const inputs = document.querySelectorAll('.controls input');
         function updateValues(){
-            let pixels = this.
+            let pixels = this.dataset.sizing || "";
             document.documentElement.style.setProperty(`--${this.name}`, this.value+pixels); 
+          }
 
-      };
-    
-    
-    
-    
+          inputs.forEach(input => input.addEventListener('change', updateValues));
+
+          
     
     
       /*function updateValues(){

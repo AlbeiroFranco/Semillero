@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+ 
+<html>
+<body>
+<style>
+body {margin:48px;font:normal normal 100% sans-serif}
+#todo .nat {width:120px;height:160px;margin:4px 2px;padding:4px;display:none;background:#4DDDD4}
+#todo .obj {width:120px;height:160px;margin:4px 2px;padding:4px;display:none;background:#D4DD4D}
+</style>
+ 
+<script>
+function filtcat(c) {
+var x = document.getElementById("todo");
+var y = x.querySelectorAll("div");
+var i,c;
+for (i = 0; i < y.length; i++) {
+if (y[i].className == c || c == "all") {y[i].style.display = "inline-block"}
+else {y[i].style.display = "none"}
+}
+}
+</script>
+ 
+<h2 align="center">Filtro por Categorías</h2>
+<div id="todo" align="center">
+    <button onclick="filtcat('nat')">Nat ...</button>
+    <button onclick="filtcat('obj')">Obj ...</button>
+    <button onclick="filtcat('all')">Tod ...</button>
+    <br><br>
+    <div class="nat">Árbol</div>
+    <div class="obj">Mesa</div>
+    <div class="nat">Monte</div>
+    <div class="obj">Libro</div>
+    <div class="nat">Nube</div>
+    <div class="obj">Vaso</div>
+    <div class="nat">Lago</div>
+    <div class="obj">Foto</div>
+</div>
+<h4 align="center">Pulsa en los botones para comenzar ...</h4>
+</body>
+</html>
