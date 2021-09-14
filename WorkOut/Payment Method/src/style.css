@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #E0DEE3;
+}
+
+main{
+    display: flex;
+    width: 80%;
+    margin: 4% auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#izquierda{
+    background-color: #E1564F;
+    height: 667px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+ }
+
+ .tarjeta{
+     width: 100%;
+     max-width: 550px;
+     position: relative;
+     color: white;
+     transition: .3s ease all;
+     transform: rotateY(0deg);
+     transform-style: preserve-3d;
+     cursor: pointer;
+ }
+
+ .tarjeta.active{
+     transform: rotateY(180deg);
+ }
+
+ .tarjeta > div {
+     padding: 30px;
+     border-radius: 15px;
+     min-height: 315px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     box-shadow: 0 10px 10px 0 rgba(90,116,148,0.3);
+ }
+
+ 
+.tarjeta .delantera{
+    width: 100%;
+    background-image:url(../img/fondotarjeta.jpg);
+    
+}
+
+.delantera .logoMarca{
+    text-align: right;
+    min-height: 50px;
+}
+
+.delantera .logoMarca img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 20%;
+}
+
+.delantera .chip{
+    width: 100%;
+    max-width: 50px;
+}
+
+.delantera .grupo .label{
+    font-size: 12px;
+    color: gainsboro;
+    
+}
+
+.delantera .grupo .numero,
+.delantera .grupo .nombre,
+.delantera .grupo .expiracion{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.delantera .flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trasera{
+    background-image: url(../img/fondotarjeta.jpg);
+    position: absolute;
+    top: 0;
+    transform:  rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.trasera .barra-magnetica{
+    height: 40px;
+    background-color: wheat;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.trasera .datos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.trasera .datos p{
+    margin-bottom: 5px;
+}
+
+.trasera .datos #firma{
+    width: 70%;
+}
+
+.trasera .datos #firma .firma{
+    height: 40px;
+    background: repeating-linear-gradient(skyblue 0, skyblue 5px, orange 5px, orange 10px);
+}
+
+.trasera .datos #firma .firma p{
+    line-height: 40px;
+    font-family: cursive;
+    color: black;
+    font-size: 18px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+.trasera .datos #ccv{
+    width: 20%;
+}
+
+.trasera .datos #ccv .ccv{
+    background: white;
+    height: 40px;
+    color: black;
+    padding: 10PX;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.trasera .leyenda {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.trasera .link-banco{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+#derecha{
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-top: 84px #E1564F solid;
+    border-radius: 8px;
+    line-height: 300%;
+}
+
+h1{
+    height: 84px;
+    text-align: center;
+    z-index: 2;
+    margin-top: -110px;
+    color: white;
+    font-size: 30px;
+}
+
+input, button{
+    height: 65px;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+label{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.fechaCodigo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajaMesAño{
+    display: flex;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.tipoCard{
+    margin: auto;
+    width: 315px;
+    height: 90px;
+}
+
+button{
+    height: 65px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #E1564F;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #ca413a;
+}
+
+select{
+    height: 65px;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: solid 1px;
+   
+}
+
+.año{
+    margin-left: 20px;
+}

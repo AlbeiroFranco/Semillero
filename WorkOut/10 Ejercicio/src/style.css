@@ -41,22 +41,6 @@ h3{
     color:  #5AA7A9;
 }
 
-.new{
-    background-color: #65A29B;
-    color: #FFFFFF;
-    border-radius: 20px;
-    padding: 8px;
-    margin-left: 10px;
-}
-
-.featured{
-    background-color: black;
-    color: #FFFFFF;
-    border-radius: 20px;
-    padding: 8px;
-    margin-left: 10px;
-}
-
 button{
     text-decoration: none;
     padding: 10px;
@@ -120,19 +104,18 @@ button:hover{
 @media screen and (max-width: 881px) {
 
     article{
-        border: solid red;
         display: flex;
         flex-direction: column;
-        padding: 20px;
     }
  
-
-    nav{
-        margin-top: 5%;
+    .logoImg{
+        width: 25%;
     }
     
-
-
-    
-
+    .leftContainer{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-around;
+    }
 }
