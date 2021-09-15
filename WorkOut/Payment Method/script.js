@@ -20,9 +20,9 @@ asideCard.append(delantera);
 let logoMarca = crearContenido('div', 'class', 'logoMarca');
 delantera.append(logoMarca);
 
-let imglogo = crearContenido('img', 'class', 'imgLogo');
+/*let imglogo = crearContenido('img', 'class', 'imgLogo');
 imglogo.src="./img/visa.png";
-logoMarca.append(imglogo);
+logoMarca.append(imglogo);*/
 
 let chip = crearContenido('img', 'class', 'chip');
 chip.src="./img/chip.png";
@@ -38,7 +38,7 @@ datos.append(grupo);
 let numTarj = crearContenido('p','class', 'label');
 numTarj.textContent="Numero Tarjeta";
 let numero = crearContenido('p','class', 'numero');
-numero.textContent="#### #### #### ####"
+numero.textContent="";
 grupo.append(numTarj,numero);
 
 let flex = crearContenido('div', 'class', 'flexbox');
@@ -51,7 +51,6 @@ flex.append(grupo2);
 let nomTarj = crearContenido('p', 'class', 'label');
 nomTarj.textContent="Nombres y Apellidos"
 let nombre = crearContenido('p', 'class', 'nombre');
-nombre.textContent="Albeiro Franco";
 grupo2.append(nomTarj,nombre);
 
 let grupo3 = crearContenido('div', 'id', 'expiracion')
@@ -88,7 +87,6 @@ grupo4.append(parrafo);
 let firma = crearContenido('div', 'class', 'firma');
 grupo4.append(firma);
 let parrafoFirma = document.createElement('p');
-parrafoFirma.textContent="Albeiro Franco"
 firma.append(parrafoFirma);
 
 let grupo5 = crearContenido('div', 'id', 'ccv');
@@ -136,6 +134,7 @@ section2.append(label2);
 let input2 = document.createElement('input');
 input2.type = "text";
 input2.placeholder = "Ingresa Numero de tarjeta";
+input2.maxLength="19"
 section2.append(input2);
 
 let fechaCodigo = crearContenido('div', 'class', 'fechaCodigo');
@@ -155,17 +154,17 @@ let select1 = crearContenido('select', 'id', 'selectMes');
 select1.name='mes';
 cajaMesAño.append(select1);
 
-let inputMes = crearContenido('option', 'class', 'mes');
-inputMes.textContent =  "Mes";
-select1.append(inputMes);
+let optionMes = crearContenido('option', 'class', 'mes');
+optionMes.textContent =  "Mes";
+select1.append(optionMes);
 
-let select2 = crearContenido('select', 'id', 'selectMes');
-select2.name='mes';
+let select2 = crearContenido('select', 'id', 'selectAño');
+select2.name='Año';
 cajaMesAño.append(select2);
 
-let inputAño = crearContenido('option', 'class', 'selectAño');
-inputAño.textContent =  "Año";
-select2.append(inputAño);
+let optionAño = crearContenido('option', 'class', 'año');
+optionAño.textContent =  "Año";
+select2.append(optionAño);
 
 let div2 = crearContenido('div', 'class', 'div2');
 fechaCodigo.append(div2);
@@ -176,6 +175,7 @@ div2.append(label4);
 
 let inputCodigo = document.createElement('input')
 inputCodigo.value =  "CCV";
+inputCodigo.maxLength="3"
 div2.append(inputCodigo);
 
 let img2 = crearContenido('img', 'class', 'tipoCard');
@@ -184,13 +184,100 @@ section2.append(img2);
 
 let button = document.createElement('button');
 button.textContent = "CONFIRM";
+button.type = "submit"
 section2.append(button);
+
+const mostrarFrente = () => {
+    if(asideCard.classList.contains('active')){
+        asideCard.classList.remove('active');
+    }
+}
 
 asideCard.addEventListener('click', () => {
    asideCard.classList.toggle('active');
 
+});
+
+
+for(let i = 1; i <= 12; i++){
+    let opcion = document.createElement('option');
+    opcion.value = i;
+    opcion.innerText = i;
+    select1.appendChild(opcion);
+}
+
+const yearActual = new Date().getFullYear();
+for( let i = yearActual; i <= yearActual + 5; i++){
+    let opcion = document.createElement('option');
+    opcion.value = i;
+    opcion.innerText = i;
+    select2.appendChild(opcion);
+}
+
+input2.addEventListener('keyup', (e) => {
+    let valorInput = e.target.value;
+
+    input2.value = valorInput.replace(/\s/g, '').replace(/\D/g, '').replace(/([0-9]{4})/g, '$1 ').trim();
+
+    numero.textContent = valorInput;
+    if(valorInput == ''){
+        numero.textContent= ""
+
+        logoMarca.innerHTML='';
+    }
+
+    if(valorInput[0] == 4){
+        logoMarca.innerHTML = '';
+        const imgLogo = document.createElement('img');
+        imgLogo.src = "./img/visa.png";
+        logoMarca.appendChild(imgLogo);
+
+    } else if(valorInput[0] == 5){
+        logoMarca.innerHTML = '';
+        const imgLogo = document.createElement('img');
+        imgLogo.src = "./img/master.png";
+        logoMarca.appendChild(imgLogo);
+    }
+
+    mostrarFrente();
+
+});
+
+input1.addEventListener('keyup', (e) =>{
+    let valorInput = e.target.value;
+
+    input1.value = valorInput.replace(/[0-9]/g, '');
+    nombre.textContent = valorInput;
+    parrafoFirma.textContent = valorInput;
+
+    if(valorInput == ""){
+        nombre.textContent = ""
+    }
+
+    mostrarFrente();
 })
 
+select1.addEventListener('change', (e) => {
+    spanMes.textContent = e.target.value;
+
+    mostrarFrente();
+})
+
+select2.addEventListener('change', (e) => {
+    spanAño.textContent = e.target.value.slice(2);
+
+    mostrarFrente();
+})
+
+inputCodigo.addEventListener('keyup', (e) =>{
+    if(!asideCard.classList.contains('active')){
+        asideCard.classList.toggle('active');
+    }
+
+    inputCodigo.value = inputCodigo.value.replace(/\s/g, '').replace(/\D/g, '');
+
+    parrafoCcv1.textContent = inputCodigo.value
+})
 
 
 
