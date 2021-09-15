@@ -122,6 +122,15 @@ En esta semana recibimos capacitación de para  realizar actividades en JavaScri
 ![image](https://user-images.githubusercontent.com/87336609/132230974-0b837005-07f7-41fa-b1cc-fb0f65aaf852.png)
 ![image](https://user-images.githubusercontent.com/87336609/132235962-7f18bdfc-94c6-4d8c-b6a6-6a20347e98cb.png)
 
+Novena Semana
+
+Esta semana fue un poco más compleja ya que realizamos una actividad en JavaScript donde nos pedían realizar un filtrado de búsqueda, al principio parecía fácil pero el nivel de complejidad se vio a la hora de realizar en JavaScript lo más importante fue que entre todo el equipo se logró realizar la actividad, también realizamos varios ejercicios con JS30 que cada vez son un poco más difíciles pero entendibles. 
+
+Algunos ejercicios realizados esta semana.
+
+![image](https://user-images.githubusercontent.com/87336609/133497404-f33e4c53-56fa-461a-b655-00095be048e9.png)
+![image](https://user-images.githubusercontent.com/87336609/133497614-648192c7-9872-4275-aef3-bfe9b111b588.png)
+
 
 
 
