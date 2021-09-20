@@ -25,6 +25,7 @@ main{
     flex-direction: column;
     width: 40%;
     justify-content: center;
+    padding: 50px;
  }
 
  .tarjeta{
@@ -129,7 +130,7 @@ main{
 
 .trasera .datos #firma .firma{
     height: 40px;
-    background: repeating-linear-gradient(skyblue 0, skyblue 5px, orange 5px, orange 10px);
+    background: whitesmoke;
 }
 
 .trasera .datos #firma .firma p{
@@ -164,10 +165,6 @@ main{
     color: white;
 }
 
-
-
-
-
 #derecha{
     display: flex;
     flex-direction: column;
@@ -178,6 +175,7 @@ main{
     border-top: 84px #E1564F solid;
     border-radius: 8px;
     line-height: 300%;
+    width: 50%;
 }
 
 h1{
@@ -198,12 +196,21 @@ input, button{
 
 label{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .fechaCodigo{
     display: flex;
     justify-content: space-between;
+}
+
+#selectMes{
+    width: 50%;
+}
+
+#selectAño{
+    width: 50%;
+    margin-left: 10px;
 }
 
 .cajaMesAño{

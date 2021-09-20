@@ -91,7 +91,7 @@ firma.append(parrafoFirma);
 
 let grupo5 = crearContenido('div', 'id', 'ccv');
 grupo5.classList.add('grupo');
-datos2.append(grupo5);
+datos2.append(grupo5)
 
 let parrafoCcv = crearContenido('p', 'class', 'label');
 parrafoCcv.textContent="CCV";
@@ -107,15 +107,11 @@ linkBanco.href="#";
 linkBanco.textContent="www.mibanco.com"
 trasera.append(linkBanco);
 
-
-
-
-
 let section2 = crearContenido('section', 'id', 'derecha');
 main.append(section2);
 
 let titulo = document.createElement('h1');
-titulo.textContent= "PAYMENT METHODS";
+titulo.textContent= "PAYMENT METHOD";
 section2.append(titulo);
 
 let label1 = document.createElement('label');

@@ -15,7 +15,7 @@ var jobList = [
       specifics: "1d ago • Part Time • Remote",
       tags2: ["fullstack", "Midweight", "Python", "CSS", "React"],
     },
-    {
+    { 
       image: "./images/account.svg",
       logoName: "Account",
       tags1: ["new!"],

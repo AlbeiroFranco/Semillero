@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #DCE6F2;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+}
+
+
+
+.section1{
+    width: 35%;
+}
+
+.section2{
+    width: 65%;
+    margin-left: 4%;
+}
+  
+.tittle { 
+    background-color: white;
+    border-radius: 8px;  
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    box-shadow: 3px 6px 20px -10px rgba(0,0,0,0.64);
+}
+
+.nombre{
+    margin-left: 20px;
+}
+
+button{
+    width: 139px;
+    height: 28px;
+    border-radius: 8px;
+    background-color: #0078D4;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+  
+.Informacion {
+    background-image: url(../img/blueTop.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 3px 6px 20px -10px rgba(0,0,0,0.64);
+}
+    
+h1{
+    margin-top: -10px;
+    text-align: center;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 24px;
+}
+
+input{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    height: 42px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: solid 1px gray;
+    outline: none;
+}
+
+h2{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    border-top: solid 3px #0078D4;
+    font-size: 13px;
+    margin-top: 50%;
+}
+ 
+.active{
+    display: none;
+}
+
+.insertar{
+    background-image: url(../img/backcard.svg);
+    background-repeat: no-repeat;   
+    background-size: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.post{
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post input{
+    height: 89px;
+}
+  
+.info1, .info2{
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+.person{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.person p {
+    margin-left: 20px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+  margin-top: -5px; 
+  text-align: center; 
+  color: white;
+  margin-bottom: 40px;
+}
+
+p{
+    font-weight: 600;
+}
+
+
+  
