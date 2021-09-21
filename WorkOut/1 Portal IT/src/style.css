@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    width: 50%;
+    padding: 30px;
+}
+
+.input1, .input2, .input3, .input4, .input5{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid 2px #C4C4C4;
+    outline: none;
+    
+}
+
+h1{
+    font-size: 31px;
+    color: #6D6B6B;
+}
+
+img{
+    width: 50%;
+    padding: 20px;
+}
+
+.boton{
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #2281FF;
+    border: none;
+    padding: 0;
+    color: white;
+    margin: 20px auto;
+    float: right;
+}
+
+.condiciones{
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.check{
+    width: 15px;
+    height: 15px;
+}
+
+.terminos{
+    font-size: 15px;
+    margin-top: 100px;
+    color: #9D9C9C;
+   
+}
+
+footer{
+    background-color: #262A2E;
+    color: white;
+    font-size: 12px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error{
+    border: 2px solid red;
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+
+}
+
+.pError{
+    color:red;
+    font-size: 18px;
+    text-align: center;
+    
+    
+}
+
+.success{
+    border: 3px solid green;
+}
+
+zz{
+    color: #2281FF ;
+}
+
+@media screen and (max-width: 881px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .formulario{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+        padding: 40px;
+    }
+}

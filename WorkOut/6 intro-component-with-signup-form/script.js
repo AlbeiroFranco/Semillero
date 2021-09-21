@@ -44,7 +44,6 @@ let div1 = document.createElement("div");
 formulario.append(div1)
 
 let input1 = inputForm("text", "id", "firstname", "First Name");
-input1.innerHTML="hola<br>";
 div1.append(input1);
 
 let span1 = document.createElement("span");
@@ -85,13 +84,6 @@ let terms = crearContenido("p", "class", "text-form");
 terms.innerHTML=" By clicking the button, you are agreeing to our <b>Terms and Services</b>"
 formulario.append(terms);
 
-const form = document.getElementById('formulario');
-const fn = document.getElementById('firstname');
-const ln = document.getElementById('lastname');
-const email = document.getElementById('email');
-const password = document.getElementById('password');
-
-
 function error(info, message){
     const control = info.parentElement;
     const span = control.querySelector('span');
@@ -104,40 +96,41 @@ function success(info){
     info.className += 'success';
 }
 
-form.addEventListener('submit', e => {
+formulario.addEventListener('submit', e => {
     e.preventDefault();
 
-    var firstName = fn.value.trim();
-    var lastName = ln.value.trim();
-    var emailV = email.value.trim();
-    var passwordV = password.value.trim();
+    let firstName = input1.value.trim();
+    let lastName = input2.value.trim();
+    let emailV = email.value.trim();
+    let passwordV = password.value.trim();
 
     if(firstName === ''){
-        error(fn, 'First Name cannot be empty');
+        error(input1, 'First Name cannot be empty');
     }
     else{
         success(fn);
+        
     }
 
     if(lastName === ''){
-        error(ln, 'Last Name cannot be empty');
+        error(input2, 'Last Name cannot be empty');
     }
     else{
-        success(ln);
+        success(input2);
     }
 
     if(emailV === ''){
-        error(email, 'Looks like this is not an email');
+        error(input3, 'Looks like this is not an email');
     }
     else{
-        success(email);
+        success(input3);
     }
 
     if(passwordV === ''){
-        error(password, 'Password cannot be empty');
+        error(input4, 'Password cannot be empty');
     }
     else{
-        success(password);
+        success(input4);
     }
 
    

@@ -15,7 +15,7 @@ let completa = function(texto,){
 
 ocultar.addEventListener('click' , () =>{
     sperfil.classList.toggle('active');
-    cambiar.classList.remove('active')
+    cambiar.classList.remove('active');
 })
 
 ocultar1.addEventListener('click', () =>{
@@ -26,7 +26,7 @@ ocultar1.addEventListener('click', () =>{
 
 campos.forEach( perfil => {
     perfil.addEventListener('click', () => {
-        console.log(perfil)
+        console.log(perfil);
         sperfil.innerHTML = '';
         if(perfil.id === 'perfil'){
             insertarPerfil(datos[0]);
@@ -39,7 +39,7 @@ campos.forEach( perfil => {
 
         }else{
             (configuracion === 'configuracion');
-            insertarConfiguracion(datos[4])
+            insertarConfiguracion(datos[4]);
         }    
                         
     })
