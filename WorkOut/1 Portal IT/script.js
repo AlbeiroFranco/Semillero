@@ -125,6 +125,12 @@ formulario.addEventListener('submit', (e) => {
         success(email);
     }
 
+    if (check.checked == true){
+        
+    }else if(check.checked == false){
+    
+        alert('Acepte los terminos');
+    }
     
 });
 
