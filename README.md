@@ -131,6 +131,45 @@ Algunos ejercicios realizados esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/133497404-f33e4c53-56fa-461a-b655-00095be048e9.png)
 ![image](https://user-images.githubusercontent.com/87336609/133497614-648192c7-9872-4275-aef3-bfe9b111b588.png)
 
+Decima Semana.
+
+En esta semana realizamos más ejercicios cada vez más difíciles realizamos un método de pago, en el cual yo realice una versión de pago en tarjeta de crédito fuer un reto aprendí demasiado y gracias a tutoriales pude realizar la actividad, También realizamos una actividad con la cual teníamos que obtener la información personal de una persona también fue un reto porque aprendí a consumir datos desde un archivo js, También En JS 30 aprendimos demasiado hicimos un filtro de búsqueda también un reproductor  esta semana fue muy productiva y de mucho aprendizaje. 
+
+Algunos Ejercicios realizados esta semana.  
+
+![image](https://user-images.githubusercontent.com/87336609/134954604-0c7b4463-e9bb-40d4-aca5-abfb5344cce9.png)
+![image](https://user-images.githubusercontent.com/87336609/134954661-fe4a9e8d-bd9e-4336-9263-95bd7241f08c.png)
+![image](https://user-images.githubusercontent.com/87336609/134955409-9e915816-90de-48c6-884e-618ef1457e64.png)
+![image](https://user-images.githubusercontent.com/87336609/134956124-db31afde-fd1a-409b-92cc-49b836c54823.png)
+![image](https://user-images.githubusercontent.com/87336609/134956178-15895cd4-88ad-4f75-ab2a-fb862d96450d.png)
+![image](https://user-images.githubusercontent.com/87336609/134956260-4ec276aa-01f1-4466-b8a4-602d3eea5eb1.png)
+![image](https://user-images.githubusercontent.com/87336609/134956494-70ed2edb-528c-41a5-ac81-1c0fe46eeb6e.png)
+
+Onceava semana. 
+
+En esta semana comenzamos con la práctica de realizar los diseños de la empresa el primero fue sencillo y no me demore mucho en hacerlo, ya el segundo diseño era un diseño de posicionamiento de imágenes se veía fácil pero tenía su complejidad, también empezamos con CODEWARS que este si me pareció realmente difícil es una página de ejercicios de codificación que si o si tenemos que tener comprensión de lectura ya que son complejos los ejercicios, ya por ultimo realizamos un formulario de la página de SINCO y pues este diseño fue muy práctico ya que vi más cosas que no sabía cómo realizar los botones de check y agregar archivos. 
+
+Diseños realizados esta semana. 
+
+
+![image](https://user-images.githubusercontent.com/87336609/134958713-47b4ae68-34cb-46fd-831f-6ed62f59fe92.png)
+![image](https://user-images.githubusercontent.com/87336609/134959025-5d61128f-655b-4b5f-a6b2-57e8a1532bc1.png)
+![image](https://user-images.githubusercontent.com/87336609/134959108-99a98b2b-0981-443e-bf85-5b831fe69ed1.png)
+![image](https://user-images.githubusercontent.com/87336609/134959291-5b4c4b7b-e059-406f-a8ef-75017198a159.png)
+
+CODEWARS
+
+![image](https://user-images.githubusercontent.com/87336609/134959463-3fb833d1-ead6-485c-ac3d-cfb37edaf258.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
