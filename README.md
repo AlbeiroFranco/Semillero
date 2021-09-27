@@ -153,7 +153,6 @@ Diseños realizados esta semana.
 
 
 ![image](https://user-images.githubusercontent.com/87336609/134958713-47b4ae68-34cb-46fd-831f-6ed62f59fe92.png)
-![image](https://user-images.githubusercontent.com/87336609/134959025-5d61128f-655b-4b5f-a6b2-57e8a1532bc1.png)
 ![image](https://user-images.githubusercontent.com/87336609/134959846-51867b0d-540c-47a7-8061-f413ac1056fa.png)
 ![image](https://user-images.githubusercontent.com/87336609/134959108-99a98b2b-0981-443e-bf85-5b831fe69ed1.png)
 ![image](https://user-images.githubusercontent.com/87336609/134959291-5b4c4b7b-e059-406f-a8ef-75017198a159.png)
