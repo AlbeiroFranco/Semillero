@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>CONFIGURACION DE RIESGOS</h1>
+        <section>
+            <article class="izquierda">
+                <input type="submit" name="" id="menu1" value="IMPACTOS">
+                <input type="submit" name="" id="menu2" value="PROBABILIDADES">
+                <input type="submit" name="" id="menu3" value="TIPO DE RIESGO">
+                <input type="submit" name="" id="menu4" value="EVALUACIÓN DEL RIESGO">
+            </article>
+
+            <article class="derecha">
+                <div class="tituloForm">
+                <h2>IMPACTOS</h2>
+                <input class="nuevo" type="submit" value="Nuevo">
+                </div>
+
+                <table id="tbinfor">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Descripción</th>
+                            <th>Valor Mínimo</th>
+                            <th>Valor Máximo</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    
+
+                    <tbody>
+
+                    </tbody>
+                
+                    </table>
+                    
+                    <form class="formulario">
+                        <div class="form">
+
+                            <div class="label">
+                                <label for="txtCodigo">Codigo</label>
+                                <label for="txtDescripcion">Descripcion</label>
+                                <label for="txtValorMin">Valor Mínimo</label>
+                                <label for="txtValorMax">Valor Máximo</label>
+                            </div>
+                        
+                            <div class="input">
+                                <input type="number" id="txtCodigo">
+                                <input type="text" id="txtDescripcion">
+                                <input type="number" id="txtValorMin">
+                                <input type="number" id="txtValorMax">
+                            </div>
+                        </div>
+                        
+                        <input class="guardar" type="submit" value="Guardar">
+                    </form>           
+                        
+                
+            </article>
+        </section>
+
+        
+            
+
+    </main>
+    <script src="./mostrar.js"></script>
+    <script type ="module" src="./script.js"></script>
+</body>
+</html>

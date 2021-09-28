@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDDDDD;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+main{
+    padding: 20px;
+    width: 90%;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1{
+    color: #247FCD;
+}
+
+section{
+    display: flex;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu1, #menu2, #menu3, #menu4{
+    height: 48px;
+    width: 90%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+    color: #734A54;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.derecha{
+    width: 75%;
+}
+
+.tituloForm{
+    background-color: #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    align-items: center;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+h2{
+    margin-left: 40%;
+    color: #734A54;
+}
+
+
+.nuevo{
+    width: 65px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007ACC;
+    color: white;
+}
+
+table, tr, th, td{
+    font-family: "Questrial", sans-serif;
+    border: solid 1px #8d8d8d;
+    border-spacing: 0;
+    height: 37px;
+   
+
+}
+
+table{
+    width: 95%;
+    margin: 1% auto;
+    font-family: "Questrial", sans-serif;
+    border-radius: 8px;
+    
+}
+
+form{
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    border-top: 30px solid #428BCA ;
+    display: none;
+     
+}
+
+.form{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+

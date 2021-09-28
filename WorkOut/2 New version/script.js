@@ -49,7 +49,7 @@ let section4 = crearContenido('div', 'class', 'section4');
 container.append(section4);
 
 let titulo2 = crearContenido('h2', 'class', 'titulo2');
-titulo2.innerHTML='Nuestra página de soporte ha <span>evoluvionado</span>';
+titulo2.innerHTML='Nuestra página de soporte ha <span>evolucionado</span>';
 let circle = crearContenido('img', 'class', 'circle');
 circle.src='./images/Circle.svg';
 let person = crearContenido('img', 'class', 'person');

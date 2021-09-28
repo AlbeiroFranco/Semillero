@@ -111,7 +111,7 @@ let section2 = crearContenido('section', 'id', 'derecha');
 main.append(section2);
 
 let titulo = document.createElement('h1');
-titulo.textContent= "PAYMENT METHOD";
+titulo.textContent= "METODO DE PAGO";
 section2.append(titulo);
 
 let label1 = document.createElement('label');
@@ -179,7 +179,7 @@ img2.src="./img/image 5.png";
 section2.append(img2);
 
 let button = document.createElement('button');
-button.textContent = "CONFIRM";
+button.textContent = "CONFIRMAR";
 button.type = "submit"
 section2.append(button);
 

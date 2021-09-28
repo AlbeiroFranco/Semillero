@@ -25,6 +25,7 @@ h1 {
     left: -22px;
     font-size: 42px;
     font-weight: 400;
+    color: #4C88B5;
 }
 
 h1 span{
@@ -54,16 +55,27 @@ h1 span{
     height: 184px;
 }
 
+.old:hover{
+    width: 405px;
+    height: 284px;
+}
+
 .new{
     width: 293px;
     height: 216px;
 }
 
+.new:hover{
+    width: 393px;
+    height: 316px;
+}
 .oldtext{
     width: 129px;
     font-size: 25px;
     font-weight: 500;
 }
+
+
 
 .newtext{
     width: 155px;
