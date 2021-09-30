@@ -13,6 +13,7 @@ main{
     margin: 10% auto;
     background-color: white;
     border-radius: 8px;
+    
 }
 
 h1{
@@ -77,9 +78,9 @@ h2{
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    background-color: black;
+    background-color: white;
     margin-top: 30px;
-    color:  white;
+    color:  black;
 }
 
 .space{
@@ -101,15 +102,25 @@ h2{
     width: 40%;
     margin: 3px;
     padding: 4px;
+    background-color: white;
+    border: none;
 }
 
+img{
+    width: 30px;
+    height: 30px;
+}
 
+form{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    border: #007ACC solid 1px ;
+    display: none;
+}
 
-
-
-
-
-
-
-
+form h2{
+    color: white;
+    background-color: #007ACC;
+}
 

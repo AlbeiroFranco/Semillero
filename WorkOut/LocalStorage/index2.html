@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Risk Configuration</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<body onload="Read()" >
+<body onload="Read()">
     <main>
         <h1>CONFIGURACION DE RIESGOS</h1>
         <section>
@@ -34,9 +32,21 @@
                 
                 <div id="reg">
                     <form id="form">
-                        <h1 class="space">User</h1>
-                        <input type="text" id="name" class="space" placeholder="Name">
-                        <button class="space" type="submit">Submit</button>
+                        <h2 class="space">IMPACTOS</h2>
+                        <div class="div1">
+                            <label>Descripcion: </label>
+                            <input type="text" id="name" class="space">
+                        </div>
+                        
+                        <div class="div2">
+                            <label>Valor: </label>
+                            <input type="text" id="valor2" class="space">
+                        </div>
+                        
+                       
+
+
+                        <button class="space" type="submit">Guardar</button>
                     </form>
             
                 </div>
@@ -52,7 +62,9 @@
             
 
     </main>
-    
-    <script type ="module" src="./script.js"></script>
+
+      
+
+    <script src="./script2.js"></script>
 </body>
 </html>
