@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body onload="Read()">
+    <main>
+        <h1>CONFIGURACION DE RIESGOS</h1>
+        <section>
+            <article class="izquierda">
+                <div class="opciones">
+                <a href="./impactos.html">
+                    <input type="submit" id="menu1" value="IMPACTOS">
+                </a>
+                
+                <a href="./probabilidades.html">
+                    <input type="submit" id="menu2" value="PROBABILIDADES">
+                </a>
+                
+                <a href="./riesgo.html">
+                    <input type="submit" id="menu3" value="TIPO DE RIESGO">
+                </a>
+                
+                <a href="./evaluacion.html">
+                    <input type="submit" id="menu4" value="EVALUACIÓN DEL RIESGO">
+                </a>
+                </div>
+            </article>
+
+            <article  class="derecha">
+                <div class="tituloForm">
+                <h2>TIPO DE RIESGO</h2>
+                <input class="nuevo" type="submit" value="Nuevo Tipo">
+                </div>
+
+                <div id="reg1">
+                    <table id="nameTR">
+                                 
+                    </table>
+                </div>
+                
+                <div id="reg">
+                    <form id="form">
+                        
+                        <div class="titulo">
+                            <h3 class="space">EVALUACIÓN DEL RIESGO</h3>
+                            <input type="button" value="" class="x">
+                        </div>
+
+                        <div class="div1">
+                            <label>Descripcion: </label>
+                            <input type="text" id="riesgos" class="space">
+                        </div>
+                        
+                        <div class="div2">
+                            <label>Interno: </label>
+                            <input type="text" id="valor2" class="space">
+                        </div>
+                        
+                       
+
+
+                        <button class="space" type="submit">Guardar</button>
+                    </form>
+            
+                </div>
+
+                
+                           
+                        
+                
+            </article>
+        </section>
+
+        
+            
+
+    </main>
+
+      
+
+    <script src="./riesgo.js"></script>
+</body>
+</html>

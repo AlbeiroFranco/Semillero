@@ -7,9 +7,14 @@ let name,
 
 let mostrar = document.querySelector('.nuevo');
 let formulario = document.querySelector('#form')
+let ocultar = document.querySelector('.x')
 
 mostrar.addEventListener('click', () =>{
-    formulario.style.display = 'block';
+    formulario.classList.toggle('mostrar');
+})
+
+ocultar.addEventListener('click', () =>{
+    formulario.classList.remove('mostrar')
 })
 
 document.getElementById('form').addEventListener('submit',(e)=>{
@@ -56,7 +61,7 @@ function Read() {
                 <th class = "space">Codigo</th>
                 <th class = "space">Descripción</th>
                 <th class = "space">valor</th>
-                <th class = "space">Accion</th>
+                <th class = "space">Acción</th>
             </tr>
             `
             
@@ -66,7 +71,7 @@ function Read() {
                 <th class = "space">Codigo</th>
                 <th class = "space">Descripción</th>
                 <th class = "space">valor</th>
-                <th class = "space">Accion</th>
+                <th class = "space">Acción</th>
             </tr>
             `
 
@@ -97,7 +102,7 @@ function Update(names){
                 <th class = "space">Codigo</th>
                 <th class = "space">Descripción</th>
                 <th class = "space">valor</th>
-                <th class = "space">Accion</th>
+                <th class = "space">Acción</th>
             </tr>
     `
     for(let i = 0; i < names4.length; i++){

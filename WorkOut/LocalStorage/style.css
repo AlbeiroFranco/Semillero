@@ -13,7 +13,6 @@ main{
     margin: 10% auto;
     background-color: white;
     border-radius: 8px;
-    
 }
 
 h1{
@@ -25,27 +24,32 @@ section{
 }
 
 .izquierda{
-    display: flex;
-    flex-direction: column;
     width: 25%;
-    align-items: center;
-    justify-content: space-between;
+    padding: 10px;
 }
 
 #menu1, #menu2, #menu3, #menu4{
     height: 48px;
-    width: 90%;
-    margin-bottom: 20px;
+    width: 100%;
+    margin: 20px auto;
     border: none;
     border-radius: 8px;
     background-color: #DDDDDD;
     color: #734A54;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
+    cursor: pointer;
 }
 
 .derecha{
+    padding: 30px;
     width: 75%;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tituloForm{
@@ -59,34 +63,69 @@ section{
     padding: 2%;
 }
 
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 10px;
+}
+
+h3{
+    color: white;
+    font-weight: 400;
+}
+
+.x{
+    background-image: url(./design/x.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
 h2{
     margin-left: 40%;
     color: #734A54;
+    font-weight: 600;
 }
 
-
 .nuevo{
-    width: 65px;
+    width: 12%;
     height: 36px;
     border-radius: 8px;
     border: none;
     background-color: #007ACC;
     color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#reg1{
+    width: 90%;
+    margin: 20px auto;
+    font-family: "Questrial", sans-serif;
 }
 
 #reg{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: auto;
     text-align: center;
     background-color: white;
-    margin-top: 30px;
     color:  black;
+    width: 30%;
+    top: 47%;
+    right: 18%;
+    position: absolute;
+    
 }
 
 .space{
     padding: 10px;
     margin: 10px;
 }
+
 #nameTR{
     border-collapse: collapse;
     width: 100%;
@@ -94,16 +133,48 @@ h2{
 
 #nameTR td, th{
     text-align: left;
-    border: 1px solid #DDDDDD;
+    padding-left: 20px;
+    border: 2px solid #DDDDDD;
 
+}
+
+td input{
+    height: 35px;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid 2px #DDDDDD;
+}
+
+td button{
+    height: 60px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+th{
+    text-align: center;
 }
 
 #nameTR button{
     width: 40%;
-    margin: 3px;
-    padding: 4px;
     background-color: white;
     border: none;
+}
+
+form input{
+    border-radius: 6px;
+    outline: none;
+    border: solid 2px #DDDDDD;
+}
+
+form button{
+    border : none;
+    width: 30%;
+    border-radius: 8px;
+    background-color: #007ACC;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
 }
 
 img{
@@ -112,15 +183,22 @@ img{
 }
 
 form{
-    border: solid;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    border: #007ACC solid 1px ;
+    
     display: none;
+    border-radius: 10px;
+    margin: auto;
+    background-image: url(./design/border.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 22%;
+    box-shadow: 6px 5px 3px -3px rgba(0,0,0,0.28);
 }
 
-form h2{
-    color: white;
-    background-color: #007ACC;
+.mostrar{
+    display: block;
 }
+
+
 

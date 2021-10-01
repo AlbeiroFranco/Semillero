@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -12,10 +14,24 @@
         <h1>CONFIGURACION DE RIESGOS</h1>
         <section>
             <article class="izquierda">
-                <input type="submit" name="" id="menu1" value="IMPACTOS">
-                <input type="submit" name="" id="menu2" value="PROBABILIDADES">
-                <input type="submit" name="" id="menu3" value="TIPO DE RIESGO">
-                <input type="submit" name="" id="menu4" value="EVALUACIÓN DEL RIESGO">
+                <div class="opciones">
+                    <a href="./impactos.html">
+                        <input type="submit" name="" id="menu1" value="IMPACTOS">
+                    </a>
+                    
+                    <a href="./probabilidades.html">
+                        <input type="submit" name="" id="menu2" value="PROBABILIDADES">
+                    </a>
+                    
+                    <a href="./riesgo.html">
+                        <input type="submit" name="" id="menu3" value="TIPO DE RIESGO">
+                    </a>
+                    
+                    <a href="./evaluacion.html">
+                        <input type="submit" name="" id="menu4" value="EVALUACIÓN DEL RIESGO">
+                    </a>
+                    </div>
+                
             </article>
 
             <article  class="derecha">
@@ -24,7 +40,7 @@
                 <input class="nuevo" type="submit" value="Nuevo">
                 </div>
 
-                <div id="reg">
+                <div id="reg1">
                     <table id="nameTR">
                                  
                     </table>
@@ -32,7 +48,12 @@
                 
                 <div id="reg">
                     <form id="form">
-                        <h2 class="space">IMPACTOS</h2>
+
+                        <div class="titulo">
+                            <h3 class="space">IMPACTOS</h3>
+                            <input type="button" value="" class="x">
+                        </div>
+
                         <div class="div1">
                             <label>Descripcion: </label>
                             <input type="text" id="name" class="space">
@@ -65,6 +86,6 @@
 
       
 
-    <script src="./script2.js"></script>
+    <script src="./impactos.js"></script>
 </body>
 </html>
