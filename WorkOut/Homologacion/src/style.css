@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    width: 95%;
+    margin: 2% auto;
+    justify-content: space-around;
+}
+
+.section1{
+    width: 30%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.imglogo{
+    width: 65px;
+    height: 65px;
+}
+
+.titulo{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 12px;
+    color: #497DAE;
+}
+label{
+    font-weight: 600;
+}
+.nivel input{
+    width: 100%;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.informacion{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: auto;
+    border: solid 1px #DDDDDD;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.seleccion{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}    
+
+.section2{
+    width: 68%;
+    margin:  10px auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 15px -6px #000000;
+}
+
+.opciones{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 2px #DDDDDD;
+    color: #497DAE;
+}
+.imgcheck{
+    width: 25px;
+    height: 25px;
+}
+
+.imguncheck{
+    width: 20px;
+    height: 20px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+}
+
+.uncheck{
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.marcar, .desmarcar{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+th{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    border-collapse: collapse;
+    
+}
+
+thead{
+    border-bottom: solid 2px #DDDDDD;
+}
+
