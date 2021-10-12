@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F7F7F7;
+}
+
+h1{
+    font-size: 38px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 10px;
+    
+    
+}
+
+.seccion1 {
+    box-shadow: inset 1px 50px 0px -1px #113D72;
+    border-radius: 4px;
+    background-color: white;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.articulo1{
+    width: 70%;
+    background-color: #F7F7F7;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.fechaInicial, .fechaFinal{
+    display: flex;
+    padding: 20px;
+    width: 35%;
+    
+}
+
+#fechaInicial, #fechaFinal{
+    box-shadow: inset -42px 0px 0px 0px #2267A0;
+    outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    background-image: url(../iconos/calendarPlus.svg);
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+}
+
+input{
+    height: 27px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+select{
+    height: 27px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.articulo2{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.seccion2{
+    margin-top: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.filtro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+}
+
+.filtro1 , .filtro2, .filtro3, .filtro4{
+    display: flex;
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.infoFiltro1, .infoFiltro2 , .infoFiltro3 , .infoFiltro4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+button{
+    width: 175px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2267A0;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.ordenes{
+    box-shadow: inset 1px 50px 0px -1px #113D72;
+    border-radius: 4px;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-image: url(../iconos/icono\ mano\ fondo\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    height: 450px;
+    
+}
+
+.tabla{
+    overflow: auto;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}

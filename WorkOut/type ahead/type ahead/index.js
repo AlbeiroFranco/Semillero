@@ -5,7 +5,7 @@ fetch(endpoint)
     .then(blob => blob.json())
     .then(data => cities.push(...data))
 
-function findMathches(wordToMatch){
+function findMathches(wordToMatch) {
     return cities.filter(place => {
         const regex = new RegExp(wordToMatch, 'gi');
         return place.city.match(regex) || place.state.match(regex);
@@ -16,12 +16,12 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-function displayMathches(){
+function displayMathches() {
     const matchArray = findMathches(this.value);
-    const html = matchArray.map(place =>{
+    const html = matchArray.map(place => {
         const regex = new RegExp(this.value, 'gi');
-        const cityName = place.city.replace(regex,`<span class="hl">${this.value}</span>`);
-        const stateName = place.state.replace(regex,`<span class="hl">${this.value}</span>`);
+        const cityName = place.city.replace(regex, `<span class="hl">${this.value}</span>`);
+        const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
         return `
         <li>
             <span class = "name">${cityName}, ${stateName}</span>

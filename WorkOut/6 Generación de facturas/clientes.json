@@ -1,0 +1,85 @@
+[
+    {
+        "Orden": 641,
+        "FechaRegistro": "10/09/2021",
+        "Cliente": "0801748 - MABE COLOMBIA",
+        "ModeloNegocio": "MODELO MANTENIMIENTOS",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/10/2021",
+        "ValorTotal": "42,825,291,60",
+        "ValorAnticipo": "$0",
+        "Asociar": null
+    },
+
+    {
+        "Orden": 640,
+        "FechaRegistro": "10/09/2021",
+        "Cliente": "0489414 - FERRELECTRICOS",
+        "ModeloNegocio": "MODELO INTEGRACION",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/09/2021",
+        "ValorTotal": "9,338,511,91",
+        "ValorAnticipo": "$0",
+        "Asociar": null
+    },
+
+    {
+        "Orden": 639,
+        "FechaRegistro": "10/09/2021",
+        "Cliente": "0192021 - Jaime Forero",
+        "ModeloNegocio": "MODELO INTEGRACION",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/10/2021",
+        "ValorTotal": "2,483,211,82",
+        "ValorAnticipo": "$0",
+        "Asociar": null
+    },
+
+    {
+        "Orden": 638,
+        "FechaRegistro": "10/08/2021",
+        "Cliente": "0501897 - GALLEGO VALENCIA",
+        "ModeloNegocio": "MODELO MANTENIMIENTOS",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/09/2021",
+        "ValorTotal": "143,004,60",
+        "ValorAnticipo": "$0",
+        "Asociar": null
+    },
+
+    {
+        "Orden": 637,
+        "FechaRegistro": "10/08/2021",
+        "Cliente": "0090707 - 360 MEDIA LTDA",
+        "ModeloNegocio": "MODELO MANTENIMIENTOS",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/09/2021",
+        "ValorTotal": "1,295,892,80",
+        "ValorAnticipo": "$100,000,00",
+        "Asociar": null
+    },
+
+    {
+        "Orden": 636,
+        "FechaRegistro": "10/07/2021",
+        "Cliente": "0158697 - LATAM",
+        "ModeloNegocio": "MODELO INTEGRACION",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/08/2021",
+        "ValorTotal": "4,185,187,60",
+        "ValorAnticipo": "$1,580,000,00",
+        "Asociar": null
+    },
+
+    {
+        "Orden": 635,
+        "FechaRegistro": "10/09/2021",
+        "Cliente": "0578914 - FARPLAY",
+        "ModeloNegocio": "MODELO MANTENIMIENTOS",
+        "Descripcion": "Orden de facturacion generada Automaticamente",
+        "FechaVencimiento": "16/10/2021",
+        "ValorTotal": "818,996,20",
+        "ValorAnticipo": "$100,000,00",
+        "Asociar": null
+    }
+]

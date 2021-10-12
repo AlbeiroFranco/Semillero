@@ -6,7 +6,7 @@
 body{
     display: flex;
     width: 95%;
-    margin: 2% auto;
+    margin: auto;
     justify-content: space-around;
 }
 
@@ -33,32 +33,37 @@ p{
     font-size: 12px;
     color: #497DAE;
 }
+
 label{
     font-weight: 600;
 }
+
 .nivel input{
     width: 100%;
     border: solid 1px #DDDDDD;
     border-radius: 4px;
     margin-top: 5px;
+    height: 32px;
+    padding: 10px;
 }
 
 .informacion{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     overflow: auto;
     border: solid 1px #DDDDDD;
-    margin-top: 10px;
     border-radius: 4px;
+    margin-top: 10px;
+    height: 425px;
 }
 
-.seleccion{
-    margin-top: 10px;
+#caja{
     display: flex;
     justify-content: space-between;
-}    
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
 
 .section2{
     width: 68%;
@@ -66,6 +71,10 @@ label{
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0px 1px 15px -6px #000000;
+    background-image: url(../assets/Background.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .opciones{
@@ -74,7 +83,10 @@ label{
     padding: 10px;
     border-bottom: solid 2px #DDDDDD;
     color: #497DAE;
+    cursor: pointer;
+    opacity: 0;
 }
+
 .imgcheck{
     width: 25px;
     height: 25px;
@@ -88,6 +100,7 @@ label{
 .check{
     display: flex;
     align-items: center;
+    
 }
 
 .uncheck{
@@ -111,10 +124,17 @@ table{
     text-align: left;
     margin-top: 10px;
     border-collapse: collapse;
-    
+    overflow: auto;
 }
 
 thead{
     border-bottom: solid 2px #DDDDDD;
 }
+
+.peq{
+    max-height: 500px;
+    overflow: auto;
+    
+}
+
 

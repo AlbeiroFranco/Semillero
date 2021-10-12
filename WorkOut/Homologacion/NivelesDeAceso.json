@@ -1,0 +1,277 @@
+[
+  {
+    "Id": 1,
+    "Descripcion": "Acceso Total - Descripción",
+    "Cantidad": 171
+  },
+  {
+    "Id": 2,
+    "Descripcion": "Acceso Privilegiado",
+    "Cantidad": 7
+  },
+  {
+    "Id": 3,
+    "Descripcion": "Tesorería",
+    "Cantidad": 3
+  },
+  {
+    "Id": 4,
+    "Descripcion": "cliente en pruebas",
+    "Cantidad": 11
+  },
+  {
+    "Id": 5,
+    "Descripcion": "Desarrolladores y consultores",
+    "Cantidad": 4
+  },
+  {
+    "Id": 6,
+    "Descripcion": "Proyectos Especiales ",
+    "Cantidad": 2
+  },
+  {
+    "Id": 7,
+    "Descripcion": "Gerencia Implementación",
+    "Cantidad": 1
+  },
+  {
+    "Id": 8,
+    "Descripcion": "Admin Adpro",
+    "Cantidad": 2
+  },
+  {
+    "Id": 9,
+    "Descripcion": "Auxiliares Contabilidad - Nomina",
+    "Cantidad": 1
+  },
+  {
+    "Id": 10,
+    "Descripcion": "AdminVentas",
+    "Cantidad": 1
+  },
+  {
+    "Id": 13,
+    "Descripcion": "Compras",
+    "Cantidad": 1
+  },
+  {
+    "Id": 30,
+    "Descripcion": "Nomina Prueba",
+    "Cantidad": 1
+  },
+  {
+    "Id": 31,
+    "Descripcion": "Auxliar Contable",
+    "Cantidad": 1
+  },
+  {
+    "Id": 32,
+    "Descripcion": "Coordinadora de Calidad",
+    "Cantidad": 26
+  },
+  {
+    "Id": 36,
+    "Descripcion": "Proyectos Especiales SGP",
+    "Cantidad": 9
+  },
+  {
+    "Id": 37,
+    "Descripcion": "Acceso total Soporte",
+    "Cantidad": 4
+  },
+  {
+    "Id": 38,
+    "Descripcion": "Consultora SGD",
+    "Cantidad": 3
+  },
+  {
+    "Id": 50,
+    "Descripcion": "Facturación",
+    "Cantidad": 1
+  },
+  {
+    "Id": 60,
+    "Descripcion": "Consulta para Clientes",
+    "Cantidad": 2
+  },
+  {
+    "Id": 71,
+    "Descripcion": "Capacitacion Interna",
+    "Cantidad": 1
+  },
+  {
+    "Id": 100,
+    "Descripcion": "Impresión - Consulta Documentos",
+    "Cantidad": 2
+  },
+  {
+    "Id": 110,
+    "Descripcion": "Demo Ventas",
+    "Cantidad": 1
+  },
+  {
+    "Id": 212,
+    "Descripcion": "Todo menos Configdsdsdsd",
+    "Cantidad": 2
+  },
+  {
+    "Id": 555,
+    "Descripcion": "Estandar ADPRO",
+    "Cantidad": 20
+  },
+  {
+    "Id": 800,
+    "Descripcion": "GESTION DOCUMENTAL",
+    "Cantidad": 5
+  },
+  {
+    "Id": 1000,
+    "Descripcion": "VENTAS-BOLIVAR",
+    "Cantidad": 1
+  },
+  {
+    "Id": 1001,
+    "Descripcion": "Capacitaciones",
+    "Cantidad": 2
+  },
+  {
+    "Id": 2102,
+    "Descripcion": "Compras Administrativas",
+    "Cantidad": 2
+  },
+  {
+    "Id": 2103,
+    "Descripcion": "Operativo",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2107,
+    "Descripcion": "Proyectos Especiales BI",
+    "Cantidad": 6
+  },
+  {
+    "Id": 2108,
+    "Descripcion": "Proyectos Especiales CRM",
+    "Cantidad": 8
+  },
+  {
+    "Id": 2109,
+    "Descripcion": "ADPRO",
+    "Cantidad": 6
+  },
+  {
+    "Id": 2110,
+    "Descripcion": "Almacenistas",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2111,
+    "Descripcion": "PruebaEspMerc",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2113,
+    "Descripcion": "aaa",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2114,
+    "Descripcion": "prueba3",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2115,
+    "Descripcion": "prueba implementa",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2116,
+    "Descripcion": "NaN",
+    "Cantidad": 2
+  },
+  {
+    "Id": 2119,
+    "Descripcion": "ExtrInvitado",
+    "Cantidad": 3
+  },
+  {
+    "Id": 2120,
+    "Descripcion": "ExtrEmpleado",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2134,
+    "Descripcion": "CAPACITACION CB OF GD",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2215,
+    "Descripcion": "Acceso de BI",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2325,
+    "Descripcion": "ACCE",
+    "Cantidad": 12
+  },
+  {
+    "Id": 2326,
+    "Descripcion": "acceso total blp",
+    "Cantidad": 3
+  },
+  {
+    "Id": 2328,
+    "Descripcion": "Acceso total area cuadrada",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2333,
+    "Descripcion": "Proyectos especiales QA",
+    "Cantidad": 6
+  },
+  {
+    "Id": 2563,
+    "Descripcion": "SGP Toma de decisiones",
+    "Cantidad": 55
+  },
+  {
+    "Id": 3000,
+    "Descripcion": "Consultor AyF",
+    "Cantidad": 1
+  },
+  {
+    "Id": 6554,
+    "Descripcion": "SGP Revisión",
+    "Cantidad": 20
+  },
+  {
+    "Id": 7003,
+    "Descripcion": "VENTAS 1",
+    "Cantidad": 3
+  },
+  {
+    "Id": 199999,
+    "Descripcion": "Acceso Total Admin ABR",
+    "Cantidad": 1
+  },
+  {
+    "Id": 232423,
+    "Descripcion": "DNS Access",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2332424,
+    "Descripcion": "PRESENTACION ADDONS",
+    "Cantidad": 1
+  },
+  {
+    "Id": 2332427,
+    "Descripcion": "ABR Presentaciones F&C",
+    "Cantidad": 1
+  },
+  {
+    "Id": 23322428,
+    "Descripcion": "PRESENTACIONES ADPRO SAC",
+    "Cantidad": 1
+  }
+]
