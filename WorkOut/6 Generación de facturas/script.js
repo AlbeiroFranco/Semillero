@@ -1,6 +1,3 @@
-import { moneda } from "./moneda.js";
-import { pago } from "./pago.js";
-
 let ingresarMoneda = document.querySelector('#moneda');
 let ingresar = document.querySelector('.tabla');
 let boton = document.querySelector('.boton');
@@ -10,28 +7,63 @@ let añadir = document.querySelector('.articulo1');
 let orden = document.querySelector('#OrdenFacturacion');
 let cliente = document.querySelector('#Cliente');
 let negocio = document.querySelector('#ModeloNegocio');
-let ingresarPago = document.querySelector('.pago')
+let ingresarPago = document.querySelector('#pago');
+let botones = document.querySelector('.botones');
+let fondo = document.querySelector('.fondo');
+let loader = document.querySelector('.cont-loader');
+let botonFiltrar = document.querySelector('.btnFiltrar');
+let fechaIni = document.querySelector('#fechaInicial');
+let ModeloNegocio = document.querySelector('#modeloNegocio');
+let optionV = document.querySelector('#modeloNegocio');
+let divisa = document.querySelector('.divisa');
 
 
-for (let i = 0; i < moneda.length; i++) {
-    ingresarMoneda.innerHTML += `<option value = '${i}'>${moneda[i]}</option>`;
-}
+const facturas = await fetch("./facturas.json");
+const datosFacturas = await facturas.json();
 
-/* for (let i = 0; i < pago.length; i++) {
-    ingresarPago.innerHTML += `<option value = '${i}'>${pago[i]}</option>`;
-    
-}  */
+const formatoMoneda = await fetch('./moneda.json');
+const datosMoneda = await formatoMoneda.json();
+
+const formatoModelo = await fetch('./modelos.json');
+const datosModelo = await formatoModelo.json();
+
+/* console.table(datosFacturas) */
+
+/* datosMoneda.forEach(element => {
+    console.log(element.abreviatura)
+});
+ */
+
+/* datosFacturas.forEach(element => {
+    console.log(element.codigoOrdenDeFacturacion)
+}); */
+
+datosMoneda.forEach(element => {
+    ingresarMoneda.innerHTML += `<option class="divisa" value="${element.abreviatura}"> ${element.abreviatura}- ${element.descripcion}</option>`;
+});
+
+datosModelo.forEach(element =>{
+    ModeloNegocio.innerHTML += `<option value="${element.nombre}">${element.nombre}</option>` ;       
+})
 
 boton.addEventListener('click', () => {
+    loader.style.display = 'block'
     back.style.background = 'none';
     back.style.background = 'white';
     articulo.style.display = 'none';
+    botones.style.opacity = '100';
+    fondo.style.opacity = '0';
+
+    setTimeout(() => {
+        loader.style.display = 'none'
+
+    
     añadir.innerHTML += `
-                <div class="filtro4">
+                <div class="filtro5">
                     <img src="./iconos/Moneda.svg" alt="">
-                        <div class="infoFiltro4">
+                        <div class="infoFiltro5">
                             <label for="moneda">Moneda</label>
-                            <select name="moneda" id="moneda"></select>
+                            <span>COP</span>
                         </div>
                  </div>
                 `
@@ -51,37 +83,42 @@ boton.addEventListener('click', () => {
                     <th><input  type= "checkbox"></th>
                 </thead>
                 `
-             
-    fetch('clientes.JSON')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(dato => {
-
-                if(orden.value == dato.Orden || cliente.value == dato.Cliente || negocio.value == dato.ModeloNegocio){
-                    
-                ingresar.innerHTML += `
+    datosFacturas.forEach(dato => {
+        if (orden.value == dato.codigoOrdenDeFacturacion || cliente.value == dato.clienteIdentificacion || optionV.value == dato.modeloNegocio
+            || fechaIni.value == dato.fechaRegistro && dato.fechaVencimiento) { */
+            ingresar.innerHTML += `
             <tr>
-                <td></td>
-                <td>${dato.Orden}</td>
-                <td>${dato.FechaRegistro}</td>
-                <td>${dato.Cliente}</td>
-                <td>${dato.ModeloNegocio}</td>
-                <td>${dato.Descripcion}</td>
-                <td><select class = "pago"></td>
-                <td>${dato.FechaVencimiento}</td>
-                <td>${dato.ValorTotal}</td>
-                <td>${dato.ValorAnticipo}</td>
-                <td>${dato.Asociar}</td>
-                <td><input  type="checkbox"></td>
+                <td><div class="archivos"><img src="./iconos/Adobegreen.svg" ><img src="./iconos/Docgreen.svg" ></div></td>
+                <td>${dato.codigoOrdenDeFacturacion}</td>
+                <td>${dato.fechaRegistro}</td>
+                <td value="${dato.clienteIdentificacion}">${dato.clienteIdentificacion} - ${dato.clienteNombre} </td>
+                <td>${dato.modeloNegocio}</td>
+                <td >${dato.descripcionOrdenFacturacion}</td>
+                <td><select id = "pago"><option>${dato.formaPago}</option></select></td>
+                <td>${dato.fechaVencimiento}</td>
+                <td>${dato.valorTotalACobrar}</td>
+                <td>${dato.valorAnticipo}</td>
+                <td>${dato.asociarAnticipo[3]}</td>
+                <td><input type="checkbox" id="check"></td>
             </tr>
             `
-                }    
-            });
-            
+        } 
+        
+        
+    });
+}, 600);
+});
+
+
+botonFiltrar.addEventListener('click', () =>{
+    let filtro5 = document.querySelector('.filtro5')
+    ingresar.innerHTML= '';
+    fondo.style.opacity = '100';
+    articulo.style.display = 'flex';
+    filtro5.style.display='none'
     
-        });
 })
-     
+
 
 
 

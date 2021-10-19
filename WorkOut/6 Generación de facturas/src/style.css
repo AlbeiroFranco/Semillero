@@ -7,6 +7,49 @@ body{
     background-color: #F7F7F7;
 }
 
+.cont-loader{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    display: none;
+}
+
+.loader1{
+    position: absolute;
+    top: 500%;
+    left: 1200%;
+    width: 300%;
+    height: 300%; 
+    border: solid 4px transparent;
+    border-top-color: #93DAE7;
+    border-left-color: #93DAE7;
+    border-radius: 50%;
+    animation: loader 1s linear infinite;
+}
+.loader2{
+    position: absolute;
+    top: 500%;
+    left: 1200%;
+    width: 170%;
+    height: 170%; 
+    border: solid 4px transparent;
+    border-top-color: #689CC5;
+    border-left-color:#689CC5;
+    border-radius: 50%;
+    animation: loader2 1s linear infinite;
+}
+
+@keyframes loader {
+    0%{ transform: translate(-50% ,-50%) rotate(0deg);}
+    100%{ transform: translate(-50% , -50%) rotate(360deg);}
+}
+
+@keyframes loader2 {
+    0%{ transform: translate(-50% ,-50%) rotate(0deg);}
+    100%{ transform: translate(-50% , -50%) rotate(-360deg);}
+}
+
 h1{
     font-size: 38px;
 }
@@ -81,6 +124,20 @@ input{
     width: 100%;
 }
 
+.infoArticulo1{
+    display: flex;
+    align-items: center;
+}
+
+.botones button{
+    height: 45px;
+    margin-top: 10px;
+}
+
+.botones{
+    opacity: 0;
+}
+
 select{
     height: 27px;
     border: none;
@@ -109,14 +166,14 @@ select{
     border-radius: 6px;
 }
 
-.filtro1 , .filtro2, .filtro3, .filtro4{
+.filtro1 , .filtro2, .filtro3, .filtro4, .filtro5{
     display: flex;
     width: 30%;
     margin-top: 15px;
     margin-left: 15px;
 }
 
-.infoFiltro1, .infoFiltro2 , .infoFiltro3 , .infoFiltro4{
+.infoFiltro1, .infoFiltro2 , .infoFiltro3 , .infoFiltro4, .infoFiltro5{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -133,6 +190,11 @@ button{
     font-weight: 600;
     font-size: 15px;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7e8183;
 }
 
 .ordenes{
@@ -140,18 +202,66 @@ button{
     border-radius: 4px;
     background-color: white;
     width: 95%;
-    margin: auto;
+    margin: 5px auto;
     margin-bottom: 30px;
-    background-image: url(../iconos/icono\ mano\ fondo\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    height: 450px;
-    
+    height: 300px;
 }
 
 .tabla{
     overflow: auto;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     padding: 0 15px 0 15px;
+    border-collapse: collapse;
+    width: 120%;
+    height: 150%;
+}
+
+.acomodar{
+    width: 100%;
+    max-height: 300px;
+    overflow: auto;
+    padding: 10px;
+}
+
+th{
+    border-bottom: solid 2px gray;
+    
+}
+td{
+    border-bottom: 1px gray solid;
+    padding: 10px;
+}
+
+.archivos{
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+    margin-top: 5px;
+}
+
+.archivos img{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#check{
+    width: 25px;
+    height: 25px;
+}
+
+.fondo{
+    display: flex;
+    flex-direction: column;
+       justify-content: center;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: gray;
+    margin: 2% auto;
+}
+
+#pago{
+    border: solid 1px gray;
+    width: 120px;
 }

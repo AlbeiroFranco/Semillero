@@ -16,29 +16,45 @@
             <img src="./iconos/infor.svg" alt="">
         </div>
   
+        <aside class="cont-loader">
+            <div class="loader1"></div>
+            <div class="loader2"></div>
+        </aside>
+
         <main>
         <section class="seccion1">
 
             <h2>Buscar órdenes de facturación</h2>
-            <article class="articulo1">
+            
+            <article class="infoArticulo1">
+                    
+                <aside class="articulo1">
 
-                <div class="fechaInicial">
-                    <img src="./iconos/Calendar.svg" alt="">
-                    <div class="labels">
-                        <label for="fechaInicial">Fecha Inicial</label>
-                        <input type="date" name="" id="fechaInicial" required>
+                    <div class="fechaInicial">
+                        <img src="./iconos/Calendar.svg" alt="">
+                        <div class="labels">
+                            <label for="fechaInicial">Fecha Inicial</label>
+                            <input type="date" name="" id="fechaInicial" required>
+                        </div>
                     </div>
-                </div>
 
-                <div class="fechaFinal">
-                    <img src="./iconos/Calendar.svg" alt="">
-                    <div class="labels">
-                        <label for="fechaFinal">Fecha Final</label>
-                        <input type="date" name="" id="fechaFinal" required>
+                    <div class="fechaFinal">
+                        <img src="./iconos/Calendar.svg" alt="">
+                        <div class="labels">
+                            <label for="fechaFinal">Fecha Final</label>
+                            <input type="date" name="" id="fechaFinal" required>
+                        </div>
                     </div>
-                </div>
+
+                </aside>
+
+                <aside class="botones">
+                    <button class="btnFiltrar" type="submit">Filtrar</button>
+                    <button type="submit">Generar</button>
+                </aside>
 
             </article>
+            
         </section>
 
         <section class="seccion2">
@@ -67,7 +83,7 @@
                         <img src="./iconos/ModeloNegocios.svg" alt="">
                         <div class="infoFiltro3">
                             <label for="modeloNegocio">Modelo de negocio</label>
-                            <input type="text" name="" id="ModeloNegocio" placeholder="Buscar el modelo de negocio">
+                            <select name="" id="modeloNegocio" placeholder="Buscar el modelo de negocio"></select>
                        </div>
                     </div>
 
@@ -79,7 +95,7 @@
                             </div>
                         
                     </div>
-                    
+                   
                     
                 </div>
 
@@ -94,9 +110,17 @@
 
     <aside class="ordenes">
         <h2>Órdenes de facturación</h2>
-        <table class="tabla">
+        <aside class="acomodar">
+            <table class="tabla">
 
-        </table>
+            </table>
+
+        </aside>
+        <div class="fondo">
+            <img src="./iconos/icono mano fondo 1.svg" alt="">
+            <h3>Ingrese los filtros para consultar las órdenes de facturación</h3>
+        </div>
+        
     </aside>
         
 

@@ -1,0 +1,24 @@
+[
+    
+    {
+      "tipo": "Efectivo"
+    },
+
+    {
+      "tipo": "Tarjeta de Credito"
+    },
+
+    {
+      "tipo": "Tarjeta Debito"
+    },
+
+    {
+      "tipo": "PayPal"
+    },
+
+    {
+      "tipo": "Cheque"
+    }
+   
+]
+

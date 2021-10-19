@@ -1,0 +1,121 @@
+[
+      {
+        "codigo": 1,
+        "descripcion": "Peso Colombiano",
+        "abreviatura": "COP",
+        "simbolo": "$",
+        "funcional": true
+      },
+      {
+        "codigo": 2,
+        "descripcion": "US Dólar",
+        "abreviatura": "USD",
+        "simbolo": "$",
+        "funcional": false
+      },
+      {
+        "codigo": 3,
+        "descripcion": "Euro",
+        "abreviatura": "EUR",
+        "simbolo": "€",
+        "funcional": false
+      },
+      {
+        "codigo": 4,
+        "descripcion": "Balboa Panameña",
+        "abreviatura": "PAB",
+        "simbolo": "B./",
+        "funcional": false
+      },
+      {
+        "codigo": 5,
+        "descripcion": "Libra Esterlina",
+        "abreviatura": "GBP",
+        "simbolo": "£",
+        "funcional": false
+      },
+      {
+        "codigo": 6,
+        "descripcion": "Peso Mexicano",
+        "abreviatura": "MXN",
+        "simbolo": "$",
+        "funcional": false
+      },
+      {
+        "codigo": 7,
+        "descripcion": "Nuevo Sol",
+        "abreviatura": "PEN",
+        "simbolo": "S/.",
+        "funcional": false
+      },
+      {
+        "codigo": 8,
+        "descripcion": "Dólar Trinitense",
+        "abreviatura": "TDD",
+        "simbolo": "$",
+        "funcional": false
+      },
+      {
+        "codigo": 9,
+        "descripcion": "Bolivar Fuerte",
+        "abreviatura": "VEZ",
+        "simbolo": "$",
+        "funcional": false
+      },
+      {
+        "codigo": 10,
+        "descripcion": "Peso Dominicano",
+        "abreviatura": "DOP",
+        "simbolo": "RD$",
+        "funcional": false
+      },
+      {
+        "codigo": 11,
+        "descripcion": "Bitcoin",
+        "abreviatura": "BTC",
+        "simbolo": "$",
+        "funcional": false
+      },
+      {
+        "codigo": 12,
+        "descripcion": "Yuan",
+        "abreviatura": "CNY",
+        "simbolo": "¥",
+        "funcional": false
+      },
+      {
+        "codigo": 13,
+        "descripcion": "Guaraní ",
+        "abreviatura": "PYG",
+        "simbolo": "G",
+        "funcional": false
+      },
+      {
+        "codigo": 14,
+        "descripcion": "Franco Suizo",
+        "abreviatura": "CHF",
+        "simbolo": "Fr",
+        "funcional": false
+      },
+      {
+        "codigo": 15,
+        "descripcion": "Dólar Canadiense",
+        "abreviatura": "CAD",
+        "simbolo": "C$",
+        "funcional": false
+      }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

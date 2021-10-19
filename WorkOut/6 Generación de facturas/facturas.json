@@ -1,0 +1,181 @@
+[
+    {
+        "codigoOrdenDeFacturacion": 668,
+        "fechaRegistro": "2021-10-04",
+        "clienteIdentificacion": "35326475",
+        "clienteCodigo": 755915,
+        "clienteNombre": "CARDENAS FAJARDO BERTHA MABEL",
+        "descripcionOrdenFacturacion": "",
+        "modeloNegocio": "MODELO MANTENIMIENTOS",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$18,575,384",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 667,
+        "fechaRegistro": "2021-10-04",
+        "clienteIdentificacion": "35326475",
+        "clienteCodigo": 755915,
+        "clienteNombre": "CARDENAS FAJARDO BERTHA MABEL",
+        "descripcionOrdenFacturacion": "",
+        "modeloNegocio": "MODELO MANTENIMIENTOS",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$18,575,384",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 664,
+        "fechaRegistro": "2021-09-29",
+        "clienteIdentificacion": "900489414",
+        "clienteCodigo": 759084,
+        "clienteNombre": "FERRELECTRICOS E INVERSIONES JM SAS",
+        "descripcionOrdenFacturacion": "Orden de Facturación Generada Automáticamente Para el pago del alquiler equipo Menor a partir de la liquidación No.5690000022, desde la obra: Capacitacion maquinaria Juan David, para el cliente: FERRELECTRICOS E INVERSIONES JM SAS",
+        "modeloNegocio": "MODELO DE INTEGRACIÓN",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$11,134,379.59",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 663,
+        "fechaRegistro": "2021-09-29",
+        "clienteIdentificacion": "900489414",
+        "clienteCodigo": 759084,
+        "clienteNombre": "FERRELECTRICOS E INVERSIONES JM SAS",
+        "descripcionOrdenFacturacion": "Orden de Facturación Generada Automáticamente Para el pago del alquiler equipo Menor a partir de la liquidación No.5690000022, desde la obra: Capacitacion maquinaria Juan David, para el cliente: FERRELECTRICOS E INVERSIONES JM SAS",
+        "modeloNegocio": "MODELO DE INTEGRACIÓN",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$11,134,379.59",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 662,
+        "fechaRegistro": "2021-09-28",
+        "clienteIdentificacion": "830090707",
+        "clienteCodigo": 734502,
+        "clienteNombre": "360 MEDIA LTDA",
+        "descripcionOrdenFacturacion": "Registro de prueba",
+        "modeloNegocio": "MODELO ABR",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$1,243,289.25",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 661,
+        "fechaRegistro": "2021-09-28",
+        "clienteIdentificacion": "900665038",
+        "clienteCodigo": 736043,
+        "clienteNombre": "2INVENTIVE SAS",
+        "descripcionOrdenFacturacion": "",
+        "modeloNegocio": "MODELO MANTENIMIENTOS",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$1,500,000",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 660,
+        "fechaRegistro": "2021-09-27",
+        "clienteIdentificacion": "900665038",
+        "clienteCodigo": 736043,
+        "clienteNombre": "2INVENTIVE SAS",
+        "descripcionOrdenFacturacion": "",
+        "modeloNegocio": "MODELO MANTENIMIENTOS",
+        "formaPago": "-- Seleccione --",
+        "fechaVencimiento": "2021/10/13",
+        "valorTotalACobrar": "$1,500,000",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 658,
+        "fechaRegistro": "2021-09-27",
+        "clienteIdentificacion": "80799444",
+        "clienteCodigo": 768219,
+        "clienteNombre": "JJ MAKUAKE",
+        "descripcionOrdenFacturacion": "",
+        "modeloNegocio": "MODELO NEGOCIO AP",
+        "formaPago": "30 Dias",
+        "fechaVencimiento": "2021/11/12",
+        "valorTotalACobrar": "$150,000",
+        "valorAnticipo": 0,
+        "asociarAnticipo": []
+    },
+
+    {
+        "codigoOrdenDeFacturacion": 653,
+        "fechaRegistro": "2021-09-27",
+        "clienteIdentificacion": "800112237",
+        "clienteCodigo": 674639,
+        "clienteNombre": "SINCOSOFT SINCO COMUNICACIONES S.A.S",
+        "descripcionOrdenFacturacion": "Campo descripción general de la factura",
+        "modeloNegocio": "Venta de software especializado o servicios XP",
+        "formaPago": "30 Dias",
+        "fechaVencimiento": "2021/11/12",
+        "valorTotalACobrar": "$703,100",
+        "valorAnticipo": "$400,000",
+        "asociarAnticipo": [
+            {
+                "nombre": "Anticipo F&C XP",
+                "cuentaContable": "28050510",
+                "codigoCliente": 674639,
+                "valor": "$400,000",
+                "codigoMoneda": 1,
+                "anticipos": [
+                    {
+                        "codigo": 112,
+                        "centroCosto": "0502",
+                        "porcentaje": 1
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "codigoOrdenDeFacturacion": 652,
+        "fechaRegistro": "2021-09-17",
+        "clienteIdentificacion": "800112237",
+        "clienteCodigo": 674639,
+        "clienteNombre": "SINCOSOFT SINCO COMUNICACIONES S.A.S",
+        "descripcionOrdenFacturacion": "Campo descripción general de la factura",
+        "modeloNegocio": "Venta de software especializado o servicios XP",
+        "formaPago": "30 Dias",
+        "fechaVencimiento": "2021/11/12",
+        "valorTotalACobrar": "$703,100",
+        "valorAnticipo": "$400,000",
+        "asociarAnticipo": [
+            {
+                "nombre": "Anticipo F&C XP",
+                "cuentaContable": "28050510",
+                "codigoCliente": "$674,639",
+                "valor": "$400,000",
+                "codigoMoneda": 1,
+                "anticipos": [
+                    {
+                        "codigo": 111,
+                        "centroCosto": "0502",
+                        "porcentaje": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
