@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+        <div class="oscurecer">
         <div class="titulo">
             <h1>Generación de facturas</h1>
             <img src="./iconos/infor.svg" alt="">
@@ -50,7 +52,7 @@
 
                 <aside class="botones">
                     <button class="btnFiltrar" type="submit">Filtrar</button>
-                    <button type="submit">Generar</button>
+                    <button class="generar gris" type="submit">Generar</button>
                 </aside>
 
             </article>
@@ -83,7 +85,9 @@
                         <img src="./iconos/ModeloNegocios.svg" alt="">
                         <div class="infoFiltro3">
                             <label for="modeloNegocio">Modelo de negocio</label>
-                            <select name="" id="modeloNegocio" placeholder="Buscar el modelo de negocio"></select>
+                            <select name="" id="modeloNegocio" placeholder="Buscar el modelo de negocio">
+                                <option>--Seleccione--</option>
+                            </select>
                        </div>
                     </div>
 
@@ -91,7 +95,9 @@
                         <img src="./iconos/Moneda.svg" alt="">
                         <div class="infoFiltro4">
                             <label for="moneda">Moneda</label>
-                            <select name="moneda" id="moneda"></select>
+                            <select name="moneda" id="moneda">
+                                <option>--Seleccione--</option>
+                            </select>
                             </div>
                         
                     </div>
@@ -122,7 +128,17 @@
         </div>
         
     </aside>
-        
+    </div>
+    
+    <aside class="resultado">
+        <div class="cerrar">
+            <span>Órdenes de facturación procesadas</span> 
+            <button class="x" type="submit"></button>
+        </div>
+        <table class="table2"></table>
+    </aside>
+    
+    
 
 <script type = "module" src="./script.js"></script>
 
