@@ -1,7 +1,8 @@
 # Semillero
+LINK de acceso a mi FIGMA donde pueden ver todo mi progreso.
 https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=0%3A
 
-Primera Semana.
+Semana 1.
 
 Esta semana se esta realizando el maqueteado de una pagina web por medio de FIGMA una herramienta muy dinamica y con un interfaz sencillo y facil de usar, esta herramienta se ve muy eficaz y ademas entretenida permite crear demasiado contenido, por mi parte me encuentro realizando la pagina de Outlook.
 
@@ -21,7 +22,7 @@ En definitiva, me pareció muy buena herramienta para el diseño y practicando s
 
 ![HTML](https://user-images.githubusercontent.com/87336609/126039156-4810c943-4e6f-42df-9bc9-32bae1270135.png)
 
-Segunda Semana
+Semana 2.
 
 Esta semana fue de gran aprendizaje inicialmente realizamos varios quizz donde poníamos a prueba los conocimientos adquiridos sobre HTML y CSS, fue un gran reto ya que habían cosas que por lo menos yo no sabía, en el trascurso de la semana se fueron realizando varios FIGMAS donde nos daban el modelo y teníamos que replicarlo, aprendí a realizar un slider, a combinar colores y a realizar un hover, ya manejo con mayor eficacia la herramienta y a la hora de realizar diseños es más fácil, realizamos la instalación de GitHub ya que subía los archivos manualmente pero por consola es más fácil aun, he aprendido bastante y me motiva cada día más a mejorar y a seguir aprendiendo. 
 
@@ -30,7 +31,7 @@ Realizamos para el dia viernes un mapa mental y adicinalmente hice una Infografi
 ![Infografia](https://user-images.githubusercontent.com/87336609/126843901-3594d171-d51b-4269-ad3f-3eac3f60cf8b.png)
 ![MapaMental](https://user-images.githubusercontent.com/87336609/126843903-9e0a7ca5-4da7-4450-b56e-8a82c42fe80a.png)
 
-Tercera Semana 
+Semana 3. 
 
 Esta semana fue muy buena aparte de los conocimientos adquiridos pudimos desarrollar a base de nuestras destrezas e interpretaciones diseños que fueran creación nuestra en base a un tema dado y referencias en la WEB, fue un gran reto, en el primer diseño fue algo complejo ya que me asignaron un reproductor de música y al ver diseños todos se parecían y todos llegaban a lo mismo, hice uno casi a mi estilo pero al final se pareció a los demás reproductores, tuve varios detalles dentro del diseño como elementos que no quedaban bien vistos en la pantalla colores que no sobresalían entre otros, en definitiva diseñar algo desde 0 lleva a volar la imaginación y a veces que uno cree que está bien el diseño, no lo es, falta como pensar más hacia el usuario para tener una interfaz más definida. 
 
@@ -58,7 +59,7 @@ https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=370%3A1689
 
 La semana fue muy productiva y el conocimiento adquirido fue demasiado. 
 
-Cuarta semana. 
+Semana 4. 
 
 En esta semana nos dedicamos a hacer el maqueteado de las actividades ya realizadas en FIGMA fue un completo reto ya que había visto algo de HTML pero al entrar en este mundo a maquetear fue algo completamente distinto pensé que eran sencillos los diseño pero cada uno tiene su nivel de complejidad cada uno tiene más que el anterior en el primer diseño fue algo realmente difícil ya que si no se tiene  un orden en el figma el diseño a maquetear va a ser difícil, aprendí que hay que tener un orden específico para cada sección de la página para así mismo desarrollar los diseños, a medida que iba conociendo más HTML había cosas que completamente no conocía y no sabía la forma de hacerlas, como en el caso de la @mediaquery para hacer responsive una página, al comienzo es muy duro, pero con el paso de las actividades entramos más en confianza aún falta muchísimo que mejorar pero estoy dispuesto a aprender y poder aplicar mis conocimientos, hay que tener en cuenta que para aprender se necesita mucha disciplina y esto es lo que estoy aprendiendo y es muy bueno porque con la practica podemos hacer mejor nuestro trabajo. 
 
@@ -72,7 +73,7 @@ Algunos HTML realizados esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/129269394-6c676fb3-fde0-4090-9252-a0a1ea5f8259.png)
 ![image](https://user-images.githubusercontent.com/87336609/129269446-0778dc85-46ce-439c-8e95-72da5ce25371.png)
 
-Quinta semana: 
+Semana 5. 
 
 En esta semana aplicamos todo lo que habíamos visto la anterior semana sobre HTML y CSS, se vieron nuevos conceptos para mejorar nuestro desempeño en esta semana aplicamos la técnica de no usar las posiciones se mejora el código y se hace más responsivo, cada trabajo que iba realizando era un nuevo reto y cada vez me demoraba menos y la lógica que usaba era cada vez más entendible. En esta semana realizamos otra serie de ejercicios que nos ayudaron a fortalecer más nuestros conocimientos, tambien aprendi a aplicar una tecnicas mas simple a la hora de realizar estos ejercicios y fue que empezaba a maquetear desde la version movil y luego paso a la version desktop, me parcecio mas facil y mas ordenada esta tecnica. 
 
@@ -84,7 +85,7 @@ Ejercicios realizado en esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/131364752-833e1016-3a4f-4fd2-ae24-363210a34bf4.png)
 
 
-Sexta semana. 
+Semana 6. 
 
 En esta semana aprendí a realizar el maqueteado desde Flex-Box para aplicarlo en toda en la página con CSS fue al principio un poco difícil para acomodar todos los elementos pero a la, medida que iba entendiendo que no se necesitaba utilizar nada más si no Flex box el diseño en la página se iba viendo más organizado y más dinámico, aprendí a tener un poco más de semántica a la hora de realizar el maqueteado en HTML, y en base a unos ejercicios que practicamos esta semana aplicamos ya todos los conceptos que tenia de base y mi trabajo en código iba siendo más ordenado y limpio. 
 
@@ -99,7 +100,7 @@ Se realizo una actividad con nuestros compañeros que se trataba de todos realiz
 ![image](https://user-images.githubusercontent.com/87336609/131366707-5b92a82e-ef2f-4f6e-ad48-f2f01c2dcd26.png)
 
 
-Séptima semana 
+Semana 7.
 
 En esta semana realice el ejercicio que no terminamos de hacer en la semana pasada con nuestros compañeros y fue un reto ya que esta vez era más grande la página tenía más elementos y tenía que ser más ordenado a la hora de realizar el ejercicio a final lo logre termina y tuve un gran avance en cuestión de semántica en código y en css fue aún más ordenado y limpio mi código. 
 
@@ -112,7 +113,7 @@ En esta semana realice el ejercicio que no terminamos de hacer en la semana pasa
 
 También aprendimos conceptos básicos en JavaScript y al ser un lenguaje que apenas empiezo a ver me ha dado un poco duro ya que aprender algo nuevo implica conocer más a fondo sobre él, e indagar y practicar, necesito practicar y estudiar más sobre este nuevo lenguaje y así poder entender mejor sobre él, y esta semana realizamos el maqueteado desde JavaScript y a medida que iba usando este lenguaje iba entiendo mejor cómo funciona y me ha parecido interesante y con ganas de aprender más sobre el  
 
-Octava Semana. 
+Semana 8. 
 
 En esta semana recibimos capacitación de para  realizar actividades en JavaScript hicimos varias actividades cada una con un grado de dificultad más que la otra es bueno recibir información, ver y poder hacer los ejercicios son complejos al comienzo pero a medida que voy entiendo la lógica, es más practico hacer os ejercicios, el ejercicio que más duro me ha parecido fue el del Temporizador tenía un nivel de dificultad alto y pues entenderlo a la primera vez es complejo pero al final se obtuvo un buen resultado. 
 
@@ -122,7 +123,7 @@ En esta semana recibimos capacitación de para  realizar actividades en JavaScri
 ![image](https://user-images.githubusercontent.com/87336609/132230974-0b837005-07f7-41fa-b1cc-fb0f65aaf852.png)
 ![image](https://user-images.githubusercontent.com/87336609/132235962-7f18bdfc-94c6-4d8c-b6a6-6a20347e98cb.png)
 
-Novena Semana
+Semana 9.
 
 Esta semana fue un poco más compleja ya que realizamos una actividad en JavaScript donde nos pedían realizar un filtrado de búsqueda, al principio parecía fácil pero el nivel de complejidad se vio a la hora de realizar en JavaScript lo más importante fue que entre todo el equipo se logró realizar la actividad, también realizamos varios ejercicios con JS30 que cada vez son un poco más difíciles pero entendibles. 
 
@@ -131,7 +132,7 @@ Algunos ejercicios realizados esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/133497404-f33e4c53-56fa-461a-b655-00095be048e9.png)
 ![image](https://user-images.githubusercontent.com/87336609/133497614-648192c7-9872-4275-aef3-bfe9b111b588.png)
 
-Decima Semana.
+Semana 10.
 
 En esta semana realizamos más ejercicios cada vez más difíciles realizamos un método de pago, en el cual yo realice una versión de pago en tarjeta de crédito fuer un reto aprendí demasiado y gracias a tutoriales pude realizar la actividad, También realizamos una actividad con la cual teníamos que obtener la información personal de una persona también fue un reto porque aprendí a consumir datos desde un archivo js, También En JS 30 aprendimos demasiado hicimos un filtro de búsqueda también un reproductor  esta semana fue muy productiva y de mucho aprendizaje. 
 
@@ -145,7 +146,7 @@ Algunos Ejercicios realizados esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/134956260-4ec276aa-01f1-4466-b8a4-602d3eea5eb1.png)
 ![image](https://user-images.githubusercontent.com/87336609/134956494-70ed2edb-528c-41a5-ac81-1c0fe46eeb6e.png)
 
-Onceava semana. 
+Semana 11. 
 
 En esta semana comenzamos con la práctica de realizar los diseños de la empresa el primero fue sencillo y no me demore mucho en hacerlo, ya el segundo diseño era un diseño de posicionamiento de imágenes se veía fácil pero tenía su complejidad, también empezamos con CODEWARS que este si me pareció realmente difícil es una página de ejercicios de codificación que si o si tenemos que tener comprensión de lectura ya que son complejos los ejercicios, ya por ultimo realizamos un formulario de la página de SINCO y pues este diseño fue muy práctico ya que vi más cosas que no sabía cómo realizar los botones de check y agregar archivos. 
 
@@ -157,8 +158,26 @@ Diseños realizados esta semana.
 ![image](https://user-images.githubusercontent.com/87336609/134959108-99a98b2b-0981-443e-bf85-5b831fe69ed1.png)
 ![image](https://user-images.githubusercontent.com/87336609/134959291-5b4c4b7b-e059-406f-a8ef-75017198a159.png)
 
-CODEWARS
+Semana 12.
 
+En esta semana se realizó un CRUD con JavaScript fue muy complicado ya que era un nivel más avanzado era un CRUD con almacenamiento en localStorage, gracias a los concepto adquiridos anteriormente fue se trató de entender lo que quería hacer en el código pero aun así era la primera vez que manejaba localStorage, fue un gran reto que lo pude superar gracias al apoyo en algunos videos y algunas referencias en internet también junto a mis compañeros que pudimos lograr un bueno avance y poder  terminar el reto en una semana, fue algo demorado pero admito que fue difícil pero lo logre cumplir. 
+
+![image](https://user-images.githubusercontent.com/87336609/138118175-9fd02620-c07f-497e-866b-0c3401c988f8.png)
+![image](https://user-images.githubusercontent.com/87336609/138118252-7a09b297-c175-40a3-8924-923f0fb56a77.png)
+![image](https://user-images.githubusercontent.com/87336609/138118300-434de14f-f607-42d1-9a33-0b3cc1cad490.png)
+![image](https://user-images.githubusercontent.com/87336609/138118397-3803a2a9-8fd0-4d3f-a260-618afa8aa67d.png)
+![image](https://user-images.githubusercontent.com/87336609/138118525-0e76c20a-d554-41de-a7f6-0bacfd5ae908.png)
+
+Semana 13.
+
+En esta semana el reto se veía más fácil pero no lo fue, fue más complejo que el CRUD ya que tenía que almacenar los datos en LocalStorage y aparate de eso seleccionar los input tipo CheckBox para así mismo almacenarlos, el reto se fue complicando a medida que requería funcionalidad, batalle mucho con este reto pero en si fue una gran experiencia que me quedó a la hora de hacer implementar las funcionalidades no tenía claro lo que se solicitaba y hay fue mi error siento cumplí con el 90% del reto pero aun así falto más funcionabilidad. 
+
+![image](https://user-images.githubusercontent.com/87336609/138119823-e30a6402-d7b9-4e86-aa45-8ec52ef7229b.png)
+![image](https://user-images.githubusercontent.com/87336609/138119878-f8db585b-7a14-4909-a475-0521f3f959a5.png)
+![image](https://user-images.githubusercontent.com/87336609/138119956-6ac1d9ac-679c-438d-8f95-6a12168a525f.png)
+![image](https://user-images.githubusercontent.com/87336609/138120027-df433afa-299e-4ba0-970b-d716ffb2a359.png)
+
+CODEWARS
 ![image](https://user-images.githubusercontent.com/87336609/134959463-3fb833d1-ead6-485c-ac3d-cfb37edaf258.png)
 
 
