@@ -166,7 +166,7 @@ select{
     border-radius: 6px;
 }
 
-.filtro1 , .filtro2, .filtro3, .filtro4, .filtro5{
+.filtro1 , .filtro2, .filtro3, .filtro4, .filtroMoneda{
     display: flex;
     width: 30%;
     margin-top: 15px;
