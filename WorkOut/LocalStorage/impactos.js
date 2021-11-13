@@ -149,6 +149,17 @@ function Update2(i) {
             Read();
         }
 }
+function Update2(i) {
+
+    let variable = JSON.parse(localStorage.getItem(''));
+    variable[i] = document.getElementById('modificar').value;
+    
+        if(variable == ''){
+            alert('Completa los campos');
+        }else{  
+            localStorage.setItem('', JSON.stringify(variable));
+        }
+}
 
 function Delete(i) {
     let names3 = JSON.parse(localStorage.getItem('names'));

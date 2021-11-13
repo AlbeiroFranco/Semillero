@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    margin: auto;
+    width:  58%;
+}
+img{
+    width: 156px;
+    height: 107px;
+    margin: 15px 15px 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cardsMemoria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 6px;
+}
+
+h3, #result{
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    
+}

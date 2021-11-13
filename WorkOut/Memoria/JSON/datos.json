@@ -1,0 +1,68 @@
+[
+    {
+        
+        "name": "javaScript",
+        "img": "./img/javascript.png"   
+    },
+    {
+        "name": "angular",
+        "img":"./img/angular.png"
+    },
+    {
+        "name": "phyton",
+        "img":"./img/python.png"
+    },
+    {
+        "name": "c++",
+        "img":"./img/c++.png"
+    },
+    {
+        "name": "c#",
+        "img":"./img/cshare.png"
+    },
+    {
+        "name": "php",
+        "img":"./img/php.png"
+    },
+    {
+        "name": "html",
+        "img":"./img/html.png"
+    },
+    {
+        "name": "css",
+        "img":"./img/css.png"
+    },
+    {
+        
+        "name": "javaScript",
+        "img": "./img/javascript.png"   
+    },
+    {
+        "name": "angular",
+        "img":"./img/angular.png"
+    },
+    {
+        "name": "phyton",
+        "img":"./img/python.png"
+    },
+    {
+        "name": "c++",
+        "img":"./img/c++.png"
+    },
+    {
+        "name": "c#",
+        "img":"./img/cshare.png"
+    },
+    {
+        "name": "php",
+        "img":"./img/php.png"
+    },
+    {
+        "name": "html",
+        "img":"./img/html.png"
+    },
+    {
+        "name": "css",
+        "img":"./img/css.png"
+    }
+]
