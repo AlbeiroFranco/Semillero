@@ -3,6 +3,7 @@ LINK de acceso a mi FIGMA donde pueden ver todo mi progreso.
 https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Outlook?node-id=0%3A
 
 Semana 1.
+https://www.figma.com/file/miTilq79WZWMJzMDIcSj3f/Jose-Franco?node-id=0%3A1
 
 Esta semana se esta realizando el maqueteado de una pagina web por medio de FIGMA una herramienta muy dinamica y con un interfaz sencillo y facil de usar, esta herramienta se ve muy eficaz y ademas entretenida permite crear demasiado contenido, por mi parte me encuentro realizando la pagina de Outlook.
 
@@ -177,10 +178,44 @@ En esta semana el reto se veía más fácil pero no lo fue, fue más complejo qu
 ![image](https://user-images.githubusercontent.com/87336609/138119956-6ac1d9ac-679c-438d-8f95-6a12168a525f.png)
 ![image](https://user-images.githubusercontent.com/87336609/138120027-df433afa-299e-4ba0-970b-d716ffb2a359.png)
 
+Semana 14 - 15 
+
+Para esta semana el reto fue más duro ya que el nivel codificación es más complejo en la parte de FIGMA fue muy sencillo, lo complicado fue cuando comencé a ver la funcionalidad que iba a trabajar con JavaScript tenía un gran reto ya que son términos nuevos a los que me enfrentaba, para este ejercicio dieron dos semanas de trabajo, en la primera semana logre completar la primera parte que erade consumir los datos desde un JSON ya para a otra semana tenía una gran tarea, la de terminar el proyecto. Fueron dos semanas muy duras,  demasiado estrés ya que no tenía claros varios conceptos pero con la constancia y el análisis sobre el proyecto logre terminar aunque me faltaron unas cosas pero fueron mínimas la intención fue que quedo funcional con los requerimientos solicitados.
+
+![image](https://user-images.githubusercontent.com/87336609/141660014-a6ea3754-6ae5-4b8f-b598-775a75558eae.png)
+![image](https://user-images.githubusercontent.com/87336609/141660114-b0a4d6a9-414f-4e6d-bd2c-f5fb5264f017.png)
+![image](https://user-images.githubusercontent.com/87336609/141660129-9aaa0089-1559-4e55-bbd7-280980a055b7.png)
+
+Semana 16 - 17
+
+En esta semana el reto fue grupal, fue algo muy interesante ya que no se había trabajado en grupo ya que siempre habíamos trabajado individualmente, en este proyecto el reto era trabajar en una To Do List con Temporizador tipo Pomodoro fue un reto muy bueno ya que nuestro diseño fue inspirado por nosotros mismos, al comienzo realizando el FIGMA fue muy sencillo la teníamos muy clara, a la hora de maquetear fue también sencillo, pero tuvimos un inconveniente que al llegar a la funcionalidad en JavaScript tuvimos problemas teníamos demasiada funcionalidad para este proyecto y nos concentramos en nuestros requerimientos mas no en lo que nos habían solicitado, tuvimos una semana para realizar este proyecto y subirlo al un host gratuito, que también nos costó, era nuestra primera vez y no lo logramos, en fin el proyecto se  nos alargo 3 días mas hasta que lo pudimos tambien montar en el host y entregar nuestro proyecto.
+
+A continuacion el Link de nuestro proyecto:
+https://aldamos.000webhostapp.com/
+
+![image](https://user-images.githubusercontent.com/87336609/141660369-71ba6af0-2521-4e29-aa2f-464abb374dac.png)
+![image](https://user-images.githubusercontent.com/87336609/141660376-b4c425ca-2f04-4e8b-a7a9-c19a058c7b9a.png)
+![image](https://user-images.githubusercontent.com/87336609/141660399-b5b8036b-ba86-4b81-a0c2-0ece98849ca9.png)
+![image](https://user-images.githubusercontent.com/87336609/141660415-8b7ac69f-810f-47f7-bbeb-6e42cb313e60.png)
+![image](https://user-images.githubusercontent.com/87336609/141660423-dc0ad47a-e870-49d5-8177-8ed778d47628.png)
+![image](https://user-images.githubusercontent.com/87336609/141660432-6fbc2318-646d-4d90-a6c3-64916ff43389.png)
+![image](https://user-images.githubusercontent.com/87336609/141660442-53e61414-a563-4703-98d8-b4442f7716f8.png)
+
+Semana 18 
+
+Para esta semana comenzamos a etrar al tema de las API’s fui muy interesante que con recursos de internet podiamos consumir mucha informacion y asi mismo utilizarla para nuestros proyectos pudimos cargar un tabla con datos reales del BITCOIN, fue una actividad muy interesante.
+
+Semana 19
+
+En esta semana realizamos un tema libre para practicar nustros conocimientos,por mi parte realice un juego de memoria en JavaScript fui interesante realizarlo, y con los conocimientos que ya tenia y con ayuda en la web pude realizarlo y el producto obtenido fue interesante me faltaron algunos detalles que ire terminando en el camino.
+
+![image](https://user-images.githubusercontent.com/87336609/141660563-5e75da26-dd82-45a7-abeb-a0d548ceb73b.png)
+![image](https://user-images.githubusercontent.com/87336609/141660578-aa97cbd8-b7fb-4f6e-a46c-2bf8ea6921fe.png)
+![image](https://user-images.githubusercontent.com/87336609/141660603-8aa5d11c-4d0b-466e-9dd4-a1608e1bc7cc.png)
+
+
 CODEWARS
 ![image](https://user-images.githubusercontent.com/87336609/134959463-3fb833d1-ead6-485c-ac3d-cfb37edaf258.png)
-
-
 
 
 
