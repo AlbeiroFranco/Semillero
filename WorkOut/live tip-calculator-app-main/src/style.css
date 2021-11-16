@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: "Space Mono", sans-serif;
+  }
+  
+  body {
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-color: #c5e4e7;
+    color: #00474b;
+  }
+  
+  main {
+    background-color: white;
+    border-radius: 30px;
+    height: 481px;
+    width: 80%;
+    margin: 10% auto;
+  }
+  
+  article {
+    display: flex;
+    height: 100%;
+  }
+  
+  .derecha {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .bill,
+  .people {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    height: 48px;
+    border-radius: 6px;
+  }
+  
+  #billinput,
+  #inpZero,
+  #box6 {
+    background-color: #f3f8fb;
+    border: none;
+    font-size: 24px;
+    color: #00474b;
+    font-weight: 600;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  #billinput {
+    background-image: url(../src/images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+  }
+  
+  #inpZero {
+    background-image: url(../src/images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+  }
+  
+  .cantip {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-gap: 10px 10px;
+    margin-top: 15px;
+  }
+  
+  #box1,
+  #box2,
+  #box3,
+  #box4,
+  #box5 {
+    background-color: #00474b;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+  }
+  
+  #box6 {
+    text-align: center;
+  }
+  
+  #box1:hover {
+    background-color: #9fe8df;
+  }
+  
+  #reset:hover {
+    background-color: #9fe8e0d0;
+  }
+  
+  .izquierda {
+    width: 50%;
+  }
+  
+  aside {
+    background-color: #00474b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+    border-radius: 15px;
+    padding: 40px;
+  }
+  
+  .tipAmount,
+  .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .total {
+    margin-top: -100px;
+  }
+  
+  .tipA1,
+  .tipB1 {
+    color: white;
+  }
+  
+  #tipA2,
+  #tipB2 {
+    color: #9fe8df;
+    font-size: 46px;
+    font-weight: 700;
+  }
+  
+  #reset {
+    background-color: #9fe8df;
+    color: #00474b;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  

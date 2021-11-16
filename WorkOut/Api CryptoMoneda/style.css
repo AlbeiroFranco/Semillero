@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+} 
+
+body{
+  width: 90%;
+  margin: auto;
+}
+
+nav{
+  background-color: rgb(37, 37, 85);
+  color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+form input, button{
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+}
+
+button{
+  background-color: white;
+  color: rgb(37, 37, 85);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(133, 133, 255);
+}
+
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border: gray 1px solid;
+}
+
+th{
+  border-bottom: gray 1px solid;
+  border-left: gray 1px solid;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+td{
+  border: gray 1px solid;
+  padding: 0 10px 0 10px;
+}
+
+aside{
+  overflow: auto;
+  height: 480px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img{
+  width: 35px;
+  height: 35px;
+}
+
+.icono{
+  text-align: center;
+}
+
+.rank, .name{
+  text-align: center;
+  font-weight: 600;
+}
+
+
+
