@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: #E0E8FF;
+}
+
+main{
+    background-color: white;
+    width: 450px;
+    margin: 1% auto;
+    border-radius: 18px;
+    padding-bottom: 15px;
+}
+
+.imagenPrincipal{
+    border-radius: 18px 18px 0 0;
+}
+
+.titulo{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-size: 28px;
+    color: #323130 ;
+}
+
+.titulo p{
+    color: #757889;
+}
+
+.seleccionPlan{
+    display: flex;
+    justify-content: space-around;
+    width: 80% ;
+    margin: auto;
+    align-items: center;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    height: 98px;
+}
+
+h3{
+    color: #323130;
+    font-size: 16px;
+}
+
+.planAnual p{
+    color: #777B98;
+    font-weight: 700;
+}
+
+.change{
+    color: #251A94;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.change:hover{
+    color: #796FD3;
+    text-decoration: underline;
+}
+
+.imagenTexto{
+    display: flex;
+    align-items: center;
+}
+
+.planAnual{
+    margin-left: 10px;
+}
+
+.botonesFinales{
+    width: 80%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #382AE1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button:hover{
+    background: #766CF1;
+}
+
+.cancel{
+    color: #6B738A;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    color: #1C264A;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        width: 327px;
+    }
+
+    .imagenPrincipal{
+        width: 100%;
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+
+    .planAnual p, h3, .change{
+        font-size: 14px;
+    }
+
+    .botonesFinales{
+        font-size: 13px;
+    }
+}
