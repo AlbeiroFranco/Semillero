@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Control Maquinaria</h1>
+    <h3>Equipo: PRB BSA - 010203</h3>
+    <main>
+
+        <nav class="tituloCabecera">
+            <a id="controlMaquina" href="#">CONTROL MAQUINARIA</a>
+            <a id="mantenimiento" href="#">MANTENIMIENTO</a>
+            <a id="tarifas" href="#">TARIFAS</a>
+            <a id="combustible" class="ocultar" href="#">COMBUSTIBLE</a>
+            <a id="neumaticos" class="ocultar" href="#">CONTROL NEUMATICOS</a>
+        </nav>
+    
+        <main id="controlMaquinaria">
+            <section class="cabecera">
+                <section class="imagenMaquinaria">
+                    <img src="./img/image 2.svg" alt="">
+                    <p>Bulldozer</p>
+                </section>
+
+                
+                <section class="controlMedidas">
+                    <h2>CONTROL DE MEDIDAS</h2>
+
+                    <section class="contenido ">
+                        <article class="contenidoInputs">
+                            <span class="titulos">Medidor:</span>
+                            <input type="text" value="Horómetro">
+                            <input class="ocultar" type="text" id="contenidoMedidor"  value="Horómetro">
+                        </article>
+        
+                        <article class="contenidoInputs">
+                            <span class="titulos">Medidor inicial:</span>
+                            <input type="text" value="13.00">
+                            <input type="text" id="contenidoMedidor" class="ocultar" value="13.00">
+                        </article>
+        
+                        <article class="contenidoInputs">
+                            <span class="titulos">Fecha medidor inicial:</span>
+                            <input type="date" >
+                            <input type="date" id="contenidoMedidor" class="ocultar" >
+                        </article>
+        
+                        <article class="contenidoInputs">
+                            <span class="titulos">Unidades de medida:</span>
+                            <span class="datosFijos">Hr</span>
+                            <span id="contenidoMedidor" class="datosFijos ocultar">Hr</span>
+                        </article> 
+                                
+                        <article class="contenidoInputs">
+                            <span class="titulos">Medidor actual:</span>
+                            <span class="datosFijos">28.00</span>
+                            <span id="contenidoMedidor" class="datosFijos ocultar">28.00</span>
+                        </article> 
+        
+                        <article class="contenidoInputs">
+                            <span class="titulos">Fecha medidor actual:</span>
+                            <span class="datosFijos">12/08/2021</span>
+                            <span id="contenidoMedidor" class="datosFijos ocultar">12/08/2021</span>
+                        </article> 
+        
+                        <article class="contenidoInputs">
+                            <span class="titulos">Trabajo acumulado:</span>
+                            <span class="datosFijos">28.00</span>
+                            <span id="contenidoMedidor" class="datosFijos ocultar">28.00</span>
+                        </article> 
+        
+                        <aside class="agregarMedidor">
+                            <img src="./img/add_circle_outline.svg" alt="">
+                            <span >Agregar medidor</span>
+                        </aside> 
+                        <aside class="quitarMedidor ocultar">
+                            <img src="./img/remove_circle_outline.svg" alt="">
+                            <span >Quitar Medidor</span>
+                        </aside>
+
+                    </section>
+                </section>
+            </section>
+            <span class="camposObligatorios">Los campos con <span class="asterisco">*</span> son obligatorios</span>
+            <section class="asignacionPresupuestal separar">
+                <h2>ASIGNACION PRESUPUESTAL</h2>
+
+                <section class="contenido">
+                    <article class="contenidoInputs">
+                        <span class="titulos">(<span class="asterisco">*</span>)Obra:</span>
+                        <input class="inputAsignacion" type="text" id="" value="Capacitación maquinaria Juan David">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Item combustible:</span>
+                        <input class="inputAsignacion" type="text" id="" value="1.001 -LUBRICANTES BUSES-">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Item servicio externo:</span>
+                        <input class="inputAsignacion" type="text" id="" value="1.002 -Carcamo-">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Item mantenimiento:</span>
+                        <input class="inputAsignacion" type="text" id="" value="1.003 -Lavado y engrase periodico-">
+                    </article>
+                </section>
+            </section>
+            
+            
+            <aside class="btnGuardar">
+                <button type="submit">Guardar</button>
+            </aside>
+        </main> 
+        
+        <main id="controlMantenimiento" class="ocultar">
+
+            <span class="camposObligatorios2"><span class="asterisco">*</span>Equipos controlados por fechas, solo cargan rutinas de mantenimiento configuradas por días en su primer medidor</span>
+            <section class="mantenimiento separar">
+                <h2>CONTROL DE MANTENIMIENTO</h2>
+
+                <section class="contenido">
+                    <aside class="datosControlMantn">
+                        <div>
+                            <span class="titulos">Grupo de mantenimiento:</span>
+                            <span class="datosFijos">Volquetas prueba</span>
+                        </div>
+                        <div>
+                            <span class="titulos">Plan de mantenimiento:</span>
+                            <span class="datosFijos">Internacional Hr/Km</span>
+                        </div>
+                    </aside>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">(<span class="asterisco">*</span>)Esquema de control:</span>
+                        <select id="">
+                            <option value="">--Seleccione--</option>
+                            <option value="">Lectura</option>
+                            <option value="">Bitacora</option>
+                            <option value="">App</option>  
+                        </select>
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">(<span class="asterisco">*</span>)Frecuencia control op:</span>
+                        <select id="">
+                            <option value="">--Seleccione--</option>
+                            <option value="">Diario</option>
+                            <option value="">Mensual</option>
+                            <option value="">Semestral</option>
+                        </select>
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">(<span class="asterisco">*</span>)Control por:</span>
+                        <select id="opcionesControlPro">
+                            <option id="opciones">--Seleccionar--</option>
+                            <option id="opciones">Combustible</option>
+                            <option id="opciones">Código</option>
+                            <option id="opciones">Manual</option>
+                        </select>
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Control neumaticos:</span>
+                        <input class="inputCheck" type="checkbox" id="verNeumaticos" >
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="mantenimiento separar">
+                <h2>INFORMACION DE MANTENIMIENTO</h2>
+
+                <section class="contenido">
+                    <article class="contenidoInputs">
+                        <span class="titulos">Grupo de mantenimiento:</span>
+                        <select id="">
+                            <option value="">--Seleccione--</option>
+                            <option value="">Volquetas</option>
+                            <option value="">Camiones</option>
+                            <option value="">Retroescavadora</option>
+                        </select>
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Plan de mantenimientos:</span>
+                        <select id="">
+                            <option value="">--Seleccione--</option>
+                            <option value="">Internacional</option>
+                            <option value="">Local</option>
+                            <option value="">Administrado</option>
+                        </select>
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">(<span class="asterisco">*</span>)Control por:</span>
+                        <input type="date" id="">
+                    </article>
+
+                </section>
+
+            </section>
+
+            <section class="mantenimiento separar">
+                <h2>MEDIDOR 1*</h2>
+
+                <section class="contenido">
+                    <article class="contenidoInputs">
+                        <span class="titulos">Ciclo anterior O.T:</span>
+                        <input type="text" id="" value="300.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Medida anterior O.T:</span>
+                        <input type="text" id="" value="13.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Acumulado anterior O.T:</span>
+                        <input type="text" id="" value="0.00">
+                    </article>
+
+                </section>
+
+            </section>
+
+            <aside class="btnGuardar">
+                <button type="submit">Guardar</button>
+            </aside>
+        </main>
+
+        <main id="controlTarifas" class="ocultar">
+            <span class="nota">NOTA: Si el valor en los camos de stand by mes es 0 se tomaran los datos configurados para la obra que se liquide el equipo.</span>
+            <section class="tarifas separar">
+                <h2>TARIFAS</h2>
+
+                <section class="contenido">
+                    <article class="contenidoInputs">
+                        <span class="titulos">Fecha inicio alquiler:</span>
+                        <input type="date" id="">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Insumo de costo:</span>
+                        <input class="inputAsignacion" type="text" id="" value="589-CINCEL 12 (UN)">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Tarifa:</span>
+                        <input type="text" id="" value="0.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Hr stand by mes:</span>
+                        <input type="text" id="" value="0.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Obra alquiler:</span>
+                        <input class="inputAsignacion" type="text" id="" value="Busqueda...">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Valor tarifa diaria:</span>
+                        <input type="text" id="" value="0.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Stand by mes(dia):</span>
+                        <input type="text" id="" value="0.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Insumo alquiler:</span>
+                        <input class="inputAsignacion" type="text" id="" value="318 - BOMBILLO 1100 (CASA)">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Cobro Diario:</span>
+                        <input class="inputCheck" type="checkbox" id="">
+                    </article>
+
+                </section>
+            </section>
+
+            <aside class="btnGuardar">
+                <button type="submit">Guardar</button>
+            </aside>
+        </main>
+
+        <main id="controlNeumaticos" class="ocultar">
+            <section class="neumaticos separar">
+                <h2>CONTROL NEUMATICOS</h2>
+
+                <section class="contenido">
+                    <article class="contenidoInputs">
+                        <span class="titulos">Ciclo anterior O.T:</span>
+                        <input class="inputAsignacion" type="text" id="" value="BUS">
+                        <span class="verEditar"><img src="./img/remove_red_eye.svg" alt=""><img src="./img/edit.svg"
+                                alt=""></span>
+                    </article>
+                </section>
+
+            </section>
+
+            <aside class="btnGuardar">
+                <button type="submit">Guardar</button>
+            </aside>
+        </main>
+
+        <main id="controlCombustible" class="ocultar">
+            <section class="combustible separar">
+                <h2>TOLERANCIA</h2>
+
+                <section class="contenido">
+                    <article class="contenidoInputs">
+                        <span class="titulos">Medidor:</span>
+                        <input type="text" id="" value="0.00">
+                        <input type="text" id="contenidoMedidor2" class="ocultar" value="0.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Unidades de medida:</span>
+                        <input type="text" id="" value="0.00">
+                        <input type="text" id="contenidoMedidor2" class="ocultar" value="0.00">
+                    </article>
+
+                    <article class="contenidoInputs">
+                        <span class="titulos">Medidor inicial:</span>
+                        <input class="inputCheck" type="checkbox">
+                    </article>
+
+                    <aside class="agregarMedidor agregarMedidor2">
+                        <img src="./img/add_circle_outline.svg" alt="">
+                        <span>Agregar medidor</span>
+                    </aside>
+
+                </section>
+            </section>
+
+            <aside class="btnGuardar">
+                <button type="submit">Guardar</button>
+            </aside>
+        </main>
+    </main>
+
+    <aside class="ocultar cuadroGuardado">
+        <span>Información guardarda exitosamente</span>
+    </aside>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

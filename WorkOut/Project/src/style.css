@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #231F20;
+}
+
+body {
+    padding: 10px;
+}
+
+main {
+    background-color: #FAF9F8;
+    padding: 10px;
+}
+
+.tituloCabecera {
+    padding-bottom: 2px;
+    border-bottom: 1px #FFCC00 solid;
+}
+
+.tituloCabecera a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+    border-bottom: solid 6px transparent;
+}
+
+.tituloCabecera a:hover {
+    border-bottom: solid 3px #FFCC00;
+    background-color: #dfd5d5;
+    padding: 10px 10px 0 10px;
+}
+
+.tituloCabecera a.active{
+    border-bottom: solid 3px #FFCC00;
+    background-color: #dfd5d5;
+    padding: 10px 10px 0 10px;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.imagenMaquinaria {
+    margin: auto;
+    text-align: center;
+}
+
+.controlMedidas, .asignacionPresupuestal, .mantenimiento, .tarifas, .combustible, .neumaticos{
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.contenidoInputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.contenido {
+    width: 80%;
+    margin: auto;
+}
+
+.titulos {
+    text-align: right;
+    width: 40%;
+    font-size: 14px;
+}
+
+.datosFijos {
+    font-size: 12px;
+}
+
+input, select {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url(../img/calendar_today.svg);
+    cursor: pointer;
+}
+
+.agregarMedidor, .quitarMedidor{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.agregarMedidor span, .quitarMedidor span {
+    color: #185ABD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.camposObligatorios{
+    margin-left: 5%;
+    font-size: 13px;
+}
+
+.btnGuardar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #FFCC00;
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc0083;
+}
+
+.controlMedidas, .datosFijos, input, select {
+    width: 58%;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.inputAsignacion {
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+
+.asignacionPresupuestal {
+    width: 90%;
+    margin: auto;
+}
+
+.asignacionPresupuestal, .mantenimiento, .tarifas, .combustible, .neumaticos, .controlMedidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 4px 0px 0px #FFCC00;
+    padding: 10px 0 30px 0;
+    border-radius: 2px;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mantenimiento, .tarifas, .combustible, .neumaticos {
+    width: 75%;
+    margin: 40px auto;
+}
+
+.datosControlMantn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.inputCheck {
+    margin-right: 55%;
+    width: 17px;
+    height: 17px;
+}
+
+.separar {
+    padding-right: 60px;
+}
+
+.verEditar {
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.asterisco {
+    color: red;
+}  
+
+.camposObligatorios2, .nota{
+    margin-left: 13%;
+    font-size: 13px;
+} 
+
+.cuadroGuardado{
+    border: 2px solid #21A366;
+    background: #69b18fa1;
+    width: 25%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+}
+
+#textoAgregar, #textoQuitar{
+    color: #185ABD;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 910px) {
+    .cabecera {
+        flex-direction: column;
+        padding: 15px 0 15px 0;
+    }
+    .tituloCabecera{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contenidoInputs {
+        flex-direction: column;
+        text-align: center;
+    }
+    .titulos {
+        text-align: center;
+        width: 80%;
+    }
+    
+    input, select, .datosFijos {
+        width: 90%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .controlMedidas {
+        width: 65%;
+    }
+    .asignacionPresupuestal, .mantenimiento, .tarifas, .combustible, .neumaticos {
+        width: 58%;
+    }
+    .separar {
+        padding-right: 0;
+    }
+    .datosControlMantn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .datosControlMantn div {
+        margin-top: 10px;
+    }
+    .camposObligatorios{
+        margin-left: 21%;
+    }
+}
