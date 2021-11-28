@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #091D36;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    background-color: #F1F1F0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+header aside{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+#buscar{
+    width: 55%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    background-image: url(../icons/bisearch.svg);
+    background-repeat: no-repeat;
+    background-position: 2%;
+    padding-left: 40px;
+}
+
+.ayuda{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.actividades{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25), inset 0px 35px 0px #F1F1F0;
+    width: 30%;
+    height: 500px;
+    
+}
+
+.descripcion{
+    border: solid blue;
+    width: 68%;
+}
+
