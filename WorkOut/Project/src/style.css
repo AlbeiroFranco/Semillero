@@ -98,6 +98,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     cursor: pointer;
 }
 
+input[type="text"]::-webkit-calendar-picker-indicator {
+    background-image: url(../img/calendar_today.svg);
+    cursor: pointer;
+}
+
+
 .agregarMedidor, .quitarMedidor{
     display: flex;
     align-items: center;

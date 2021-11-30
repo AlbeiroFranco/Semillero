@@ -1,0 +1,51 @@
+[
+    {
+        "paso": "0",
+        "actividad": "Registro de correspondencia",
+        "estado": "Registrado",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "Facturas de Servicios"
+    },
+    {
+        "paso": "1",
+        "actividad": "Asociar actas y entradas (ADPRO)",
+        "estado": "Completado",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "OK"
+    },
+    {
+        "paso": "2",
+        "actividad": "Revisar concepto y valor",
+        "estado": "Completado",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "OK"
+    },
+    {
+        "paso": "3",
+        "actividad": "Causar Factura",
+        "estado": "Pendiente",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "Pendiente"
+    },
+    {
+        "paso": "3",
+        "actividad": "Reasignación correspondencia",
+        "estado": "Reasignado",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "OK"
+    },
+    {
+        "paso": "3",
+        "actividad": "Registro de correspondencia",
+        "estado": "Reasignado",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "OK"
+    },
+    {
+        "paso": "3",
+        "actividad": "Registro de correspondencia",
+        "estado": "Reasignado",
+        "usuario": "Admin Sincosoft 19/04/2017 11:04 AM",
+        "observaciones": "Se reasignó de componentes Office a Admin Sincosoft"
+    }    
+]
