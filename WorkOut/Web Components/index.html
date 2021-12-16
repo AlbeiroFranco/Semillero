@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+    <script src="./tooltip.js"></script>
+    <script src="./confirm-link.js"></script>
+    <style>
+        div{
+            border: 2px solid orange;
+        }
+    </style>
+<body>
+    <p>
+    <ar-tooltip text="Wow Maquina">Web components</ar-tooltip> 
+    web son increibles
+    </p>
+    <ar-tooltip></ar-tooltip>
+    <div>Esto no es un estilo de web components</div>
+
+    <a is="ar-confirm-link" href="https://www.google.com.co/">Google</a>
+</body>
+</html>

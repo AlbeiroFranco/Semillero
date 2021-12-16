@@ -1,0 +1,36 @@
+body{
+  
+    font-family: "Roboto", sans-serif;
+}
+
+.mes{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td{
+    border: solid 1px #E5E5E5;
+    width: 66px;
+    height: 32PX;
+    text-align: center;
+    
+}
+
+th{
+    border-top: none;
+}
+
+td{
+    height: 45px;
+    padding: 5px;
+}
+
+
