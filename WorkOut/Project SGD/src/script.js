@@ -37,56 +37,64 @@ const mostrarTarjeras = async () => {
 mostrarTarjeras();
 
 
-let datosDescriptores = document.querySelector('#datosDescriptores');
-let llenarCampos = document.querySelector('.llenarCampos');
-
+let descriptores = document.querySelector('.descriptores')
 function crearSeccionDescriptores() {
-        datosDescriptores.style.cssText = "padding: 10px; margin: auto";
-        llenarCampos.style.cssText= "padding: 10px 0 0 20px";
+        /* datosDescriptores.style.cssText = "padding: 10px; margin: auto"; */
+        /* llenarCampos.style.cssText= "padding: 10px 0 0 20px"; Agregar Stilos directos al JavaScript*/
         
-        llenarCampos.innerHTML = `
+        descriptores.innerHTML += `
+            <div id="llenarCampos" class="ocultar">
             <span>Los campos con (<span class="asterisco">*</span>) son obligatorios</span>
+            </div>
         `;
 
-        datosDescriptores.innerHTML = `
-            <label>Proveedor</label>
-            <input type="text" name="" id="">
-            <label>(<span class="asterisco">*</span>)Consecutivo factura de proveedor</label>
-            <input type="text" name="" id="">
-            <label>(<span class="asterisco">*</span>)Valor total del documento</label>
-            <input type="text" name="" id="">
-            <label>(<span class="asterisco">*</span>)Fecha de vencimiento de factura</label>
-            <input type="date" name="" id="">
-            <label>Contrato de obra</label>
-            <input type="text" name="" id="">
-            <label>Acta de obra</label>
-            <input type="text" name="" id="">
-            <label>Entrada de almacen</label>
-            <input type="text" name="" id="">
-            <label>(<span class="asterisco">*</span>)Centro de costos</label>
-            <input type="text" name="" id="">
-            <label>Fecha de costos</label>
-            <input type="date" name="" id="">
-            <label>Obras por usuarios</label>
-            <input type="text" name="" id="">
+        descriptores.innerHTML += `
+            <form id="datosDescriptores" class="ocultar">
+                <label>Proveedor</label>
+                <input type="text" name="" id="">
+                <label>(<span class="asterisco">*</span>)Consecutivo factura de proveedor</label>
+                <input type="text" name="" id="">
+                <label>(<span class="asterisco">*</span>)Valor total del documento</label>
+                <input type="text" name="" id="">
+                <label>(<span class="asterisco">*</span>)Fecha de vencimiento de factura</label>
+                <input type="date" name="" id="">
+                <label>Contrato de obra</label>
+                <input type="text" name="" id="">
+                <label>Acta de obra</label>
+                <input type="text" name="" id="">
+                <label>Entrada de almacen</label>
+                <input type="text" name="" id="">
+                <label>(<span class="asterisco">*</span>)Centro de costos</label>
+                <input type="text" name="" id="">
+                <label>Fecha de costos</label>
+                <input type="date" name="" id="">
+                <label>Obras por usuarios</label>
+                <input type="text" name="" id="">
+            </form>
     `
-    
 }
+crearSeccionDescriptores();
 
-let descriptores = document.querySelector('#descriptores');
-descriptores.addEventListener('click', () => {
-    crearSeccionDescriptores();
-})
+let llenarCampos = document.querySelector('#llenarCampos'); 
+let cambioImg1 = document.querySelector('.cambioImg1');
+cambioImg1.addEventListener('click', () => {
+    datosDescriptores.classList.toggle('ocultar');
+    llenarCampos.classList.toggle('ocultar');
+    cambioImg1.classList.toggle('rotar');
+}) 
 
 
-let tituloTabla = document.querySelector('.tituloTabla');
-let contenidoTabla = document.querySelector('.contenidoTabla');
-async function crearSeccionSeguimientos() {
-    const formatoSeguimiento = await fetch("./seguimiento.json");
-    const datosSeguimiento = await formatoSeguimiento.json();
-    tablaSeguimientos.style.margin = "20px auto";
-    document.querySelector('.tabla').style.paddingBottom = "5px"
-    tituloTabla.innerHTML = `
+let insertarTabla = document.querySelector('.seguimientos')
+function crearSeccionSeguimientos() {
+    insertarTabla.innerHTML += `
+        <table id="tablaSeguimientos" class="ocultar" >
+        </table>
+    `;
+
+    tabla = document.querySelector('#tablaSeguimientos');
+
+    tabla.innerHTML += `
+        <thead class="tituloTabla">   
             <tr>
                 <th>Paso</th>
                 <th>Actividad de flujo</th>
@@ -94,80 +102,112 @@ async function crearSeccionSeguimientos() {
                 <th>Usuario</th>
                 <th>Observaciones</th>
             </tr>
-        `
-    datosSeguimiento.forEach(dato => {
-        contenidoTabla.innerHTML += `
-            <tr>
-                <td >${dato.paso}</td>
-                <td>${dato.actividad}</td>
-                <td>${dato.estado}</td>
-                <td>${dato.usuario}</td>
-                <td>${dato.observaciones}</td>
-            </tr>
-        `
+        </thead>
+        `;
+
+    tabla.innerHTML += `
+        <tbody class="contenidoTabla">
+            
+        </tbody>
+        `;
+
+    fetch("./seguimiento.json")
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(dato => {
+                document.querySelector('.contenidoTabla').innerHTML += `
+                    <tr>
+                        <td >${dato.paso}</td>
+                        <td>${dato.actividad}</td>
+                        <td>${dato.estado}</td>
+                        <td>${dato.usuario}</td>
+                        <td>${dato.observaciones}</td>
+                    </tr>
+                    `
+        
+    });
+})
+    
+}
+crearSeccionSeguimientos();
+
+let cambioImg2 = document.querySelector('.cambioImg2');
+cambioImg2.addEventListener('click', ()=>{
+  tabla.classList.toggle('ocultar');
+  cambioImg2.classList.toggle('rotar');
+})
+
+
+let correspondencia = document.querySelector('#correspondencia');
+function crearSeccionCorrespondencia() {
+     
+    correspondencia.innerHTML += `
+        <div id="textoCorrespondencia" class="ocultar">
+           <span>No tiene correspondencia</span>
+        </div>
+    `
+}
+crearSeccionCorrespondencia();
+
+let cambioImg3 = document.querySelector('.cambioImg3');
+let textoCorrespondencia = document.querySelector('#textoCorrespondencia'); 
+cambioImg3.addEventListener('click', ()=>{
+    textoCorrespondencia.classList.toggle('ocultar');
+    cambioImg3.classList.toggle('rotar');
+}) 
+
+
+let documentos = document.querySelector('.documentos');
+function crearSeccionDocumentos() {
+    documentos.innerHTML += `
+        <div class="enviarDocumentos ocultar">
+            <div class="anexos">
+                <a href="">INSTALACIONMARCO.PDF</a>
+                <a href="">ANEXOSGD.PDF</a>
+                <a href="">FS00002-FACTURAS DE SERVICIOS.IMG </a> 
+            </div>
+            <div class="subirDocumentos">
+                <p>Suelte los archivos aquí para comenzar a cargarlos <br> <br> o</p>
+                <input type="file" name=""  id="">
+                <button class="enviar" type="submit">Enviar</button>
+            </div>
+        </div>
+    `
+}
+crearSeccionDocumentos();
+
+let cambioImg4 = document.querySelector('.cambioImg4');
+let enviarDocumentos = document.querySelector('.enviarDocumentos')
+cambioImg4.addEventListener('click', () =>{
+    enviarDocumentos.classList.toggle('ocultar');
+    cambioImg4.classList.toggle('rotar');
+})
+
+let cambioImg = Array.from(document.querySelectorAll('.cambioImg'));
+function cambio() {
+    datosDescriptores.classList.toggle('ocultar');
+    llenarCampos.classList.toggle('ocultar');
+    tabla.classList.toggle('ocultar');
+    textoCorrespondencia.classList.toggle('ocultar');
+    enviarDocumentos.classList.toggle('ocultar');
+    cambioImg.forEach(element => {
+        element.classList.toggle('rotar');
     });
 }
 
-document.querySelector('#seguimientos').addEventListener('click', ()=>{
-  crearSeccionSeguimientos();
-})
-
-
-const sinCorrespondencia = document.querySelector('#sinCorrespondencia');
-function crearSeccionCorrespondencia() {
-    sinCorrespondencia.style.padding = "20px"
-    sinCorrespondencia.innerHTML = `
-        <span>No tiene correspondencia</span>
-    `
-}
-
-document.querySelector('#correspondencia').addEventListener('click', ()=>{
-    crearSeccionCorrespondencia();
-})
-
-
-const enviarDocumentos = document.querySelector('.enviarDocumentos');
-function crearSeccionDocumentos() {
-    enviarDocumentos.style.padding = "20px"
-    enviarDocumentos.innerHTML = `
-        <div class="anexos">
-            <a href="">INSTALACIONMARCO.PDF</a>
-            <a href="">ANEXOSGD.PDF</a>
-            <a href="">FS00002-FACTURAS DE SERVICIOS.IMG </a> 
-        </div>
-        <div class="subirDocumentos">
-            <p>Suelte los archivos aquí para comenzar a cargarlos <br> <br> o</p>
-            <input type="file" name=""  id="">
-            <button class="enviar" type="submit">Enviar</button>
-        </div>
-    `
-}
-
-document.querySelector('#documentos').addEventListener('click', () =>{
-    crearSeccionDocumentos();
-})
-
 
 const expandir = document.querySelector('.expandir');
-const contraer = document.querySelector('.contraer')
+const contraer = document.querySelector('.contraer');
 expandir.addEventListener('click', ()=>{
     expandir.classList.add('ocultar');
     contraer.classList.remove('ocultar');
-    crearSeccionDescriptores();
-    crearSeccionSeguimientos();
-    crearSeccionCorrespondencia();
-    crearSeccionDocumentos();
+        cambio()
 })
 
 contraer.addEventListener('click', ()=>{
-    expandir.classList.remove('ocultar');
     contraer.classList.add('ocultar');
-    llenarCampos.classList.add('ocultar');
-    datosDescriptores.innerHTML = "";
-    tituloTabla.innerHTML = "";
-    contenidoTabla.innerHTML = "";
-    sinCorrespondencia.innerHTML = "";
-    enviarDocumentos.innerHTML = "";
+    expandir.classList.remove('ocultar');
+    cambio()
 })
 
 const modalReasignar = document.querySelector('#modalReasignar');
@@ -205,20 +245,16 @@ document.querySelector('#btnCompletar').addEventListener('click', ()=>{
     modalResponder.style.display = 'none';
 })
 
-const pasos = document.querySelector('#pasos');
+
 const modalPasos = document.querySelector('#modalPasos')
+function cambioPasos() {
+    modalPasos.classList.toggle('ocultar');
+    modalPasos.classList.toggle('modalPasos');
+}
+
+const pasos = document.querySelector('#pasos');
 pasos.addEventListener('click', ()=>{
-    modalPasos.classList.remove('ocultar');
-    modalPasos.classList.add('modalPasos');
+    cambioPasos()
 })
-
-modalPasos.addEventListener('click', ()=>{
-    modalPasos.classList.add('ocultar');
-    modalPasos.classList.remove('modalPasos');
-})
-
-
-
-
 
 
