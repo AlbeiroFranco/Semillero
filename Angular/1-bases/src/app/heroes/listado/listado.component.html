@@ -1,0 +1,22 @@
+<div *ngIf="heroesBorrados; else noBorrado"> <!-- !== condicion ternaria es diferente --> 
+    <h3>Héroe borrado: <small>{{heroesBorrados}}</small></h3>
+</div>
+
+<ng-template #noBorrado>  <!-- referencia local -- se distingue por el # -->
+    <h3>No ha Borrado Nada</h3>
+</ng-template>
+
+
+<!-- <div *ngIf="!heroesBorrados"> --> <!-- ! es la negacion o el contrario de lo que esta llamando -->
+    <!-- <h3>No ha Borrado Nada</h3>
+</div> -->
+
+ <button (click)="borrarHeroe()">Borrar</button>
+
+<p>listado de heroes</p>
+ <ul>
+     <li *ngFor="let heroe of heroes; let i = index"><!-- *ngFor = directiva--esto son directivas Estructurales -->
+         {{i}} {{heroe}}
+        </li> 
+ </ul>
+
