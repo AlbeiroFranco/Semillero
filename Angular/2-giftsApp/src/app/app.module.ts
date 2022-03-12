@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'; //para traer los API
 
 import { AppComponent } from './app.component';
-import { HeroesModule } from './heroes/heroes.module';
-import { ContadorModule } from './contador/contador.module';
-import { DbzModule } from './dbz/dbz.module';
+import { ShareModule } from './share/share.module';
+import { GifsModule } from './gifs/gifs.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    
   ],
   imports: [
     BrowserModule,
-    HeroesModule,
-    ContadorModule,
-    DbzModule
+    HttpClientModule,
+    ShareModule,
+    GifsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-
 export class AppModule { }

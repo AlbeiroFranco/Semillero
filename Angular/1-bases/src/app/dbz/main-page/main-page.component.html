@@ -1,0 +1,28 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+<div class="row">
+
+    <div class="col">
+        <app-personajes ></app-personajes>
+        <!-- <h3>Personajes</h3>
+        <hr>
+        <ul *ngFor="let personaje of personajes">
+            <li>{{personaje.nombre}} - {{personaje.poder | number}}</li> -->  <!-- | number = los conocidos pipe sirven para transformar la información -->
+        <!-- </ul> -->
+    </div>
+
+    <div class="col">
+        <app-agregar [nuevo]="nuevo"></app-agregar>
+        <!-- <h3>Agregar</h3>
+        <hr>
+
+        <form action="" (ngSubmit)="agregar()">--> <!-- ngSubmit sirve para evitar que se refresque la pagina -->
+          <!--   <input type="text" placeholder="Nombre" [value]="nuevo.nombre" (input)="cambiarNombre( $event )"> --> <!-- con las [] y dentro [value] podemos llamar una propiedad del componente para establecer alguna propiedad a este elemento -->
+          <!-- <input type="text" placeholder="Nombre" name="nombre" [(ngModel)]="nuevo.nombre"> -->  <!--  [(ngModel)] concepto de Two Way Data Binding con NgModel  -->
+          <!-- <input type="text" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder">
+            <button type="submit"> Agregar </button>
+        </form> -->
+ 
+    </div>
+
+</div>

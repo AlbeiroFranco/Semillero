@@ -7,11 +7,26 @@
     </div>
 </div>
 
+<ul *ngIf="mostrarSugerencia" class="list-group">
+    <li *ngFor="let paisSugerido of paisesSugeridos" class="list-group-item list-group-item-action">
+        <a class="nav-link" [routerLink]="['/ver', paisSugerido.cca2]">
+            {{paisSugerido.name.common}}
+        </a>
+        
+    </li>
+    <li class="list-group-item list-group-item-action" (click)="buscarSugerido( termino )">
+        <a class="nav-link" >
+            Buscar "{{ termino }}"
+        </a>
+        
+    </li>
+</ul>
+
 <hr>
 
 <div *ngIf="hayError" class="alert alert-danger"> No se encontró nada con el país {{termino}}</div>
 
-<div *ngIf="paises.length > 0" class="row">
+<div *ngIf="paises.length > 0" class="row gx-5">
     <div class="col">
         <app-pais-tabla [paises]="paises"></app-pais-tabla> <!--  cuando de trae del (input)="" eviarala como propiedad [paises] = "paises"-->
     </div>
