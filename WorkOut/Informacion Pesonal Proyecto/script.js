@@ -23,7 +23,6 @@ ocultar1.addEventListener('click', () =>{
     cambiar.classList.toggle('active');
 })
 
-
 campos.forEach( perfil => {
     perfil.addEventListener('click', () => {
         console.log(perfil);
@@ -36,7 +35,6 @@ campos.forEach( perfil => {
             insertarPasatiempos(datos[2]);   
         }else if (perfil.id === 'proyectos'){
             insertarProyectos(datos[3]);
-
         }else{
             (configuracion === 'configuracion');
             insertarConfiguracion(datos[4]);
