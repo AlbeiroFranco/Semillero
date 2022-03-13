@@ -14,8 +14,6 @@ main {
     width: 90%;
 }
 
-
-
 .section1{
     width: 35%;
 }
@@ -32,6 +30,7 @@ main {
     margin: 30px auto;
     display: flex;
     box-shadow: 3px 6px 20px -10px rgba(0,0,0,0.64);
+    padding: 15px;
 }
 
 .nombre{
