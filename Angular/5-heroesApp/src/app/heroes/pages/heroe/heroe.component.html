@@ -1,0 +1,31 @@
+<mat-grid-list cols="1" *ngIf="!heroe; else divHeroe">
+    <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<ng-template #divHeroe>
+    <div fxLayout="row" fxLayout="column" fxLayoutAlign="30px">
+        <mat-card class="example-card">
+            <mat-card-title-group>
+                <mat-card-title>{{heroe.superhero}}</mat-card-title>
+                <mat-card-subtitle>{{heroe.id}}</mat-card-subtitle>
+                <img mat-card-xl-image [src]="heroe | imagen" >
+            </mat-card-title-group>
+            
+            <mat-card-content>
+              <p><strong>Characters:</strong>  {{heroe.characters }}</p>
+              <p><strong>First Appearance: </strong>  {{heroe.first_appearance}}</p>
+              <p><strong>Publisher:</strong>  {{heroe.publisher}}</p>
+            </mat-card-content>
+
+            <mat-card-actions>
+                <button mat-raised-button color="warn" (click)="regresar()">Regresar</button>
+                <button mat-raised-button color="warn" routerLink="./listado">Regresar 2</button>
+            </mat-card-actions>
+        </mat-card>
+
+
+    </div>
+
+</ng-template>
