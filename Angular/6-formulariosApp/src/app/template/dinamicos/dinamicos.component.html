@@ -1,0 +1,52 @@
+<h2>Templates Dinamicos</h2>
+<hr>
+
+<form (ngSubmit)="guardar()" autocomplete="off" #formulario="ngForm"> <!-- //Formulario es mi referencia local -->
+    
+    <!-- Nombre -->
+    <div class="mb-3 row">
+        <label class="col sm-3 col-form-label">Nombre</label>
+        <div class="col-sm-9">
+            <input type="text" 
+                   [ngModel]="persona.nombre"
+                   name="nomPersona"
+                   class="form-control" 
+                   placeholder="Nombre de la persona" 
+                   required>
+            <span class="form-text text-danger" *ngIf="validar()">Este campo obligatorio</span>
+        </div>
+    </div>
+
+    <!-- Agregar -->
+    <div class="mb-3 row">
+        <label class="col sm-3 col-form-label">Agregar</label>
+        <div class="col-sm-9">
+            <div class="input-group ">
+                <input class="form-control" placeholder="Agregar Favorito" [(ngModel)]="nuevoJuego" (keyup.enter)="nuevoJuego" name="nuevoJuego">
+                <button type="button" class="btn btn-success" (click)="agregarJuego()" >Agregar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lista de juegos favoritos -->
+    <div class="mb-3 row">
+        <label class="col sm-3 col-form-label">Favoritos</label>
+        <div class="col-sm-9">
+            <div class="input-group mb-1" *ngFor="let juego of persona.favoritos; let i = index">
+                <input  [(ngModel)]="juego.nombre" name="game-{{i}}" class="form-control" required="">
+                <button type="button" class="btn btn-danger" (click)="eliminar(i)">Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-12" type="button" >
+            <button class="btn btn-primary float-end" (click)="guardar()" [disabled]="formulario.invalid">Guardar</button>
+        </div>
+    </div>
+</form>
+
+
+<span></span>
+<pre>{{persona | json}}</pre>
