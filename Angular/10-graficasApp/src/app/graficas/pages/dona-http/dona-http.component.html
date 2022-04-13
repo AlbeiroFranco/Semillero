@@ -1,0 +1,23 @@
+
+<div class="container">
+    <h4 class="mt-2">Datos redes sociales</h4>
+    <hr>
+    
+    <div *ngIf="doughnutChartData.datasets[0].data.length === 0; else divGrafica" class="alert alert-info">
+        Cargando datos...
+    </div>
+
+    <div class="row">   
+        <div class="col">
+            <ng-template #divGrafica>
+                <div style="width: 50%; margin: auto;">
+                <canvas baseChart
+                    [data]="doughnutChartData"
+                    [type]="doughnutChartType">
+                </canvas>
+                </div>
+            </ng-template>
+        </div>
+    </div>
+
+</div>

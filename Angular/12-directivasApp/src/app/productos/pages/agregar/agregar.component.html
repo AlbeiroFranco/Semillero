@@ -1,0 +1,48 @@
+<h1 class="mt-5">Agregar Producto</h1>
+<hr>
+
+<form autocomplete="off" [formGroup]="miFormulario">
+    <div class="row g-3 align-items-center mb-3">
+        <div class="col-auto">
+            <label class="col-form-label" >Nombre</label>
+        </div>
+
+        <div class="col-auto">
+            <input class="form-control" formControlName="nombre">
+        </div>
+
+        <!-- <div class="col-auto">
+            <span class="form-text" *ngIf="validacion('nombre')" appErrorMsg color="red" mensaje="Este campo es obligatorio"></span>  APLICANDO LA DIRECTIVA
+        </div> -->
+
+        <div class="col-auto">
+            <span appErrorMsg
+                  [mensaje]="texto1"
+                  [color]="color"
+                  [valido] = "!validacion('nombre')"
+                  ></span>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col ">
+                <button class="btn btn-primary" (click)="cambiarNombre()">Guardar</button>
+                <button class="btn btn-primary ms-2" (click)="cambiarColor()">Cambiar</button>
+            </div>
+        </div>
+
+    </div>
+
+</form>
+
+<h3 class="mt-5">Formulario</h3>
+<pre>Valid: {{miFormulario.valid}}</pre>
+<pre>Value: {{miFormulario.value | json}}</pre>
+
+
+<div class="row mt-5" *customIf="miFormulario.valid"> <!-- se utiliza *customIf para que la referencia funcione -->
+    <div class="col">
+        <div class="alert alert-primary">
+            Todo Ok!
+        </div>
+    </div>
+</div>

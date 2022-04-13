@@ -1,0 +1,17 @@
+<div class="container ">
+  <h4 class="mt-2">Grafica de Barras</h4>
+  <hr>
+    <div class="col">
+        <div style="display: block">
+            <canvas baseChart
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [plugins]="barChartPlugins"
+              [type]="barChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)">
+            </canvas>
+          </div>
+          <button class="btn btn-primary float-end mt-2" (click)="randomize()">Actualizar</button>
+    </div>
+</div>

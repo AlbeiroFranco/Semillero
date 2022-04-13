@@ -4,17 +4,15 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
 
 import { RouterModule } from '@angular/router';
 
-
-
-
-
 @NgModule({
   declarations: [
-    SideMenuComponent
+    SideMenuComponent,
+    
   ],
     imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    
   ],
   exports: [
     SideMenuComponent
