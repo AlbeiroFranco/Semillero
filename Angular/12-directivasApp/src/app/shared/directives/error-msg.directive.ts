@@ -27,6 +27,7 @@ export class ErrorMsgDirective implements OnInit {
       
     }else{
     this.htlmElement.nativeElement.classList.remove('hiden');
+    
     } 
   }
 

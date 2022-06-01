@@ -1,0 +1,137 @@
+<app-header></app-header>
+
+<div class="container">
+  <br>
+  <h3>Lista de Usuarios</h3>
+  <hr>
+
+  <table class="table scroll" >
+      <thead>
+        <tr class="text-center">
+          <th scope="col">ID</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Identificación</th>
+          <th scope="col">Correo</th>
+          <th scope="col">Dirección</th>
+          <th scope="col">Código postal</th>
+          <th scope="col">Genero</th>
+          <th scope="col">Teléfono</th>
+          <th scope="col">Fecha de nacimiento</th>
+          <th scope="col">Acciones</th>
+        </tr>
+      </thead>
+      <tbody class="text-center" [formGroup]="editarForm" (ngSubmit)="guardar(editarForm.value, pacientes)">
+        <tr *ngFor="let paciente of pacientes" >
+          <th scope="row">{{paciente.PacienteId}}</th>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.Nombre}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="text" class="form-control" formControlName="nombre">
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.DNI}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="text" class="form-control" formControlName="dni">
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.Correo}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="text" class="form-control" formControlName="correo" >
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.Direccion}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="text" class="form-control" formControlName="direccion" >
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.CodigoPostal}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="email" class="form-control" formControlName="codigoPostal" >
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.Genero}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="email" class="form-control" formControlName="genero" >
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.Telefono}}
+            </div>
+            <div *ngIf="paciente.edit" >
+              <input type="email" class="form-control" formControlName="telefono">
+            </div>
+          </td>
+          <td>
+            <div *ngIf="!paciente.edit">
+              {{paciente.FechaNacimiento}}
+            </div>
+            <div *ngIf="paciente.edit">
+              <input type="email" class="form-control" formControlName="fechaNacimiento"  >
+            </div>
+          </td>
+          <td>
+            <div>
+              <i class="fa-solid fa-pen ms-3" (click)="editando(paciente.PacienteId, paciente)"></i>
+              <i class="fa-solid fa-trash ms-3" (click)="eliminar()"></i>
+              <i class="fa-solid fa-clock-rotate-left ms-3"></i>
+              <i class="fa-solid fa-floppy-disk ms-3" (click)="guardar(editarForm.value, paciente)"></i>
+            </div>
+          </td>
+        </tr> 
+        <tr [formGroup]="nuevoForm" (ngSubmit)="nuevo(nuevoForm.value)" >
+          <th>
+            <!-- <input type="text" class="form-control" formControlName="pacienteId" > -->
+          </th>
+          <td >
+            <input type="text" class="form-control" formControlName="nombre" >
+          </td>
+          <td>
+            <input type="text" class="form-control" formControlName="dni" >
+          </td>
+          <td>
+            <input type="text" class="form-control" formControlName="correo" >
+          </td>
+          <td>
+            <input type="text" class="form-control" formControlName="direccion" >
+          </td>
+          <td>
+            <input type="text" class="form-control" formControlName="codigoPostal">
+          </td>
+          <td>
+            <input type="text" class="form-control" formControlName="genero" >
+          </td>
+          <td>  
+            <input type="text" class="form-control" formControlName="telefono" >
+          </td>
+          <td>
+            <input type="text" class="form-control" formControlName="fechaNacimiento">
+          </td>
+          <td>
+            <i class="fa-solid fa-floppy-disk ms-3" (click)="nuevo(nuevoForm.value)"></i>
+            <i class="fa-solid fa-xmark ms-3"></i>
+          </td>
+        </tr>
+      </tbody>
+  </table>
+
+  <button type="submit" class="btn btn-primary" >Nuevo</button>
+</div>
+

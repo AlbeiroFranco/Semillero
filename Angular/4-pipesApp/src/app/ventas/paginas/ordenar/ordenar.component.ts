@@ -10,6 +10,7 @@ export class OrdenarComponent implements OnInit {
 
   enMayusculas: boolean = true; 
   ordenarPor: string = '';
+
  
   heroes: Heroe[] = [
     {

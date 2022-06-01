@@ -1,0 +1,11 @@
+<h3>Hijo component</h3>
+<hr>
+<!-- <h5>{{mensaje}}</h5> -->
+
+<h5 *ngIf="dataService.nombre$ | async as nombre; else sindata">
+    <!-- {{dataService.nombre$ | async}} -->
+    {{nombre}}
+</h5>
+<ng-template #sindata>
+    No hay Informacion
+</ng-template>
