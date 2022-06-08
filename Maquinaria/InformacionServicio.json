@@ -1,0 +1,307 @@
+[
+    {
+      "codigo": -1,
+      "nombreEquipo": "",
+      "tarifaPGR": 0,
+      "tarifaRI": 0,
+      "calendario": {
+        "1": {
+          "Fecha": "01/12/2021",
+          "DescripcionDia": "Miércoles",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "2": {
+          "Fecha": "02/12/2021",
+          "DescripcionDia": "Jueves",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "3": {
+          "Fecha": "03/12/2021",
+          "DescripcionDia": "Viernes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "4": {
+          "Fecha": "04/12/2021",
+          "DescripcionDia": "Sábado",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "5": {
+          "Fecha": "05/12/2021",
+          "DescripcionDia": "Domingo",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "6": {
+          "Fecha": "06/12/2021",
+          "DescripcionDia": "Lunes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "7": {
+          "Fecha": "07/12/2021",
+          "DescripcionDia": "Martes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "8": {
+          "Fecha": "08/12/2021",
+          "DescripcionDia": "Miércoles",
+          "Habil": 1,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "9": {
+          "Fecha": "09/12/2021",
+          "DescripcionDia": "Jueves",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "10": {
+          "Fecha": "10/12/2021",
+          "DescripcionDia": "Viernes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "11": {
+          "Fecha": "11/12/2021",
+          "DescripcionDia": "Sábado",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "12": {
+          "Fecha": "12/12/2021",
+          "DescripcionDia": "Domingo",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "13": {
+          "Fecha": "13/12/2021",
+          "DescripcionDia": "Lunes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "14": {
+          "Fecha": "14/12/2021",
+          "DescripcionDia": "Martes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "15": {
+          "Fecha": "15/12/2021",
+          "DescripcionDia": "Miércoles",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "16": {
+          "Fecha": "16/12/2021",
+          "DescripcionDia": "Jueves",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "17": {
+          "Fecha": "17/12/2021",
+          "DescripcionDia": "Viernes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "18": {
+          "Fecha": "18/12/2021",
+          "DescripcionDia": "Sábado",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "19": {
+          "Fecha": "19/12/2021",
+          "DescripcionDia": "Domingo",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "20": {
+          "Fecha": "20/12/2021",
+          "DescripcionDia": "Lunes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "21": {
+          "Fecha": "21/12/2021",
+          "DescripcionDia": "Martes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "22": {
+          "Fecha": "22/12/2021",
+          "DescripcionDia": "Miércoles",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "23": {
+          "Fecha": "23/12/2021",
+          "DescripcionDia": "Jueves",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "24": {
+          "Fecha": "24/12/2021",
+          "DescripcionDia": "Viernes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "25": {
+          "Fecha": "25/12/2021",
+          "DescripcionDia": "Sábado",
+          "Habil": 1,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "26": {
+          "Fecha": "26/12/2021",
+          "DescripcionDia": "Domingo",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "27": {
+          "Fecha": "27/12/2021",
+          "DescripcionDia": "Lunes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "28": {
+          "Fecha": "28/12/2021",
+          "DescripcionDia": "Martes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "29": {
+          "Fecha": "29/12/2021",
+          "DescripcionDia": "Miércoles",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "30": {
+          "Fecha": "30/12/2021",
+          "DescripcionDia": "Jueves",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        },
+        "31": {
+          "Fecha": "31/12/2021",
+          "DescripcionDia": "Viernes",
+          "Habil": 0,
+          "Estado": "",
+          "EstadoDesc": "",
+          "Editable": "0"
+        }
+      }
+    },
+    {
+      "codigo": 384,
+      "nombreEquipo": "384 - Caja para Herramienta",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    },
+    {
+      "codigo": 589,
+      "nombreEquipo": "589 - CINCEL12",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"T1\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    },
+    {
+      "codigo": 942,
+      "nombreEquipo": "942 - Espejo de vigilancia de 40 cm c/ instalación",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"T2\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    },
+    {
+      "codigo": 6898728,
+      "nombreEquipo": "6898728 - ANDAMIO COLGANTE / CABLE DE 30 M (PAR)",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"M\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"0\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    },
+    {
+      "codigo": 6899138,
+      "nombreEquipo": "6899138 - CEPILLO DE ALAMBRE",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"TP\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    },
+    {
+      "codigo": 690015499,
+      "nombreEquipo": "690015499 - Motoniveladora CAT",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"A\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    },
+    {
+      "codigo": 690565655,
+      "nombreEquipo": "grua",
+      "tarifaPGR": 32500,
+      "tarifaRI": 50000,
+      "calendario": "{\"1\":{\"Fecha\":\"01/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"A\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"2\":{\"Fecha\":\"02/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"3\":{\"Fecha\":\"03/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"4\":{\"Fecha\":\"04/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"5\":{\"Fecha\":\"05/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"6\":{\"Fecha\":\"06/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"7\":{\"Fecha\":\"07/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"8\":{\"Fecha\":\"08/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"9\":{\"Fecha\":\"09/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"10\":{\"Fecha\":\"10/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"11\":{\"Fecha\":\"11/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"12\":{\"Fecha\":\"12/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"13\":{\"Fecha\":\"13/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"14\":{\"Fecha\":\"14/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"15\":{\"Fecha\":\"15/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"I\",\"EstadoDesc\":\"Instalación/Desmovilización\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"16\":{\"Fecha\":\"16/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"17\":{\"Fecha\":\"17/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"18\":{\"Fecha\":\"18/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"19\":{\"Fecha\":\"19/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"20\":{\"Fecha\":\"20/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"21\":{\"Fecha\":\"21/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"22\":{\"Fecha\":\"22/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"23\":{\"Fecha\":\"23/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"24\":{\"Fecha\":\"24/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"25\":{\"Fecha\":\"25/12/2021\",\"DescripcionDia\":\"Sábado\",\"Habil\":1,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"26\":{\"Fecha\":\"26/12/2021\",\"DescripcionDia\":\"Domingo\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"27\":{\"Fecha\":\"27/12/2021\",\"DescripcionDia\":\"Lunes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"28\":{\"Fecha\":\"28/12/2021\",\"DescripcionDia\":\"Martes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"29\":{\"Fecha\":\"29/12/2021\",\"DescripcionDia\":\"Miércoles\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"30\":{\"Fecha\":\"30/12/2021\",\"DescripcionDia\":\"Jueves\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"},\"31\":{\"Fecha\":\"31/12/2021\",\"DescripcionDia\":\"Viernes\",\"Habil\":0,\"Estado\":\"\",\"EstadoDesc\":\"\",\"Editable\":\"1\"}}"
+    }
+  ]

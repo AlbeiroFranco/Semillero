@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pagina Tarifas Maquinaria</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bitácora de uso por equipo</h1>
+    </header>
+    <div class="lineaHeader"></div>
+    <main>
+      <section class="filtrar">
+        <form action="">
+          <label for="">
+            <h5>Fecha <b>*</b></h5>
+            <input id="inputFecha" type="month" required />
+          </label>
+          <label for="obra">
+            <h5>Obra <b>*</b></h5>
+            <select class="buscar" name="obra" id="selectObra" required>
+              <option value="" disabled selected>Buscar obra</option>
+              <option value="1">Chia centro</option>
+              <option value="2">Obra provenza</option>
+              <option value="3">Mega - Construcciones</option>
+            </select>
+          </label>
+          <label for="">
+            Equipo
+            <select class="buscar selectEquipos"  id="selectEquipo">
+              <option value="0" disabled selected>Buscar equipo</option>
+            </select>
+          </label>
+          <button id="botonConsultar">Consultar</button>
+        </form>
+      </section>
+      <section class="consulta">
+        <header class="headerConsulta">
+          <h4>Calendario</h4>
+          <img id="botonInformacion" alt="" />
+          <aside id="tablaInformacionTarifas">
+            <div class="modalTarifas">
+              <span class="siglaTarifas bgBlue">Sigla</span
+              ><span class="estadoTarifas bgBlue">Estado</span>
+            </div>
+            <div class="modalTarifas">
+              <span class="siglaTarifas">M</span
+              ><span class="estadoTarifas">MOVILIZACION/DESMOVILIZACION</span>
+            </div>
+            <div class="modalTarifas">
+              <span class="siglaTarifas">I</span
+              ><span class="estadoTarifas">INSTALACION/DESMOVILIZACION</span>
+            </div>
+            <div class="modalTarifas">
+              <span class="siglaTarifas">T1</span
+              ><span class="estadoTarifas">TRABAJANDO T1</span>
+            </div>
+            <div class="modalTarifas">
+              <span class="siglaTarifas">T2</span
+              ><span class="estadoTarifas">TRABAJANDO T2</span>
+            </div>
+            <div class="modalTarifas">
+              <span class="siglaTarifas">TP</span
+              ><span class="estadoTarifas">TRABAJO PROLONGADO</span>
+            </div>
+            <div class="modalTarifas">
+              <span class="siglaTarifas">A</span
+              ><span class="estadoTarifas">AVERIA</span>
+            </div>
+          </aside>
+        </header>
+        <div class="datos">
+          <img class="imagenCalendario" alt="" />
+          <div class="informacionCalendario">
+            <div class="filtroCalendario">
+              <div class="encabezadoFiltro">
+                <h5>Equipos</h5>
+                <div class="opciones">
+                  <input
+                    type="text"
+                    id="inputFiltrarEquipo"
+                    placeholder="Buscar equipo..."
+                  />
+                  <img
+                    id="botonAgregarEquipo" alt=""
+                  />
+                  <img
+                    id="botonMostrarTarifas"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="seccionesEquipos"></div>
+            </div>
+            <div class="tarifas">
+              <div class="tituloTarifas">
+                <h5>Tarifa PCR</h6>
+                <h5>Tarifa RI</h6>
+                <img id="botonCerrarTarifas" alt="" />
+              </div>
+              <div class="seccionesTarifas"></div>
+            </div>
+            <div class="scroll">
+              <h4 class="mes">ENERO 2022</h4>
+              <div class="calendario">
+                <table id="tabla">
+                  <thead>
+                    <tr id="cabeceraTabla"></tr>
+                  </thead>
+                  <tbody id="bodyCalendario">
+
+                    <tr id="ingresar"></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <aside class="modalAgregar">
+      <header class="headerModalAgregar">
+        <h5>Selecciona el equipo</h5>
+        <img id="botonCerrarModalAgregar" alt="" />
+      </header>
+      <select class="buscar selectEquipos" id="SelectAgregarEquipo">
+        <option value="" disabled selected>Buscar equipo...</option>
+      </select>      
+      <button id="botonAgregarNuevoEquipo">Agregar</button>
+    </aside>
+
+    <div class="alertaConsultar">
+      Debes diligenciar todos los campos obligatorios para consultar.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

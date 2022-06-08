@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+* {
+  margin: 0px;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+img {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 651px;
+}
+header {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+.lineaHeader {
+  width: 100%;
+  background: #2267a0;
+  height: 2px;
+}
+h1 {
+  font-size: 36px;
+  color: #2267a0;
+}
+
+main {
+  width: 100%;
+  height: 594px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filtrar {
+  width: 97%;
+  height: 78px;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  margin: 5px 0px 5px 0px;
+}
+form {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+label {
+  width: 238px;
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+b {
+  color: red;
+}
+input,
+select {
+  border-radius: 4px;
+  height: 27px;
+  border: 1px solid #e5e5e5;
+  width: 76%;
+  outline: none;
+}
+button {
+  width: 116px;
+  height: 35px;
+  background: #115892;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #083961;
+}
+.alertaConsultar {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 293px;
+  height: 22px;
+  right: 106px;
+  top: 63px;
+  font-size: 10px;
+  background: rgba(255, 0, 0, 0.28);
+}
+.consulta {
+  width: 97%;
+  height: 478px;
+}
+.headerConsulta {
+  background: #5e9ed4;
+  color: white;
+  height: 30px;
+}
+
+h4 {
+  width: 100%;
+  text-align: center;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 13px;
+}
+#botonInformacion {
+  cursor: pointer;
+}
+.opciones {
+  display: flex;
+  justify-content: space-around;
+}
+#tablaInformacionTarifas {
+  position: absolute;
+  color: black;
+  right: 27px;
+  top: 175px;
+  display: none;
+  text-align: center;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+.modalTarifas {
+  display: flex;
+}
+.siglaTarifas {
+  width: 60px;
+  font-size: 11px;
+}
+.bgBlue {
+  background-color: #2267a0;
+  color: white;
+}
+.estadoTarifas {
+  width: 250px;
+  font-size: 11px;
+}
+.datos {
+  width: 100%;
+  height: 404px;
+  display: flex;
+}
+.imagenCalendario {
+  width: 100%;
+  display: none;
+  cursor: unset;
+}
+.filtroCalendario {
+  width: 25%;
+  height: 100%;
+  box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  background: #f6f6f6;
+}
+.encabezadoFiltro {
+  background: #e0e0e0;
+  padding: 5px 0px 6px 0px;
+  text-align: center;
+}
+#cabeceraTabla {
+  position: sticky;
+  top: 20px;
+}
+
+.seccionesEquipos {
+  overflow: auto;
+  height: 335px;
+}
+.seccionesTarifas {
+  overflow-y: hidden;
+  height: 335px;
+}
+.buscar {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  
+  padding: 5px;
+  cursor: pointer;
+}
+
+input[type="month"]::-webkit-calendar-picker-indicator {
+  
+  width: 13px;
+  height: 100%;
+ 
+  cursor: pointer;
+}
+
+.colorBlack {
+  color: black;
+}
+
+.modalAgregar {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  display: none;
+  position: absolute;
+  left: 2.4%;
+  top: 204px;
+  width: 220px;
+  background: white;
+  z-index: 2;
+}
+.headerModalAgregar {
+  height: 40px;
+}
+.modalAgregar button {
+  height: 25px;
+  margin-top: 10px;
+}
+
+.informacionCalendario {
+  display: flex;
+  width: 100%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.divEquipo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+  background: #f6f6f6;
+  padding: 0px 5px 0px 5px;
+}
+.divTarifas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 48px;
+  background: #f6f6f6;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 28px;
+  background: #ffffff;
+  border: 0.5px solid #a19995;
+  border-radius: 2px;
+  font-size: 13px;
+}
+.tarifas {
+  background: #f6f6f6;
+  min-width: 175px;
+  display: none;
+  border-right: solid 1px rgba(128, 128, 128, 0.178);
+}
+.tituloTarifas {
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 13.3%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 9px;
+}
+.ocultar {
+  display: none;
+}
+.scroll {
+  width: 75%;
+  background-color: white;
+  overflow-y: hidden;
+}
+#tabla {
+  padding: 5px 10px;
+  border-collapse: collapse;
+  width: 200%;
+  margin-top: 20px;
+}
+#tabla th,
+td {
+  border: solid 1px #e5e5e5;
+  font-size: 12px;
+  color: #535353;
+}
+#tabla th {
+  border-top: none;
+  text-align: center;
+}
+#tabla td {
+  height: 46px;
+  text-align: center;
+}
+#tabla thead tr {
+  background-color: white;
+  color: black;
+  background-color: #f2f2f2;
+}
+.mes {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #f2f2f2;
+  height: 20px;
+  width: 72.9%;
+  position: fixed;
+  padding: 5px;
+  color: #535353;
+}
+#selectDatoCalendario {
+  width: 60px;
+  font-size: 11px;
+  border: 1px solid #eeeeee;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  padding: 5px;
+}
+#selectDatoCalendario:focus {
+  border: 2px solid #72a9d8;
+}
+#selectDatoCalendario option{
+  text-align: center;
+}
+.dias {
+  font-weight: 600;
+}
+#filaTarifas {
+  height: 48px;
+}
+
+tr:nth-child(even) {
+  background: #effaff;
+}
+tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+td:hover {
+	background-color:rgba(150, 150, 150, 0.281);
+}
